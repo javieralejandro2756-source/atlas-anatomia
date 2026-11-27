@@ -12,6 +12,7 @@ export interface Estado {
   capas: string[][]; // pila de capas quitadas (para restaurar)
   cargando: number;
   mostrarCreditos: boolean;
+  area: string | null; // área funcional resaltada en el sistema nervioso
 }
 
 let estado: Estado = {
@@ -24,6 +25,7 @@ let estado: Estado = {
   capas: [],
   cargando: 0,
   mostrarCreditos: false,
+  area: null,
 };
 
 const oyentes = new Set<() => void>();

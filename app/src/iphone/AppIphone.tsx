@@ -2,10 +2,10 @@
 import { useEffect, useMemo, useState } from "react";
 import Visor, { type Perfil } from "../Visor";
 import Creditos from "../Creditos";
-import { REGIONES, SISTEMAS, cargarDatos, fichasDe, nombreVisible, tipoZona, type Datos } from "../datos";
-import FichaVista from "../FichaVista";
+import { REGIONES, SISTEMAS, cargarDatos, fichaEncefaloDe, fichasDe, nombreVisible, tipoZona, type Datos } from "../datos";
+import FichaVista, { FichaEncefaloVista, FiltroAreas } from "../FichaVista";
 import { alternar, setEstado, useEstado } from "../estado";
-import { mallas } from "../escena";
+import { definirAreas, mallas } from "../escena";
 import { devolverCapa, enfocar, medir, mostrarTodo, quitarCapa } from "../acciones";
 
 const PERFIL_IPHONE: Perfil = { carpeta: "../modelos-iphone/", draco: "../draco/", dpr: [1, 3], tactil: true };
@@ -13,11 +13,20 @@ const NOMBRE_SISTEMA = Object.fromEntries(SISTEMAS.map((s) => [s.id, s.nombre]))
 const NOMBRE_REGION = Object.fromEntries(REGIONES.map((r) => [r.id, r.nombre]));
 const mb = (b: number) => (b / 1e6).toFixed(1) + " MB";
 
-type Pestana = "capas" | "mas";
+type Pestana = "capas" | "cerebro" | "mas";
 interface Medicion { fps: number; peorMs: number; llamadas: number; triangulos: number; renderer: string }
 
 const instalada = () =>
   window.matchMedia?.("(display-mode: standalone)").matches || (navigator as any).standalone === true;
+
+function definirAreasDe(d: Datos) {
+  const m: Record<string, string[]> = {};
+  for (const [malla, id] of Object.entries(d.encefalo.mallas)) {
+    const f = d.encefalo.fichas.find((x) => x.id === id);
+    if (f) m[malla.trim()] = f.areas;
+  }
+  definirAreas(m);
+}
 
 export default function AppIphone() {
   const [datos, setDatos] = useState<Datos | null>(null);
@@ -31,7 +40,7 @@ export default function AppIphone() {
   const e = useEstado((x) => x);
 
   useEffect(() => {
-    cargarDatos(PERFIL_IPHONE.carpeta, "../").then(setDatos).catch(() => setError("No se pudieron leer los modelos. Revisa la conexión."));
+    cargarDatos(PERFIL_IPHONE.carpeta, "../").then((d) => { definirAreasDe(d); setDatos(d); }).catch(() => setError("No se pudieron leer los modelos. Revisa la conexión."));
     let primero = true;
     const alCargar = () => { if (primero) { primero = false; setTimeout(() => enfocar(), 60); } };
     const alMedir = (ev: Event) => { setMedicion((ev as CustomEvent).detail); setMidiendo(false); };
@@ -55,6 +64,14 @@ export default function AppIphone() {
   const zona = e.seleccion ? tipoZona(e.seleccion) : null;
   const fichas = e.seleccion ? fichasDe(e.seleccion, datos) : [];
   const conFicha = sel && (sel.userData.sistema === "musculos" || sel.userData.sistema === "inserciones");
+  const fichaE = sel && (sel.userData.sistema === "snc" || sel.userData.sistema === "nervios") ? fichaEncefaloDe(sel.name, datos) : null;
+  const elegirArea = (a: string | null) =>
+    setEstado((s) => ({
+      area: a,
+      // Al elegir un área se muestran la cabeza y el encéfalo si estaban apagados.
+      sistemas: a ? new Set([...s.sistemas, "snc" as const]) : s.sistemas,
+      regiones: a ? new Set([...s.regiones, "cabeza-cuello" as const]) : s.regiones,
+    }));
   const lado = sel && /\.([lr]|[oe]\d*[lr])$/.test(sel.name) ? (sel.name.endsWith("l") ? "izquierdo" : "derecho") : "";
 
   return (
@@ -102,6 +119,7 @@ export default function AppIphone() {
                 <button onClick={() => { setEstado((s) => ({ ocultas: alternar(s.ocultas, sel.name), seleccion: null })); setFichaAbierta(false); }}>Ocultar</button>
               </div>
               {conFicha && <FichaVista fichas={fichas} lesiones={datos.lesiones} />}
+              {fichaE && <FichaEncefaloVista f={fichaE} />}
             </div>
           )}
         </div>
@@ -117,6 +135,7 @@ export default function AppIphone() {
           <div className="i-hoja-cuerpo">
             <div className="i-pestanas" role="tablist">
               <button role="tab" aria-selected={pestana === "capas"} onClick={() => setPestana("capas")}>Capas</button>
+              <button role="tab" aria-selected={pestana === "cerebro"} onClick={() => setPestana("cerebro")}>Cerebro</button>
               <button role="tab" aria-selected={pestana === "mas"} onClick={() => setPestana("mas")}>Más</button>
             </div>
 
@@ -139,6 +158,14 @@ export default function AppIphone() {
                 <div className="i-chips">
                   <button onClick={() => { mostrarTodo(); setAviso("Todo visible"); }} disabled={!e.ocultas.size && !e.transparentes.size && !e.aisladas}>Mostrar todo</button>
                 </div>
+              </>
+            )}
+
+            {pestana === "cerebro" && (
+              <>
+                <h2>Áreas funcionales</h2>
+                <FiltroAreas activa={e.area} onElegir={(a) => { elegirArea(a); if (a) setAbierta(false); }} />
+                <p className="i-nota i-tenue">Toca un área para verla en color sobre el encéfalo y los pares craneales. Tócala otra vez para quitarla.</p>
               </>
             )}
 

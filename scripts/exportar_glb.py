@@ -22,11 +22,11 @@ bpy.ops.wm.open_mainfile(filepath=blend, load_ui=False)
 # Proporción de triángulos que se conserva por sistema y mínimo por malla.
 PERFILES = {
     # MacBook Air 2017 (Intel HD 6000): ~1,2 M triángulos en total.
-    "mac": {"ratio": {"musculos": 0.2, "huesos": 0.3, "ligamentos": 0.4, "inserciones": 0.12, "fascias": 0.15, "nervios": 1.0},
+    "mac": {"ratio": {"snc": 0.35, "musculos": 0.2, "huesos": 0.3, "ligamentos": 0.4, "inserciones": 0.12, "fascias": 0.15, "nervios": 1.0},
             "min_tris": 250, "curva_res": 3, "curva_bevel": 1},
     # iPhone 16 Pro Max (A18 Pro): detalle alto, se carga por región.
     # Músculos, huesos y ligamentos a resolución completa del atlas (sin simplificar).
-    "iphone": {"ratio": {"musculos": 1.0, "huesos": 1.0, "ligamentos": 1.0, "inserciones": 0.5, "fascias": 0.6, "nervios": 1.0},
+    "iphone": {"ratio": {"snc": 1.0, "musculos": 1.0, "huesos": 1.0, "ligamentos": 1.0, "inserciones": 0.5, "fascias": 0.6, "nervios": 1.0},
                "min_tris": 600, "curva_res": 8, "curva_bevel": 3, "normales_bits": 12},
 }
 RATIO = PERFILES[PERFIL]["ratio"]
@@ -53,6 +53,10 @@ def sistema_de(o):
         return "ligamentos"
     if "7: Nervous system & Sense organs" in cols and o.type == "CURVE" and "peripheral nervous system" in ch:
         return "nervios"
+    if "7: Nervous system & Sense organs" in cols and ("central nervous system" in ch or "eye.g" in ch):
+        if "internal ear" in ch:
+            return None  # oído interno: modelo con licencia no comercial, no se exporta
+        return "snc"
     return None
 
 # Calibración de regiones con los huesos de referencia.
@@ -80,6 +84,12 @@ PALABRAS = [
 ]
 
 def region_de(o, sis):
+    if sis == "snc":
+        ch = " ".join(cadena(o))
+        if "spinal cord" in ch or "spinal dura" in o.name.lower():
+            lo, hi = caja(o)
+            return "cabeza-cuello" if (lo.z + hi.z) / 2 > (manubrio_top or 0) else "tronco"
+        return "cabeza-cuello"
     if sis != "nervios":
         ch = " ".join(cadena(o))
         for reg, keys in PALABRAS:

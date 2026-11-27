@@ -1,5 +1,5 @@
 // Ficha anatómica de la estructura seleccionada: origen, inserción, inervación, raíces, irrigación y función.
-import type { Ficha, Lesion } from "./datos";
+import { AREAS, type Ficha, type FichaEncefalo, type Lesion } from "./datos";
 
 const ESTADO: Record<string, { texto: string; clase: string }> = {
   verificado: { texto: "Verificada", clase: "ok" },
@@ -88,6 +88,62 @@ export default function FichaVista({ fichas, lesiones = [] }: { fichas: Ficha[];
     <div className="f-lista">
       {fichas.length > 1 && <p className="f-aviso">Esta malla reúne {fichas.length} músculos; aquí están sus fichas.</p>}
       {fichas.map((f) => <UnaFicha key={f.id} f={f} lesiones={lesiones} />)}
+    </div>
+  );
+}
+
+// ---------- Sistema nervioso ----------
+
+const NOMBRE_AREA = Object.fromEntries(AREAS.map((a) => [a.id, a]));
+
+export function FichaEncefaloVista({ f }: { f: FichaEncefalo }) {
+  const est = ESTADO[f.estado] ?? { texto: f.estado, clase: "pend" };
+  return (
+    <div className="f-lista">
+      <article className="f-ficha">
+        <header className="f-cab">
+          <h3>{f.nombre}</h3>
+          <span className={`f-estado ${est.clase}`}>{est.texto}</span>
+        </header>
+        <p className="f-fuente">{f.grupo}</p>
+        {f.areas.length > 0 && (
+          <div className="f-areas">
+            {f.areas.map((a) => (
+              <span key={a} style={{ borderColor: NOMBRE_AREA[a]?.color }}>
+                <i style={{ background: NOMBRE_AREA[a]?.color }} />
+                {NOMBRE_AREA[a]?.nombre ?? a}
+              </span>
+            ))}
+          </div>
+        )}
+        <dl>
+          {f.componentes && <Campo titulo="Componentes" texto={f.componentes} />}
+          {f.brodmann && (
+            <div className="f-campo">
+              <dt>Áreas de Brodmann</dt>
+              <dd>{f.brodmann}<span className="f-leyenda">Ubicación aproximada: las áreas no coinciden exactamente con los giros.</span></dd>
+            </div>
+          )}
+          <Campo titulo="Función" texto={f.funcion} />
+          {f.salida && <Campo titulo="Salida del cráneo" texto={f.salida} />}
+          {f.lesion && <Campo titulo="Si se lesiona" texto={f.lesion} />}
+        </dl>
+        <p className="f-fuente">Fuente: {f.fuente}.</p>
+      </article>
+    </div>
+  );
+}
+
+/** Botones para resaltar un área funcional del sistema nervioso. */
+export function FiltroAreas({ activa, onElegir }: { activa: string | null; onElegir: (a: string | null) => void }) {
+  return (
+    <div className="f-filtro-areas">
+      {AREAS.map((a) => (
+        <button key={a.id} aria-pressed={activa === a.id} onClick={() => onElegir(activa === a.id ? null : a.id)}>
+          <i style={{ background: a.color }} />
+          {a.nombre}
+        </button>
+      ))}
     </div>
   );
 }

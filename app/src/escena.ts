@@ -1,7 +1,7 @@
 // Registro de mallas cargadas y utilidades de escena (materiales, capas, medición).
 import * as THREE from "three";
 import { computeBoundsTree, disposeBoundsTree, acceleratedRaycast } from "three-mesh-bvh";
-import { SISTEMAS, tipoZona, type Sistema } from "./datos";
+import { AREAS, SISTEMAS, base as baseNombre, tipoZona, type Sistema } from "./datos";
 import { esVisible, type Estado } from "./estado";
 
 // Raycast acelerado (BVH): selección y "quitar capa" rápidos.
@@ -27,6 +27,13 @@ base["origen"] = mat("#d64545", { polygonOffset: true, polygonOffsetFactor: -2 }
 base["insercion"] = mat("#2f74d0", { polygonOffset: true, polygonOffsetFactor: -2 });
 transp["origen"] = mat("#d64545", { transparent: true, opacity: 0.18, depthWrite: false });
 transp["insercion"] = mat("#2f74d0", { transparent: true, opacity: 0.18, depthWrite: false });
+// Áreas funcionales del sistema nervioso: nombre base de malla -> etiquetas.
+let areasDeMalla: Record<string, string[]> = {};
+export function definirAreas(m: Record<string, string[]>) { areasDeMalla = m; }
+const matArea: Record<string, THREE.MeshStandardMaterial> = {};
+for (const a of AREAS) matArea[a.id] = mat(a.color, { emissive: new THREE.Color(a.color), emissiveIntensity: 0.25 });
+const atenuado = mat("#8a8f99", { transparent: true, opacity: 0.12, depthWrite: false });
+
 const resaltado = mat("#2ec4b6", { emissive: new THREE.Color("#0f6d66"), emissiveIntensity: 0.6 });
 
 function claveMaterial(m: THREE.Mesh): string {
@@ -56,8 +63,12 @@ export function aplicarEstado(e: Estado) {
     const enCapa = e.sistemas.has(sis) && e.regiones.has(m.userData.region);
     m.visible = enCapa && esVisible(m.name, e);
     const k = claveMaterial(m);
+    const nervioso = sis === "snc" || sis === "nervios";
     if (e.seleccion === m.name) m.material = resaltado;
-    else if (e.transparentes.has(m.name)) m.material = transp[k];
+    else if (e.area && nervioso) {
+      const tags = areasDeMalla[baseNombre(m.name)] ?? [];
+      m.material = tags.includes(e.area) ? matArea[e.area] : atenuado;
+    } else if (e.transparentes.has(m.name)) m.material = transp[k];
     else m.material = base[k];
   }
 }

@@ -47,6 +47,13 @@
    "tris": 210240,
    "bytes": 3335284
   },
+  "cabeza-cuello-snc.glb": {
+   "region": "cabeza-cuello",
+   "sistema": "snc",
+   "mallas": 289,
+   "tris": 894120,
+   "bytes": 15129580
+  },
   "miembro-inferior-fascias.glb": {
    "region": "miembro-inferior",
    "sistema": "fascias",
@@ -172,6 +179,13 @@
    "mallas": 44,
    "tris": 214736,
    "bytes": 3413288
+  },
+  "tronco-snc.glb": {
+   "region": "tronco",
+   "sistema": "snc",
+   "mallas": 28,
+   "tris": 262656,
+   "bytes": 5284732
   }
  },
  "mallas": [
@@ -4107,6 +4121,2607 @@
    "lado": "derecho",
    "tris_original": 992,
    "tris": 992
+  },
+  {
+   "nombre": " Posterior transverse collateral sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 184,
+   "tris": 184
+  },
+  {
+   "nombre": " Posterior transverse collateral sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 184,
+   "tris": 184
+  },
+  {
+   "nombre": "Accessory nucleus of oculomotor nerve.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Accessory nucleus of oculomotor nerve.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Ampulla of lacrimal canaliculus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 244,
+   "tris": 244
+  },
+  {
+   "nombre": "Ampulla of lacrimal canaliculus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 244,
+   "tris": 244
+  },
+  {
+   "nombre": "Amygdaloid body.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 384,
+   "tris": 384
+  },
+  {
+   "nombre": "Amygdaloid body.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 384,
+   "tris": 384
+  },
+  {
+   "nombre": "Angular gyrus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1511,
+   "tris": 1511
+  },
+  {
+   "nombre": "Angular gyrus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1511,
+   "tris": 1511
+  },
+  {
+   "nombre": "Anterior chamber of eyeball.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 8704,
+   "tris": 8704
+  },
+  {
+   "nombre": "Anterior chamber of eyeball.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 8704,
+   "tris": 8704
+  },
+  {
+   "nombre": "Anterior cochlear nucleus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 192,
+   "tris": 192
+  },
+  {
+   "nombre": "Anterior cochlear nucleus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 192,
+   "tris": 192
+  },
+  {
+   "nombre": "Anterior commissure",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 800,
+   "tris": 800
+  },
+  {
+   "nombre": "Anterior occipital sulcus*.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 364,
+   "tris": 364
+  },
+  {
+   "nombre": "Anterior occipital sulcus*.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 364,
+   "tris": 364
+  },
+  {
+   "nombre": "Anterior quadrangular lobule.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 6520,
+   "tris": 6520
+  },
+  {
+   "nombre": "Anterior quadrangular lobule.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 6520,
+   "tris": 6520
+  },
+  {
+   "nombre": "Anterior segment of eyeball.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 3328,
+   "tris": 3328
+  },
+  {
+   "nombre": "Anterior segment of eyeball.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 3328,
+   "tris": 3328
+  },
+  {
+   "nombre": "Aqueduct of midbrain",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 460,
+   "tris": 460
+  },
+  {
+   "nombre": "Biventral lobule.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 8902,
+   "tris": 8902
+  },
+  {
+   "nombre": "Biventral lobule.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 8902,
+   "tris": 8902
+  },
+  {
+   "nombre": "Calcarine sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 872,
+   "tris": 872
+  },
+  {
+   "nombre": "Calcarine sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 872,
+   "tris": 872
+  },
+  {
+   "nombre": "Caudate nucleus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 2570,
+   "tris": 2570
+  },
+  {
+   "nombre": "Caudate nucleus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 2570,
+   "tris": 2570
+  },
+  {
+   "nombre": "Central canal'",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 320,
+   "tris": 320
+  },
+  {
+   "nombre": "Central lobule",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 1006,
+   "tris": 1006
+  },
+  {
+   "nombre": "Central sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1440,
+   "tris": 1440
+  },
+  {
+   "nombre": "Central sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1440,
+   "tris": 1440
+  },
+  {
+   "nombre": "Choroid plexus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 2647,
+   "tris": 2647
+  },
+  {
+   "nombre": "Choroid plexus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 2647,
+   "tris": 2647
+  },
+  {
+   "nombre": "Cingulate gyrus (Posteroventral part*).l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 298,
+   "tris": 298
+  },
+  {
+   "nombre": "Cingulate gyrus (Posteroventral part*).r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 298,
+   "tris": 298
+  },
+  {
+   "nombre": "Cingulate gyrus and sulcus (Middle anterior part).l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 736,
+   "tris": 736
+  },
+  {
+   "nombre": "Cingulate gyrus and sulcus (Middle anterior part).r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 736,
+   "tris": 736
+  },
+  {
+   "nombre": "Cingulate gyrus and sulcus (Middle posterior part).l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 600,
+   "tris": 600
+  },
+  {
+   "nombre": "Cingulate gyrus and sulcus (Middle posterior part).r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 600,
+   "tris": 600
+  },
+  {
+   "nombre": "Cingulate gyrus and sulcus (Posterior dorsal part).l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 410,
+   "tris": 410
+  },
+  {
+   "nombre": "Cingulate gyrus and sulcus (Posterior dorsal part).r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 410,
+   "tris": 410
+  },
+  {
+   "nombre": "Cingulate sulcus (Marginal part*).l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 544,
+   "tris": 544
+  },
+  {
+   "nombre": "Cingulate sulcus (Marginal part*).r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 544,
+   "tris": 544
+  },
+  {
+   "nombre": "Circular sulcus of insula.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 798,
+   "tris": 798
+  },
+  {
+   "nombre": "Circular sulcus of insula.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 798,
+   "tris": 798
+  },
+  {
+   "nombre": "Collateral sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1142,
+   "tris": 1142
+  },
+  {
+   "nombre": "Collateral sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1142,
+   "tris": 1142
+  },
+  {
+   "nombre": "Cornea.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 2688,
+   "tris": 2688
+  },
+  {
+   "nombre": "Cornea.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 2688,
+   "tris": 2688
+  },
+  {
+   "nombre": "Corpus callosum",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 3996,
+   "tris": 3996
+  },
+  {
+   "nombre": "Culmen",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 2378,
+   "tris": 2378
+  },
+  {
+   "nombre": "Cuneate fasciculus",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 3024,
+   "tris": 3024
+  },
+  {
+   "nombre": "Cuneus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 946,
+   "tris": 946
+  },
+  {
+   "nombre": "Cuneus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 946,
+   "tris": 946
+  },
+  {
+   "nombre": "Declive",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 2125,
+   "tris": 2125
+  },
+  {
+   "nombre": "Falx cerebri",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 14724,
+   "tris": 14724
+  },
+  {
+   "nombre": "Flocculus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 3660,
+   "tris": 3660
+  },
+  {
+   "nombre": "Flocculus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 3660,
+   "tris": 3660
+  },
+  {
+   "nombre": "Folium of vermis",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 812,
+   "tris": 812
+  },
+  {
+   "nombre": "Fornix.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 2158,
+   "tris": 2158
+  },
+  {
+   "nombre": "Fornix.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 2158,
+   "tris": 2158
+  },
+  {
+   "nombre": "Fourth ventricle",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 5798,
+   "tris": 5798
+  },
+  {
+   "nombre": "Globus pallidus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 5276,
+   "tris": 5276
+  },
+  {
+   "nombre": "Globus pallidus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 5276,
+   "tris": 5276
+  },
+  {
+   "nombre": "Gracile lobule.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 6961,
+   "tris": 6961
+  },
+  {
+   "nombre": "Gracile lobule.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 6961,
+   "tris": 6961
+  },
+  {
+   "nombre": "Habenula",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 398,
+   "tris": 398
+  },
+  {
+   "nombre": "Hippocampal commissure",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 9864,
+   "tris": 9864
+  },
+  {
+   "nombre": "Hippocampus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1020,
+   "tris": 1020
+  },
+  {
+   "nombre": "Hippocampus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1020,
+   "tris": 1020
+  },
+  {
+   "nombre": "Hypothalamus",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 4258,
+   "tris": 4258
+  },
+  {
+   "nombre": "Inferior colliculus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 464,
+   "tris": 464
+  },
+  {
+   "nombre": "Inferior colliculus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 464,
+   "tris": 464
+  },
+  {
+   "nombre": "Inferior occipital gyrus and sulcus*.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 894,
+   "tris": 894
+  },
+  {
+   "nombre": "Inferior occipital gyrus and sulcus*.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 894,
+   "tris": 894
+  },
+  {
+   "nombre": "Inferior salivatory nucleus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Inferior salivatory nucleus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Inferior semilunar lobule.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 7787,
+   "tris": 7787
+  },
+  {
+   "nombre": "Inferior semilunar lobule.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 7787,
+   "tris": 7787
+  },
+  {
+   "nombre": "Inferior temporal gyrus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1498,
+   "tris": 1498
+  },
+  {
+   "nombre": "Inferior temporal gyrus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1498,
+   "tris": 1498
+  },
+  {
+   "nombre": "Insula (Subcentral gyrus and ant. and post. sulci*).l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 740,
+   "tris": 740
+  },
+  {
+   "nombre": "Insula (Subcentral gyrus and ant. and post. sulci*).r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 740,
+   "tris": 740
+  },
+  {
+   "nombre": "Interpeduncular fossa.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 58,
+   "tris": 58
+  },
+  {
+   "nombre": "Interpeduncular fossa.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 58,
+   "tris": 58
+  },
+  {
+   "nombre": "Iris.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 3248,
+   "tris": 3248
+  },
+  {
+   "nombre": "Iris.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 3248,
+   "tris": 3248
+  },
+  {
+   "nombre": "Lacrimal canaliculus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 411,
+   "tris": 411
+  },
+  {
+   "nombre": "Lacrimal canaliculus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 411,
+   "tris": 411
+  },
+  {
+   "nombre": "Lacrimal gland.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1810,
+   "tris": 1810
+  },
+  {
+   "nombre": "Lacrimal gland.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1810,
+   "tris": 1810
+  },
+  {
+   "nombre": "Lacrimal sac.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 384,
+   "tris": 384
+  },
+  {
+   "nombre": "Lacrimal sac.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 384,
+   "tris": 384
+  },
+  {
+   "nombre": "Lat_Fis-ant-Horizont.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 174,
+   "tris": 174
+  },
+  {
+   "nombre": "Lat_Fis-ant-Horizont.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 174,
+   "tris": 174
+  },
+  {
+   "nombre": "Lat_Fis-ant-Vertical.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 194,
+   "tris": 194
+  },
+  {
+   "nombre": "Lat_Fis-ant-Vertical.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 194,
+   "tris": 194
+  },
+  {
+   "nombre": "Lat_Fis-post.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 480,
+   "tris": 480
+  },
+  {
+   "nombre": "Lat_Fis-post.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 480,
+   "tris": 480
+  },
+  {
+   "nombre": "Lateral geniculate body.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 604,
+   "tris": 604
+  },
+  {
+   "nombre": "Lateral geniculate body.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 604,
+   "tris": 604
+  },
+  {
+   "nombre": "Lateral occipital gyrus (Middle occipital gyrus*).l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 854,
+   "tris": 854
+  },
+  {
+   "nombre": "Lateral occipital gyrus (Middle occipital gyrus*).r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 854,
+   "tris": 854
+  },
+  {
+   "nombre": "Lateral occipitotemporal gyrus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 866,
+   "tris": 866
+  },
+  {
+   "nombre": "Lateral occipitotemporal gyrus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 866,
+   "tris": 866
+  },
+  {
+   "nombre": "Lateral ventricle.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 2898,
+   "tris": 2898
+  },
+  {
+   "nombre": "Lateral ventricle.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 2898,
+   "tris": 2898
+  },
+  {
+   "nombre": "Lens.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1598,
+   "tris": 1598
+  },
+  {
+   "nombre": "Lens.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1598,
+   "tris": 1598
+  },
+  {
+   "nombre": "Lentiform nucleus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 2144,
+   "tris": 2144
+  },
+  {
+   "nombre": "Lentiform nucleus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 2144,
+   "tris": 2144
+  },
+  {
+   "nombre": "Lingual gyrus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1658,
+   "tris": 1658
+  },
+  {
+   "nombre": "Lingual gyrus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1658,
+   "tris": 1658
+  },
+  {
+   "nombre": "Lingula of cerebellum",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 1028,
+   "tris": 1028
+  },
+  {
+   "nombre": "Lunate sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 382,
+   "tris": 382
+  },
+  {
+   "nombre": "Lunate sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 382,
+   "tris": 382
+  },
+  {
+   "nombre": "Mamillary body.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 220,
+   "tris": 220
+  },
+  {
+   "nombre": "Mamillary body.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 220,
+   "tris": 220
+  },
+  {
+   "nombre": "Medial geniculate body.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 198,
+   "tris": 198
+  },
+  {
+   "nombre": "Medial geniculate body.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 198,
+   "tris": 198
+  },
+  {
+   "nombre": "Medial occipitotemporal gyrus (Parahippocampal*).l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 858,
+   "tris": 858
+  },
+  {
+   "nombre": "Medial occipitotemporal gyrus (Parahippocampal*).r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 858,
+   "tris": 858
+  },
+  {
+   "nombre": "Medulla oblongata.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 6080,
+   "tris": 6080
+  },
+  {
+   "nombre": "Medulla oblongata.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 6080,
+   "tris": 6080
+  },
+  {
+   "nombre": "Midbrain.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 6092,
+   "tris": 6092
+  },
+  {
+   "nombre": "Midbrain.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 6092,
+   "tris": 6092
+  },
+  {
+   "nombre": "Middle frontal gyrus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 2277,
+   "tris": 2277
+  },
+  {
+   "nombre": "Middle frontal gyrus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 2277,
+   "tris": 2277
+  },
+  {
+   "nombre": "Middle temporal gyrus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1312,
+   "tris": 1312
+  },
+  {
+   "nombre": "Middle temporal gyrus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1312,
+   "tris": 1312
+  },
+  {
+   "nombre": "Motor nucleus of facial nerve.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Motor nucleus of facial nerve.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Nasolacrimal duct.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 444,
+   "tris": 444
+  },
+  {
+   "nombre": "Nasolacrimal duct.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 444,
+   "tris": 444
+  },
+  {
+   "nombre": "Nodule of vermis",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 1012,
+   "tris": 1012
+  },
+  {
+   "nombre": "Nucleus ambiguus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Nucleus ambiguus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Nucleus of abducens nerve.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Nucleus of abducens nerve.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Nucleus of accessory nerve.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1792,
+   "tris": 1792
+  },
+  {
+   "nombre": "Nucleus of accessory nerve.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1792,
+   "tris": 1792
+  },
+  {
+   "nombre": "Nucleus of hypoglossal nerve.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Nucleus of hypoglossal nerve.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Nucleus of oculomotor nerve.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Nucleus of oculomotor nerve.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Nucleus of trochlear nerve.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Nucleus of trochlear nerve.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Occipital pole.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 954,
+   "tris": 954
+  },
+  {
+   "nombre": "Occipital pole.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 954,
+   "tris": 954
+  },
+  {
+   "nombre": "Occipitotemporal sulcus (Lateral part*).l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 487,
+   "tris": 487
+  },
+  {
+   "nombre": "Occipitotemporal sulcus (Lateral part*).r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 487,
+   "tris": 487
+  },
+  {
+   "nombre": "Olive.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 960,
+   "tris": 960
+  },
+  {
+   "nombre": "Olive.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 960,
+   "tris": 960
+  },
+  {
+   "nombre": "Optic chiasm.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 890,
+   "tris": 890
+  },
+  {
+   "nombre": "Optic chiasm.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 890,
+   "tris": 890
+  },
+  {
+   "nombre": "Optic tract.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 2332,
+   "tris": 2332
+  },
+  {
+   "nombre": "Optic tract.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 2332,
+   "tris": 2332
+  },
+  {
+   "nombre": "Orbital gyri (Frontomarginal gyrus and sulcus*).l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 656,
+   "tris": 656
+  },
+  {
+   "nombre": "Orbital gyri (Frontomarginal gyrus and sulcus*).r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 656,
+   "tris": 656
+  },
+  {
+   "nombre": "Orbital gyri.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1512,
+   "tris": 1512
+  },
+  {
+   "nombre": "Orbital gyri.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1512,
+   "tris": 1512
+  },
+  {
+   "nombre": "Orbital part of  inferior frontal gyrus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 186,
+   "tris": 186
+  },
+  {
+   "nombre": "Orbital part of  inferior frontal gyrus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 186,
+   "tris": 186
+  },
+  {
+   "nombre": "Orbital sulci (H-shaped orbital sulci*).l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 762,
+   "tris": 762
+  },
+  {
+   "nombre": "Orbital sulci (H-shaped orbital sulci*).r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 762,
+   "tris": 762
+  },
+  {
+   "nombre": "Orbital sulci (Lateral Orbital sulcus*).l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 200,
+   "tris": 200
+  },
+  {
+   "nombre": "Orbital sulci (Lateral Orbital sulcus*).r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 200,
+   "tris": 200
+  },
+  {
+   "nombre": "Paracentral gyrus and sulcus*.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 746,
+   "tris": 746
+  },
+  {
+   "nombre": "Paracentral gyrus and sulcus*.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 746,
+   "tris": 746
+  },
+  {
+   "nombre": "Peduncle of flocculus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 2368,
+   "tris": 2368
+  },
+  {
+   "nombre": "Peduncle of flocculus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 2368,
+   "tris": 2368
+  },
+  {
+   "nombre": "Postcentral gyrus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1153,
+   "tris": 1153
+  },
+  {
+   "nombre": "Postcentral gyrus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1153,
+   "tris": 1153
+  },
+  {
+   "nombre": "Posterior commissure",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 866,
+   "tris": 866
+  },
+  {
+   "nombre": "Precentral gyrus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1532,
+   "tris": 1532
+  },
+  {
+   "nombre": "Precentral gyrus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1532,
+   "tris": 1532
+  },
+  {
+   "nombre": "Precuneus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1300,
+   "tris": 1300
+  },
+  {
+   "nombre": "Precuneus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1300,
+   "tris": 1300
+  },
+  {
+   "nombre": "Red nucleus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 704,
+   "tris": 704
+  },
+  {
+   "nombre": "Red nucleus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 704,
+   "tris": 704
+  },
+  {
+   "nombre": "Septal nuclei",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 548,
+   "tris": 548
+  },
+  {
+   "nombre": "Inferior frontal sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 742,
+   "tris": 742
+  },
+  {
+   "nombre": "Inferior frontal sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 742,
+   "tris": 742
+  },
+  {
+   "nombre": "Inferior temporal sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 246,
+   "tris": 246
+  },
+  {
+   "nombre": "Inferior temporal sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 246,
+   "tris": 246
+  },
+  {
+   "nombre": "Intraparietal sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 852,
+   "tris": 852
+  },
+  {
+   "nombre": "Intraparietal sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 852,
+   "tris": 852
+  },
+  {
+   "nombre": "Olfactory sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 548,
+   "tris": 548
+  },
+  {
+   "nombre": "Olfactory sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 548,
+   "tris": 548
+  },
+  {
+   "nombre": "Opercular part of inferior frontal gyrus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 740,
+   "tris": 740
+  },
+  {
+   "nombre": "Opercular part of inferior frontal gyrus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 740,
+   "tris": 740
+  },
+  {
+   "nombre": "Paracentral sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 668,
+   "tris": 668
+  },
+  {
+   "nombre": "Paracentral sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 668,
+   "tris": 668
+  },
+  {
+   "nombre": "Parieto-occipital sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1636,
+   "tris": 1636
+  },
+  {
+   "nombre": "Parieto-occipital sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1636,
+   "tris": 1636
+  },
+  {
+   "nombre": "Pons.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 10171,
+   "tris": 10171
+  },
+  {
+   "nombre": "Pons.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 10171,
+   "tris": 10171
+  },
+  {
+   "nombre": "Postcentral sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1189,
+   "tris": 1189
+  },
+  {
+   "nombre": "Postcentral sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1189,
+   "tris": 1189
+  },
+  {
+   "nombre": "Posterior cochlear nucleus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 960,
+   "tris": 960
+  },
+  {
+   "nombre": "Posterior cochlear nucleus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 960,
+   "tris": 960
+  },
+  {
+   "nombre": "Posterior nucleus of vagus nerve.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Posterior nucleus of vagus nerve.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Posterior quadrangular lobule.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 3618,
+   "tris": 3618
+  },
+  {
+   "nombre": "Posterior quadrangular lobule.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 3618,
+   "tris": 3618
+  },
+  {
+   "nombre": "Posterior segment of eyeball.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 6528,
+   "tris": 6528
+  },
+  {
+   "nombre": "Posterior segment of eyeball.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 6528,
+   "tris": 6528
+  },
+  {
+   "nombre": "Precentral sulcus (inferior part)*.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 780,
+   "tris": 780
+  },
+  {
+   "nombre": "Precentral sulcus (inferior part)*.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 780,
+   "tris": 780
+  },
+  {
+   "nombre": "Precentral sulcus (Superior part)*.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 568,
+   "tris": 568
+  },
+  {
+   "nombre": "Precentral sulcus (Superior part)*.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 568,
+   "tris": 568
+  },
+  {
+   "nombre": "Putamen.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1150,
+   "tris": 1150
+  },
+  {
+   "nombre": "Putamen.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1150,
+   "tris": 1150
+  },
+  {
+   "nombre": "Pyramid of medulla oblongata.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 960,
+   "tris": 960
+  },
+  {
+   "nombre": "Pyramid of medulla oblongata.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 960,
+   "tris": 960
+  },
+  {
+   "nombre": "Pyramis of vermis",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 1182,
+   "tris": 1182
+  },
+  {
+   "nombre": "Retina.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 6304,
+   "tris": 6304
+  },
+  {
+   "nombre": "Retina.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 6304,
+   "tris": 6304
+  },
+  {
+   "nombre": "Sclera.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 4544,
+   "tris": 4544
+  },
+  {
+   "nombre": "Sclera.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 4544,
+   "tris": 4544
+  },
+  {
+   "nombre": "Septum pellucidum",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 2388,
+   "tris": 2388
+  },
+  {
+   "nombre": "Straight gyrus (Gyrus rectus).l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 508,
+   "tris": 508
+  },
+  {
+   "nombre": "Straight gyrus (Gyrus rectus).r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 508,
+   "tris": 508
+  },
+  {
+   "nombre": "Stria medullaris thalami.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 842,
+   "tris": 842
+  },
+  {
+   "nombre": "Stria medullaris thalami.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 842,
+   "tris": 842
+  },
+  {
+   "nombre": "Stria terminalis.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 746,
+   "tris": 746
+  },
+  {
+   "nombre": "Stria terminalis.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 746,
+   "tris": 746
+  },
+  {
+   "nombre": "Subparietal sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 561,
+   "tris": 561
+  },
+  {
+   "nombre": "Subparietal sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 561,
+   "tris": 561
+  },
+  {
+   "nombre": "Sulcus interm_prim-Jensen.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 360,
+   "tris": 360
+  },
+  {
+   "nombre": "Sulcus interm_prim-Jensen.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 360,
+   "tris": 360
+  },
+  {
+   "nombre": "Base of peduncle.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 5046,
+   "tris": 5046
+  },
+  {
+   "nombre": "Base of peduncle.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 5046,
+   "tris": 5046
+  },
+  {
+   "nombre": "Superior cerebellar peduncle.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 8474,
+   "tris": 8474
+  },
+  {
+   "nombre": "Superior cerebellar peduncle.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 8474,
+   "tris": 8474
+  },
+  {
+   "nombre": "Superior colliculus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 458,
+   "tris": 458
+  },
+  {
+   "nombre": "Superior colliculus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 458,
+   "tris": 458
+  },
+  {
+   "nombre": "Superior frontal gyrus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 3735,
+   "tris": 3735
+  },
+  {
+   "nombre": "Superior frontal gyrus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 3735,
+   "tris": 3735
+  },
+  {
+   "nombre": "Superior frontal sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1290,
+   "tris": 1290
+  },
+  {
+   "nombre": "Superior frontal sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1290,
+   "tris": 1290
+  },
+  {
+   "nombre": "Superior occipital gyri.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 670,
+   "tris": 670
+  },
+  {
+   "nombre": "Superior occipital gyri.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 670,
+   "tris": 670
+  },
+  {
+   "nombre": "Superior parietal lobule.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1199,
+   "tris": 1199
+  },
+  {
+   "nombre": "Superior parietal lobule.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1199,
+   "tris": 1199
+  },
+  {
+   "nombre": "Superior salivatory nucleus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Superior salivatory nucleus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 768,
+   "tris": 768
+  },
+  {
+   "nombre": "Superior semilunar lobule.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 8688,
+   "tris": 8688
+  },
+  {
+   "nombre": "Superior semilunar lobule.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 8688,
+   "tris": 8688
+  },
+  {
+   "nombre": "Superior temporal gyrus (Lateral part).l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1072,
+   "tris": 1072
+  },
+  {
+   "nombre": "Superior temporal gyrus (Lateral part).r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1072,
+   "tris": 1072
+  },
+  {
+   "nombre": "Superior temporal sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 2374,
+   "tris": 2374
+  },
+  {
+   "nombre": "Superior temporal sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 2374,
+   "tris": 2374
+  },
+  {
+   "nombre": "Supramarginal gyrus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1510,
+   "tris": 1510
+  },
+  {
+   "nombre": "Supramarginal gyrus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1510,
+   "tris": 1510
+  },
+  {
+   "nombre": "Suspensory ligament of eyeball.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 5502,
+   "tris": 5502
+  },
+  {
+   "nombre": "Suspensory ligament of eyeball.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 5502,
+   "tris": 5502
+  },
+  {
+   "nombre": "Temporal plane.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 556,
+   "tris": 556
+  },
+  {
+   "nombre": "Temporal plane.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 556,
+   "tris": 556
+  },
+  {
+   "nombre": "Temporal pole.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 523,
+   "tris": 523
+  },
+  {
+   "nombre": "Temporal pole.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 523,
+   "tris": 523
+  },
+  {
+   "nombre": "Tentorium cerebelli.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 4480,
+   "tris": 4480
+  },
+  {
+   "nombre": "Tentorium cerebelli.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 4480,
+   "tris": 4480
+  },
+  {
+   "nombre": "Thalamus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 758,
+   "tris": 758
+  },
+  {
+   "nombre": "Thalamus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 758,
+   "tris": 758
+  },
+  {
+   "nombre": "Third ventricle",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 4315,
+   "tris": 4315
+  },
+  {
+   "nombre": "Tonsil of cerebellum.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 3638,
+   "tris": 3638
+  },
+  {
+   "nombre": "Tonsil of cerebellum.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 3638,
+   "tris": 3638
+  },
+  {
+   "nombre": "Transverse frontopolar gyrus and sulcus*.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 242,
+   "tris": 242
+  },
+  {
+   "nombre": "Transverse frontopolar gyrus and sulcus*.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 242,
+   "tris": 242
+  },
+  {
+   "nombre": "Transverse occipital sulcus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 686,
+   "tris": 686
+  },
+  {
+   "nombre": "Transverse occipital sulcus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 686,
+   "tris": 686
+  },
+  {
+   "nombre": "Transverse temporal gyri.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 234,
+   "tris": 234
+  },
+  {
+   "nombre": "Transverse temporal gyri.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 234,
+   "tris": 234
+  },
+  {
+   "nombre": "Triangular part of inferior frontal gyrus.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 504,
+   "tris": 504
+  },
+  {
+   "nombre": "Triangular part of inferior frontal gyrus.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 504,
+   "tris": 504
+  },
+  {
+   "nombre": "Tuber of vermis",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 1178,
+   "tris": 1178
+  },
+  {
+   "nombre": "Uvula of vermis",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "medial",
+   "tris_original": 2176,
+   "tris": 2176
+  },
+  {
+   "nombre": "Vestibular nuclei.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 1568,
+   "tris": 1568
+  },
+  {
+   "nombre": "Vestibular nuclei.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 1568,
+   "tris": 1568
+  },
+  {
+   "nombre": "Vitreous body.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 5436,
+   "tris": 5436
+  },
+  {
+   "nombre": "Vitreous body.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 5436,
+   "tris": 5436
+  },
+  {
+   "nombre": "White matter of telencephalon.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 135288,
+   "tris": 135288
+  },
+  {
+   "nombre": "White matter of telencephalon.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 135288,
+   "tris": 135288
+  },
+  {
+   "nombre": "Wing of central lobule.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 3144,
+   "tris": 3144
+  },
+  {
+   "nombre": "Wing of central lobule.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 3144,
+   "tris": 3144
+  },
+  {
+   "nombre": "Zonular fibres.l",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "izquierdo",
+   "tris_original": 704,
+   "tris": 704
+  },
+  {
+   "nombre": "Zonular fibres.r",
+   "archivo": "cabeza-cuello-snc.glb",
+   "sistema": "snc",
+   "region": "cabeza-cuello",
+   "lado": "derecho",
+   "tris_original": 68288,
+   "tris": 68288
   },
   {
    "nombre": "(Iliopectineal bursa).l",
@@ -20928,6 +23543,258 @@
    "lado": "derecho",
    "tris_original": 25616,
    "tris": 25616
+  },
+  {
+   "nombre": "Anterior corticospinal tract",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 7272,
+   "tris": 7272
+  },
+  {
+   "nombre": "Anterior fasciculus proprius",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 9292,
+   "tris": 9292
+  },
+  {
+   "nombre": "Anterior horn of spinal cord",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 8888,
+   "tris": 8888
+  },
+  {
+   "nombre": "Anterior spinocerebellar tract",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 11716,
+   "tris": 11716
+  },
+  {
+   "nombre": "Anterior spinothalamic tract",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 8080,
+   "tris": 8080
+  },
+  {
+   "nombre": "Central canal",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 3232,
+   "tris": 3232
+  },
+  {
+   "nombre": "Gracile fasciculus",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 7676,
+   "tris": 7676
+  },
+  {
+   "nombre": "Intermediolateral nucleus",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 5656,
+   "tris": 5656
+  },
+  {
+   "nombre": "Intermediomedial nucleus",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 6464,
+   "tris": 6464
+  },
+  {
+   "nombre": "Lateral corticospinal tract",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 7676,
+   "tris": 7676
+  },
+  {
+   "nombre": "Lateral fasciculus proprius",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 20200,
+   "tris": 20200
+  },
+  {
+   "nombre": "Lateral intermediate substance",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 13332,
+   "tris": 13332
+  },
+  {
+   "nombre": "Lateral reticulospinal tract",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 3232,
+   "tris": 3232
+  },
+  {
+   "nombre": "Lateral spinothalamic tract",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 8888,
+   "tris": 8888
+  },
+  {
+   "nombre": "Lateral vestibulospinal tract",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 9696,
+   "tris": 9696
+  },
+  {
+   "nombre": "Medial reticulospinal tract",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 8080,
+   "tris": 8080
+  },
+  {
+   "nombre": "Medial vestibulospinal tract",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 3232,
+   "tris": 3232
+  },
+  {
+   "nombre": "Nucleus proprius",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 3232,
+   "tris": 3232
+  },
+  {
+   "nombre": "Posterior fasciculus proprius",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 12928,
+   "tris": 12928
+  },
+  {
+   "nombre": "Posterior horn of spinal cord",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 12928,
+   "tris": 12928
+  },
+  {
+   "nombre": "Posterior spinocerebellar tract",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 11716,
+   "tris": 11716
+  },
+  {
+   "nombre": "Posterolateral tract",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 8888,
+   "tris": 8888
+  },
+  {
+   "nombre": "Rubrospinal tract",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 6464,
+   "tris": 6464
+  },
+  {
+   "nombre": "Spinal dura",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 35002,
+   "tris": 35002
+  },
+  {
+   "nombre": "Spinal reticular process",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 6868,
+   "tris": 6868
+  },
+  {
+   "nombre": "Spinotectal tract",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 3232,
+   "tris": 3232
+  },
+  {
+   "nombre": "Tectospinal tract",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 3232,
+   "tris": 3232
+  },
+  {
+   "nombre": "White matter of spinal cord",
+   "archivo": "tronco-snc.glb",
+   "sistema": "snc",
+   "region": "tronco",
+   "lado": "medial",
+   "tris_original": 15554,
+   "tris": 15554
   }
  ],
  "omitidas": []

@@ -20,6 +20,10 @@ export default function Creditos({ onCerrar }: { onCerrar: () => void }) {
           Lluis Vinent (desarrollo). Traducción al español de las estructuras: Carlos Torres Villar.
         </p>
         <p className="tenue">
+          Z-Anatomy incluye y adapta como referencia los modelos "Brainder" y "White matter" (University of Washington) y
+          "Cranial Nerves and Foramina" (University of Dundee, CAHID, CC-BY 4.0).
+        </p>
+        <p className="tenue">
           Cambios hechos aquí: las mallas se simplificaron (menos triángulos), se separaron por región y sistema y se exportaron a glTF.
           No se incluyen los modelos con licencia no comercial (oído interno y riñón).
         </p>
@@ -30,7 +34,8 @@ export default function Creditos({ onCerrar }: { onCerrar: () => void }) {
         </p>
         <h3>Datos de músculos</h3>
         <p className="tenue">
-          Fichas del usuario, verificadas contra Snell, <i>Anatomía clínica por regiones</i>, 10.ª ed. (consulta; no se reproduce su texto).
+          Fichas del usuario, verificadas contra Snell, <i>Anatomía clínica por regiones</i>, 10.ª ed. Fichas del sistema nervioso redactadas
+          a partir de Snell, <i>Neuroanatomía clínica</i>, 7.ª ed. (consulta; no se reproduce su texto). Lesiones frecuentes: artículos de PubMed citados en cada ficha.
         </p>
       </div>
     </div>

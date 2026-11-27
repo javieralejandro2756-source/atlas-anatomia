@@ -1,16 +1,25 @@
 import { useEffect, useMemo, useState } from "react";
 import Visor from "./Visor";
 import Creditos from "./Creditos";
-import { REGIONES, SISTEMAS, cargarDatos, fichasDe, nombreVisible, tipoZona, type Datos } from "./datos";
-import FichaVista from "./FichaVista";
+import { REGIONES, SISTEMAS, cargarDatos, fichaEncefaloDe, fichasDe, nombreVisible, tipoZona, type Datos } from "./datos";
+import FichaVista, { FichaEncefaloVista, FiltroAreas } from "./FichaVista";
 import { alternar, getEstado, setEstado, useEstado } from "./estado";
-import { capaSuperficial, mallas } from "./escena";
+import { capaSuperficial, definirAreas, mallas } from "./escena";
 
 const NOMBRE_SISTEMA = Object.fromEntries(SISTEMAS.map((s) => [s.id, s.nombre]));
 const NOMBRE_REGION = Object.fromEntries(REGIONES.map((r) => [r.id, r.nombre]));
 const mb = (b: number) => (b / 1e6).toFixed(1) + " MB";
 
 interface Medicion { fps: number; peorMs: number; llamadas: number; triangulos: number; renderer: string }
+
+function definirAreasDe(d: Datos) {
+  const m: Record<string, string[]> = {};
+  for (const [malla, id] of Object.entries(d.encefalo.mallas)) {
+    const f = d.encefalo.fichas.find((x) => x.id === id);
+    if (f) m[malla.trim()] = f.areas;
+  }
+  definirAreas(m);
+}
 
 export default function App() {
   const [datos, setDatos] = useState<Datos | null>(null);
@@ -21,7 +30,7 @@ export default function App() {
   const e = useEstado((x) => x);
 
   useEffect(() => {
-    cargarDatos().then(setDatos).catch(() => setError("No se pudieron leer los datos de los modelos."));
+    cargarDatos().then((d) => { definirAreasDe(d); setDatos(d); }).catch(() => setError("No se pudieron leer los datos de los modelos."));
     let primero = true;
     const alCargar = () => {
       if (primero) { primero = false; setTimeout(() => window.dispatchEvent(new CustomEvent("atlas:enfocar")), 50); }
@@ -45,6 +54,14 @@ export default function App() {
   const zona = e.seleccion ? tipoZona(e.seleccion) : null;
   const fichas = e.seleccion ? fichasDe(e.seleccion, datos) : [];
   const conFicha = sel && (sel.userData.sistema === "musculos" || sel.userData.sistema === "inserciones");
+  const fichaE = sel && (sel.userData.sistema === "snc" || sel.userData.sistema === "nervios") ? fichaEncefaloDe(sel.name, datos) : null;
+  const elegirArea = (a: string | null) =>
+    setEstado((s) => ({
+      area: a,
+      // Al elegir un área se muestran la cabeza y el encéfalo si estaban apagados.
+      sistemas: a ? new Set([...s.sistemas, "snc" as const]) : s.sistemas,
+      regiones: a ? new Set([...s.regiones, "cabeza-cuello" as const]) : s.regiones,
+    }));
 
   const quitarCapa = () => {
     const capa = capaSuperficial(getEstado());
@@ -87,6 +104,12 @@ export default function App() {
             </label>
           ))}
           {e.cargando > 0 && <p className="nota">Cargando {e.cargando} archivo{e.cargando > 1 ? "s" : ""}…</p>}
+        </section>
+
+        <section>
+          <h2>Sistema nervioso: áreas funcionales</h2>
+          <FiltroAreas activa={e.area} onElegir={elegirArea} />
+          {e.area && <p className="nota">Resaltadas en color las estructuras del área; el resto del sistema nervioso queda tenue.</p>}
         </section>
 
         <section>
@@ -148,6 +171,7 @@ export default function App() {
             <button onClick={() => window.dispatchEvent(new CustomEvent("atlas:enfocar", { detail: sel.name }))}>Enfocar</button>
           </div>
           {conFicha && <FichaVista fichas={fichas} lesiones={datos.lesiones} />}
+              {fichaE && <FichaEncefaloVista f={fichaE} />}
         </aside>
       )}
       {e.mostrarCreditos && <Creditos onCerrar={() => setEstado({ mostrarCreditos: false })} />}

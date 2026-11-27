@@ -1,0 +1,1624 @@
+{
+"fichas": [
+{
+"mallas": [
+"Precentral gyrus"
+],
+"nombre": "Giro precentral",
+"grupo": "Lóbulo frontal",
+"areas": [
+"motora"
+],
+"brodmann": "4 (área motora primaria); 6 en la parte anterior (premotora)",
+"funcion": "Su parte posterior es el área motora primaria: ejecuta los movimientos voluntarios aislados del lado contrario del cuerpo. El cuerpo está representado invertido (homúnculo motor): deglución y lengua abajo; mano y dedos, amplios; cadera, rodilla y tobillo arriba. Su parte anterior pertenece al área premotora.",
+"lesion": "Debilidad o parálisis del lado contrario en la región correspondiente del homúnculo.",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e000"
+},
+{
+"mallas": [
+"Paracentral gyrus and sulcus*",
+"Paracentral sulcus"
+],
+"nombre": "Lobulillo paracentral",
+"grupo": "Lóbulo frontal y parietal (cara medial)",
+"areas": [
+"motora",
+"somatosensorial"
+],
+"brodmann": "4 (parte anterior); 3, 1 y 2 (parte posterior)",
+"funcion": "Continúa en la cara medial las áreas motora y somatosensitiva primarias: movimientos y sensibilidad de pierna y pie, y control de los esfínteres anal y vesical.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e001"
+},
+{
+"mallas": [
+"Superior frontal gyrus",
+"Superior frontal sulcus"
+],
+"nombre": "Giro frontal superior",
+"grupo": "Lóbulo frontal",
+"areas": [
+"motora",
+"prefrontal"
+],
+"brodmann": "6 (posterior); 9 y 10 (prefrontal)",
+"funcion": "Su parte posterior pertenece al área premotora, que guarda programas motores aprendidos y controla movimientos posturales gruesos. En la cara medial, por delante del lobulillo paracentral, está el área motora suplementaria. El resto es corteza prefrontal.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e002"
+},
+{
+"mallas": [
+"Middle frontal gyrus",
+"Inferior frontal sulcus"
+],
+"nombre": "Giro frontal medio",
+"grupo": "Lóbulo frontal",
+"areas": [
+"motora",
+"prefrontal"
+],
+"brodmann": "6, 8 y 9 (campo ocular frontal); 9 y 10 (prefrontal)",
+"funcion": "Contiene el campo ocular frontal: movimientos voluntarios conjugados de los ojos hacia el lado opuesto. Su parte posterior es premotora y la anterior, prefrontal.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e003"
+},
+{
+"mallas": [
+"Opercular part of inferior frontal gyrus",
+"Triangular part of inferior frontal gyrus",
+"Lat_Fis-ant-Horizont",
+"Lat_Fis-ant-Vertical"
+],
+"nombre": "Porciones opercular y triangular del giro frontal inferior (área de Broca)",
+"grupo": "Lóbulo frontal",
+"areas": [
+"lenguaje",
+"motora"
+],
+"brodmann": "44 y 45",
+"funcion": "Área motora del lenguaje de Broca, en el hemisferio dominante (el izquierdo en ~96 % de los adultos): forma las palabras coordinando laringe, boca, lengua, paladar blando y músculos respiratorios.",
+"lesion": "En el hemisferio dominante: afasia de expresión (parálisis del lenguaje); en el no dominante no afecta el lenguaje.",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e004"
+},
+{
+"mallas": [
+"Orbital part of  inferior frontal gyrus",
+"Orbital gyri",
+"Orbital gyri (Frontomarginal gyrus and sulcus*)",
+"Orbital sulci (H-shaped orbital sulci*)",
+"Orbital sulci (Lateral Orbital sulcus*)",
+"Straight gyrus (Gyrus rectus)",
+"Transverse frontopolar gyrus and sulcus*",
+"Olfactory sulcus"
+],
+"nombre": "Corteza prefrontal orbitaria y polo frontal",
+"grupo": "Lóbulo frontal",
+"areas": [
+"prefrontal"
+],
+"brodmann": "9, 10, 11 y 12 (prefrontal)",
+"funcion": "Corteza prefrontal: participa en la personalidad, regula la profundidad de los sentimientos e influye en la iniciativa y el juicio.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e005"
+},
+{
+"mallas": [
+"Precentral sulcus (Superior part)*",
+"Precentral sulcus (inferior part)*"
+],
+"nombre": "Surco precentral",
+"grupo": "Lóbulo frontal",
+"areas": [],
+"brodmann": "",
+"funcion": "Limita por delante al giro precentral (área motora primaria).",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 7",
+"estado": "por revisar",
+"id": "e006"
+},
+{
+"mallas": [
+"Central sulcus"
+],
+"nombre": "Surco central",
+"grupo": "Surco interlobular",
+"areas": [
+"motora",
+"somatosensorial"
+],
+"brodmann": "",
+"funcion": "Separa el lóbulo frontal (giro precentral, motor) del parietal (giro poscentral, somatosensitivo).",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 7",
+"estado": "por revisar",
+"id": "e007"
+},
+{
+"mallas": [
+"Postcentral gyrus",
+"Postcentral sulcus"
+],
+"nombre": "Giro poscentral",
+"grupo": "Lóbulo parietal",
+"areas": [
+"somatosensorial",
+"gusto"
+],
+"brodmann": "3, 1 y 2 (somestésica primaria); 43 en el extremo inferior (gusto)",
+"funcion": "Área somestésica primaria: recibe la sensibilidad del lado contrario del cuerpo desde los núcleos ventral posterolateral y posteromedial del tálamo. Representación invertida (homúnculo sensitivo): faringe, lengua y mandíbula abajo; cara, labios, pulgar e índice con áreas grandes. Su extremo inferior, junto a la ínsula, corresponde al área del gusto.",
+"lesion": "Pérdida de sensibilidad del lado contrario en la región correspondiente.",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e008"
+},
+{
+"mallas": [
+"Superior parietal lobule",
+"Precuneus",
+"Intraparietal sulcus",
+"Subparietal sulcus"
+],
+"nombre": "Lobulillo parietal superior y precúneo",
+"grupo": "Lóbulo parietal",
+"areas": [
+"somatosensorial"
+],
+"brodmann": "5 y 7",
+"funcion": "Área de asociación somestésica: integra las distintas modalidades sensitivas y permite reconocer un objeto en la mano sin verlo (estereognosia). La corteza parietal posterior organiza también la imagen del cuerpo.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e009"
+},
+{
+"mallas": [
+"Supramarginal gyrus",
+"Angular gyrus",
+"Sulcus interm_prim-Jensen",
+"Lat_Fis-post"
+],
+"nombre": "Giros supramarginal y angular",
+"grupo": "Lóbulo parietal",
+"areas": [
+"lenguaje",
+"somatosensorial"
+],
+"brodmann": "",
+"funcion": "Rodean el extremo posterior del surco lateral, donde se extiende el área de Wernicke en el hemisferio dominante. Integran información visual, auditiva y somática (corteza parietal posterior).",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e010"
+},
+{
+"mallas": [
+"Calcarine sulcus",
+"Cuneus",
+"Lingual gyrus",
+"Occipital pole"
+],
+"nombre": "Corteza visual primaria (surco calcarino, cúneo y giro lingual)",
+"grupo": "Lóbulo occipital",
+"areas": [
+"vision"
+],
+"brodmann": "17 (visual primaria); 18 y 19 alrededor (visual secundaria)",
+"funcion": "Área visual primaria en las paredes del surco calcarino. Recibe las fibras del cuerpo geniculado lateral: la mitad derecha del campo visual se representa en el hemisferio izquierdo y viceversa. La pared superior del surco recibe el campo visual inferior y la inferior, el superior. La mácula ocupa la parte posterior (cerca del polo).",
+"lesion": "Pérdida del campo visual contralateral (hemianopsia homónima).",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e011"
+},
+{
+"mallas": [
+"Lateral occipital gyrus (Middle occipital gyrus*)",
+"Superior occipital gyri",
+"Inferior occipital gyrus and sulcus*",
+"Transverse occipital sulcus",
+"Lunate sulcus",
+"Anterior occipital sulcus*"
+],
+"nombre": "Giros occipitales laterales",
+"grupo": "Lóbulo occipital",
+"areas": [
+"vision"
+],
+"brodmann": "18 y 19",
+"funcion": "Área visual secundaria: relaciona lo que se ve con experiencias visuales previas para reconocerlo. Contiene el campo ocular occipital (seguimiento reflejo de objetos).",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e012"
+},
+{
+"mallas": [
+"Parieto-occipital sulcus"
+],
+"nombre": "Surco parietooccipital",
+"grupo": "Surco interlobular",
+"areas": [],
+"brodmann": "",
+"funcion": "Separa en la cara medial los lóbulos parietal y occipital.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 7",
+"estado": "por revisar",
+"id": "e013"
+},
+{
+"mallas": [
+"Transverse temporal gyri"
+],
+"nombre": "Giros temporales transversos (de Heschl)",
+"grupo": "Lóbulo temporal",
+"areas": [
+"audicion"
+],
+"brodmann": "41 y 42",
+"funcion": "Área auditiva primaria, en la pared inferior del surco lateral. Recibe la radiación auditiva del cuerpo geniculado medial. La parte anterior recibe sonidos graves y la posterior, agudos.",
+"lesion": "Lesión unilateral: sordera parcial de ambos oídos, mayor en el contralateral.",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e014"
+},
+{
+"mallas": [
+"Temporal plane"
+],
+"nombre": "Plano temporal",
+"grupo": "Lóbulo temporal",
+"areas": [
+"audicion",
+"lenguaje"
+],
+"brodmann": "22",
+"funcion": "Por detrás del área auditiva primaria: área auditiva secundaria, necesaria para interpretar los sonidos. En el hemisferio dominante forma parte del área de Wernicke.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e015"
+},
+{
+"mallas": [
+"Superior temporal gyrus (Lateral part)",
+"Superior temporal sulcus"
+],
+"nombre": "Giro temporal superior",
+"grupo": "Lóbulo temporal",
+"areas": [
+"audicion",
+"lenguaje",
+"equilibrio"
+],
+"brodmann": "22",
+"funcion": "Área auditiva secundaria y, en el hemisferio dominante, área sensitiva del lenguaje de Wernicke: comprensión del lenguaje hablado y escrito. Se conecta con el área de Broca por el fascículo arcuato. Cerca está el área vestibular (postura y movimiento de la cabeza).",
+"lesion": "En el hemisferio dominante: afasia de comprensión (de Wernicke).",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e016"
+},
+{
+"mallas": [
+"Middle temporal gyrus",
+"Inferior temporal gyrus",
+"Inferior temporal sulcus",
+"Temporal pole",
+"Lateral occipitotemporal gyrus",
+"Occipitotemporal sulcus (Lateral part*)"
+],
+"nombre": "Giros temporales medio e inferior y polo temporal",
+"grupo": "Lóbulo temporal",
+"areas": [],
+"brodmann": "",
+"funcion": "Corteza temporal anterior de asociación: almacena experiencias sensitivas previas; su estimulación evoca objetos vistos o música oída antes.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e017"
+},
+{
+"mallas": [
+"Insula (Subcentral gyrus and ant. and post. sulci*)",
+"Circular sulcus of insula"
+],
+"nombre": "Ínsula",
+"grupo": "Ínsula",
+"areas": [
+"gusto",
+"lenguaje"
+],
+"brodmann": "43 (área del gusto, adyacente)",
+"funcion": "Corteza oculta en el fondo del surco lateral. Junto con el extremo inferior del giro poscentral forma el área del gusto; se cree importante para planear los movimientos articulatorios del lenguaje.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e018"
+},
+{
+"mallas": [
+"Cingulate gyrus and sulcus (Middle anterior part)",
+"Cingulate gyrus and sulcus (Middle posterior part)",
+"Cingulate gyrus and sulcus (Posterior dorsal part)",
+"Cingulate gyrus (Posteroventral part*)",
+"Cingulate sulcus (Marginal part*)"
+],
+"nombre": "Giro del cíngulo",
+"grupo": "Lóbulo límbico",
+"areas": [
+"limbico",
+"prefrontal"
+],
+"brodmann": "",
+"funcion": "Forma parte del sistema límbico (conducta emocional). Su mitad anterior se incluye en la corteza prefrontal.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8 y 9",
+"estado": "por revisar",
+"id": "e019"
+},
+{
+"mallas": [
+"Hippocampus",
+"Hippocampal commissure"
+],
+"nombre": "Hipocampo",
+"grupo": "Sistema límbico",
+"areas": [
+"limbico"
+],
+"brodmann": "",
+"funcion": "Participa en convertir la memoria reciente en memoria a largo plazo.",
+"lesion": "Amnesia anterógrada: no se forman recuerdos nuevos; se conservan los del pasado remoto.",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 9",
+"estado": "por revisar",
+"id": "e020"
+},
+{
+"mallas": [
+"Medial occipitotemporal gyrus (Parahippocampal*)",
+"Collateral sulcus",
+" Posterior transverse collateral sulcus"
+],
+"nombre": "Giro parahipocampal",
+"grupo": "Sistema límbico",
+"areas": [
+"limbico"
+],
+"brodmann": "",
+"funcion": "Parte de la formación del hipocampo; termina por delante en el uncus. Se relaciona con la memoria.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 7 y 9",
+"estado": "por revisar",
+"id": "e021"
+},
+{
+"mallas": [
+"Amygdaloid body"
+],
+"nombre": "Cuerpo amigdalino",
+"grupo": "Sistema límbico",
+"areas": [
+"limbico"
+],
+"brodmann": "",
+"funcion": "Núcleo del lóbulo temporal cercano al uncus. Influye en la conducta emocional, en especial el miedo; con el hipocampo, en la memoria.",
+"lesion": "Lesión junto con el hipocampo: pérdida de memoria mayor que cada una por separado.",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 9",
+"estado": "por revisar",
+"id": "e022"
+},
+{
+"mallas": [
+"Fornix",
+"Mamillary body",
+"Septal nuclei",
+"Stria terminalis",
+"Habenula",
+"Stria medullaris thalami"
+],
+"nombre": "Fórnix y otras vías límbicas",
+"grupo": "Sistema límbico",
+"areas": [
+"limbico"
+],
+"brodmann": "",
+"funcion": "Vías y núcleos que conectan el hipocampo y la amígdala con el hipotálamo (cuerpos mamilares) y el tálamo dentro del sistema límbico.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 9",
+"estado": "por revisar",
+"id": "e023"
+},
+{
+"mallas": [
+"Corpus callosum",
+"Anterior commissure",
+"Posterior commissure"
+],
+"nombre": "Cuerpo calloso y comisuras",
+"grupo": "Sustancia blanca",
+"areas": [],
+"brodmann": "",
+"funcion": "Fibras comisurales que pasan información de un hemisferio al otro.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 7 y 8",
+"estado": "por revisar",
+"id": "e024"
+},
+{
+"mallas": [
+"White matter of telencephalon"
+],
+"nombre": "Sustancia blanca del telencéfalo",
+"grupo": "Sustancia blanca",
+"areas": [],
+"brodmann": "",
+"funcion": "Fibras de asociación, comisurales y de proyección (como la cápsula interna) de los hemisferios.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 7",
+"estado": "por revisar",
+"id": "e025"
+},
+{
+"mallas": [
+"Lateral ventricle",
+"Third ventricle",
+"Fourth ventricle",
+"Aqueduct of midbrain",
+"Choroid plexus",
+"Septum pellucidum",
+"Central canal",
+"Central canal'"
+],
+"nombre": "Sistema ventricular",
+"grupo": "Ventrículos",
+"areas": [],
+"brodmann": "",
+"funcion": "Cavidades que contienen líquido cefalorraquídeo, producido sobre todo por los plexos coroideos.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 16",
+"estado": "por revisar",
+"id": "e026"
+},
+{
+"mallas": [
+"Falx cerebri",
+"Tentorium cerebelli",
+"Spinal dura"
+],
+"nombre": "Duramadre",
+"grupo": "Meninges",
+"areas": [],
+"brodmann": "",
+"funcion": "Meninge externa. La hoz del cerebro separa los hemisferios; la tienda del cerebelo separa cerebro y cerebelo.",
+"lesion": "Herniación del uncus a través de la tienda: compresión del mesencéfalo.",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 15",
+"estado": "por revisar",
+"id": "e027"
+},
+{
+"mallas": [
+"Caudate nucleus",
+"Putamen",
+"Globus pallidus",
+"Lentiform nucleus"
+],
+"nombre": "Núcleos basales (caudado, putamen, globo pálido)",
+"grupo": "Núcleos basales",
+"areas": [
+"motora"
+],
+"brodmann": "",
+"funcion": "Reciben información de la corteza, el tálamo y el tronco encefálico, y por el globo pálido influyen sobre las áreas motoras de la corteza. Regulan el movimiento voluntario y el aprendizaje de habilidades motoras; no actúan directamente sobre la médula.",
+"lesion": "Lesiones del cuerpo estriado: corea, atetosis, distonía; parkinsonismo.",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 10",
+"estado": "por revisar",
+"id": "e028"
+},
+{
+"mallas": [
+"Thalamus"
+],
+"nombre": "Tálamo",
+"grupo": "Diencéfalo",
+"areas": [
+"somatosensorial"
+],
+"brodmann": "",
+"funcion": "Gran masa de sustancia gris que releva casi toda la información sensitiva hacia la corteza (núcleos ventral posterolateral y posteromedial hacia el giro poscentral).",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 12",
+"estado": "por revisar",
+"id": "e029"
+},
+{
+"mallas": [
+"Hypothalamus"
+],
+"nombre": "Hipotálamo",
+"grupo": "Diencéfalo",
+"areas": [
+"limbico"
+],
+"brodmann": "",
+"funcion": "Controla el sistema nervioso autónomo y el sistema endocrino a través de la hipófisis; participa en la conducta emocional del sistema límbico.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 13",
+"estado": "por revisar",
+"id": "e030"
+},
+{
+"mallas": [
+"Lateral geniculate body"
+],
+"nombre": "Cuerpo geniculado lateral",
+"grupo": "Diencéfalo",
+"areas": [
+"vision"
+],
+"brodmann": "",
+"funcion": "Estación de relevo de la vía visual: recibe el tracto óptico y envía la radiación óptica al área visual primaria.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e031"
+},
+{
+"mallas": [
+"Medial geniculate body"
+],
+"nombre": "Cuerpo geniculado medial",
+"grupo": "Diencéfalo",
+"areas": [
+"audicion"
+],
+"brodmann": "",
+"funcion": "Estación de relevo de la vía auditiva hacia el área auditiva primaria; recibe información de ambos oídos, sobre todo del contralateral.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8",
+"estado": "por revisar",
+"id": "e032"
+},
+{
+"mallas": [
+"Optic chiasm",
+"Optic tract"
+],
+"nombre": "Quiasma y tracto óptico",
+"grupo": "Vía visual",
+"areas": [
+"vision"
+],
+"brodmann": "",
+"funcion": "En el quiasma se cruzan las fibras de la mitad nasal de cada retina; el tracto óptico lleva la información de la mitad contraria del campo visual.",
+"lesion": "Lesión del quiasma: hemianopsia bitemporal.",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e033"
+},
+{
+"mallas": [
+"Midbrain",
+"Base of peduncle",
+"Interpeduncular fossa",
+"Red nucleus"
+],
+"nombre": "Mesencéfalo",
+"grupo": "Tronco encefálico",
+"areas": [
+"motora"
+],
+"brodmann": "",
+"funcion": "Contiene los núcleos de los pares III y IV, el núcleo rojo y las fibras descendentes de la base del pedúnculo.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 5",
+"estado": "por revisar",
+"id": "e034"
+},
+{
+"mallas": [
+"Superior colliculus"
+],
+"nombre": "Colículo superior",
+"grupo": "Tronco encefálico",
+"areas": [
+"vision"
+],
+"brodmann": "",
+"funcion": "Centro de reflejos visuales; se conecta con los núcleos de los músculos extraoculares y recibe del campo ocular frontal.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 5 y 8",
+"estado": "por revisar",
+"id": "e035"
+},
+{
+"mallas": [
+"Inferior colliculus"
+],
+"nombre": "Colículo inferior",
+"grupo": "Tronco encefálico",
+"areas": [
+"audicion"
+],
+"brodmann": "",
+"funcion": "Estación de la vía auditiva.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 5",
+"estado": "por revisar",
+"id": "e036"
+},
+{
+"mallas": [
+"Pons"
+],
+"nombre": "Puente",
+"grupo": "Tronco encefálico",
+"areas": [],
+"brodmann": "",
+"funcion": "Contiene núcleos de los pares V a VIII y conecta la corteza con el cerebelo.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 5",
+"estado": "por revisar",
+"id": "e037"
+},
+{
+"mallas": [
+"Medulla oblongata",
+"Olive"
+],
+"nombre": "Bulbo raquídeo (médula oblongada)",
+"grupo": "Tronco encefálico",
+"areas": [],
+"brodmann": "",
+"funcion": "Contiene núcleos de los pares IX a XII y centros vitales; la oliva se relaciona con el cerebelo.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 5",
+"estado": "por revisar",
+"id": "e038"
+},
+{
+"mallas": [
+"Pyramid of medulla oblongata"
+],
+"nombre": "Pirámide bulbar",
+"grupo": "Tronco encefálico",
+"areas": [
+"motora"
+],
+"brodmann": "",
+"funcion": "Fibras corticoespinales; en su parte inferior la mayoría se cruza (decusación de las pirámides).",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 4 y 5",
+"estado": "por revisar",
+"id": "e039"
+},
+{
+"mallas": [
+"Nucleus of oculomotor nerve"
+],
+"nombre": "Núcleo del nervio oculomotor",
+"grupo": "Núcleos de pares craneales",
+"areas": [],
+"brodmann": "",
+"funcion": "Núcleo del par craneal III.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e040"
+},
+{
+"mallas": [
+"Accessory nucleus of oculomotor nerve"
+],
+"nombre": "Núcleo accesorio del oculomotor (parasimpático)",
+"grupo": "Núcleos de pares craneales",
+"areas": [],
+"brodmann": "",
+"funcion": "Núcleo del par craneal III.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e041"
+},
+{
+"mallas": [
+"Nucleus of trochlear nerve"
+],
+"nombre": "Núcleo del nervio troclear",
+"grupo": "Núcleos de pares craneales",
+"areas": [],
+"brodmann": "",
+"funcion": "Núcleo del par craneal IV.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e042"
+},
+{
+"mallas": [
+"Nucleus of abducens nerve"
+],
+"nombre": "Núcleo del nervio abducens",
+"grupo": "Núcleos de pares craneales",
+"areas": [],
+"brodmann": "",
+"funcion": "Núcleo del par craneal VI.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e043"
+},
+{
+"mallas": [
+"Motor nucleus of facial nerve"
+],
+"nombre": "Núcleo motor del nervio facial",
+"grupo": "Núcleos de pares craneales",
+"areas": [],
+"brodmann": "",
+"funcion": "Núcleo del par craneal VII.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e044"
+},
+{
+"mallas": [
+"Superior salivatory nucleus"
+],
+"nombre": "Núcleo salival superior",
+"grupo": "Núcleos de pares craneales",
+"areas": [],
+"brodmann": "",
+"funcion": "Núcleo del par craneal VII.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e045"
+},
+{
+"mallas": [
+"Vestibular nuclei"
+],
+"nombre": "Núcleos vestibulares",
+"grupo": "Núcleos de pares craneales",
+"areas": [
+"equilibrio"
+],
+"brodmann": "",
+"funcion": "Núcleo del par craneal VIII.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e046"
+},
+{
+"mallas": [
+"Anterior cochlear nucleus"
+],
+"nombre": "Núcleo coclear anterior",
+"grupo": "Núcleos de pares craneales",
+"areas": [
+"audicion"
+],
+"brodmann": "",
+"funcion": "Núcleo del par craneal VIII.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e047"
+},
+{
+"mallas": [
+"Posterior cochlear nucleus"
+],
+"nombre": "Núcleo coclear posterior",
+"grupo": "Núcleos de pares craneales",
+"areas": [
+"audicion"
+],
+"brodmann": "",
+"funcion": "Núcleo del par craneal VIII.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e048"
+},
+{
+"mallas": [
+"Inferior salivatory nucleus"
+],
+"nombre": "Núcleo salival inferior",
+"grupo": "Núcleos de pares craneales",
+"areas": [],
+"brodmann": "",
+"funcion": "Núcleo del par craneal IX.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e049"
+},
+{
+"mallas": [
+"Nucleus ambiguus"
+],
+"nombre": "Núcleo ambiguo",
+"grupo": "Núcleos de pares craneales",
+"areas": [],
+"brodmann": "",
+"funcion": "Núcleo del par craneal IX, X y XI.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e050"
+},
+{
+"mallas": [
+"Posterior nucleus of vagus nerve"
+],
+"nombre": "Núcleo posterior del vago",
+"grupo": "Núcleos de pares craneales",
+"areas": [],
+"brodmann": "",
+"funcion": "Núcleo del par craneal X.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e051"
+},
+{
+"mallas": [
+"Nucleus of hypoglossal nerve"
+],
+"nombre": "Núcleo del nervio hipogloso",
+"grupo": "Núcleos de pares craneales",
+"areas": [],
+"brodmann": "",
+"funcion": "Núcleo del par craneal XII.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e052"
+},
+{
+"mallas": [
+"Nucleus of accessory nerve"
+],
+"nombre": "Núcleo del nervio accesorio",
+"grupo": "Núcleos de pares craneales",
+"areas": [],
+"brodmann": "",
+"funcion": "Núcleo del par craneal XI.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e053"
+},
+{
+"mallas": [
+"Anterior quadrangular lobule",
+"Posterior quadrangular lobule",
+"Superior semilunar lobule",
+"Inferior semilunar lobule",
+"Biventral lobule",
+"Gracile lobule",
+"Tonsil of cerebellum",
+"Central lobule",
+"Wing of central lobule",
+"Culmen",
+"Declive",
+"Folium of vermis",
+"Tuber of vermis",
+"Pyramis of vermis",
+"Uvula of vermis",
+"Lingula of cerebellum",
+"Superior cerebellar peduncle"
+],
+"nombre": "Cerebelo",
+"grupo": "Cerebelo",
+"areas": [
+"motora",
+"equilibrio"
+],
+"brodmann": "",
+"funcion": "Recibe información del movimiento voluntario (corteza, músculos, tendones, articulaciones) y del equilibrio; coordina el movimiento a través de sus núcleos profundos, sin conexión directa con las motoneuronas. El vermis proyecta al núcleo del fastigio y la parte lateral del hemisferio, al dentado.",
+"lesion": "Temblor intencional y falta de coordinación (enfermedad cerebelosa).",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 6",
+"estado": "por revisar",
+"id": "e054"
+},
+{
+"mallas": [
+"Flocculus",
+"Nodule of vermis",
+"Peduncle of flocculus"
+],
+"nombre": "Lóbulo floculonodular",
+"grupo": "Cerebelo",
+"areas": [
+"equilibrio"
+],
+"brodmann": "",
+"funcion": "Recibe información del nervio vestibular: equilibrio.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 6",
+"estado": "por revisar",
+"id": "e055"
+},
+{
+"mallas": [
+"Lateral corticospinal tract",
+"Anterior corticospinal tract"
+],
+"nombre": "Tractos corticoespinales",
+"grupo": "Médula espinal",
+"areas": [
+"motora"
+],
+"brodmann": "",
+"funcion": "Vía motora voluntaria desde la corteza hacia las motoneuronas de la médula.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 4",
+"estado": "por revisar",
+"id": "e056"
+},
+{
+"mallas": [
+"Lateral spinothalamic tract"
+],
+"nombre": "Tracto espinotalámico lateral",
+"grupo": "Médula espinal",
+"areas": [
+"somatosensorial"
+],
+"brodmann": "",
+"funcion": "Conduce dolor y temperatura hacia el tálamo.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 4",
+"estado": "por revisar",
+"id": "e057"
+},
+{
+"mallas": [
+"Anterior spinothalamic tract"
+],
+"nombre": "Tracto espinotalámico anterior",
+"grupo": "Médula espinal",
+"areas": [
+"somatosensorial"
+],
+"brodmann": "",
+"funcion": "Conduce tacto grueso y presión hacia el tálamo.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 4",
+"estado": "por revisar",
+"id": "e058"
+},
+{
+"mallas": [
+"Gracile fasciculus",
+"Cuneate fasciculus"
+],
+"nombre": "Fascículos grácil y cuneiforme",
+"grupo": "Médula espinal",
+"areas": [
+"somatosensorial"
+],
+"brodmann": "",
+"funcion": "Cordón posterior: tacto discriminativo, sentido de posición y vibración (el grácil desde el miembro inferior; el cuneiforme desde el superior).",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 4",
+"estado": "por revisar",
+"id": "e059"
+},
+{
+"mallas": [
+"Anterior spinocerebellar tract",
+"Posterior spinocerebellar tract"
+],
+"nombre": "Tractos espinocerebelosos",
+"grupo": "Médula espinal",
+"areas": [
+"equilibrio"
+],
+"brodmann": "",
+"funcion": "Llevan al cerebelo información propioceptiva inconsciente de músculos y articulaciones.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 4",
+"estado": "por revisar",
+"id": "e060"
+},
+{
+"mallas": [
+"Rubrospinal tract",
+"Tectospinal tract",
+"Lateral vestibulospinal tract",
+"Medial vestibulospinal tract",
+"Lateral reticulospinal tract",
+"Medial reticulospinal tract"
+],
+"nombre": "Tractos descendentes extrapiramidales",
+"grupo": "Médula espinal",
+"areas": [
+"motora",
+"equilibrio"
+],
+"brodmann": "",
+"funcion": "Vías desde el tronco encefálico (núcleo rojo, colículo superior, núcleos vestibulares, formación reticular) que modulan el tono y la postura.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 4",
+"estado": "por revisar",
+"id": "e061"
+},
+{
+"mallas": [
+"Spinotectal tract"
+],
+"nombre": "Tracto espinotectal",
+"grupo": "Médula espinal",
+"areas": [],
+"brodmann": "",
+"funcion": "Información sensitiva hacia el colículo superior (reflejos espinovisuales).",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 4",
+"estado": "por revisar",
+"id": "e062"
+},
+{
+"mallas": [
+"Anterior horn of spinal cord"
+],
+"nombre": "Asta anterior",
+"grupo": "Médula espinal",
+"areas": [
+"motora"
+],
+"brodmann": "",
+"funcion": "Motoneuronas inferiores de los músculos esqueléticos.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 4",
+"estado": "por revisar",
+"id": "e063"
+},
+{
+"mallas": [
+"Posterior horn of spinal cord",
+"Nucleus proprius",
+"Spinal reticular process",
+"Posterolateral tract"
+],
+"nombre": "Asta posterior",
+"grupo": "Médula espinal",
+"areas": [
+"somatosensorial"
+],
+"brodmann": "",
+"funcion": "Recibe la sensibilidad que entra por las raíces posteriores.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 4",
+"estado": "por revisar",
+"id": "e064"
+},
+{
+"mallas": [
+"Intermediolateral nucleus",
+"Intermediomedial nucleus",
+"Lateral intermediate substance"
+],
+"nombre": "Zona intermedia",
+"grupo": "Médula espinal",
+"areas": [],
+"brodmann": "",
+"funcion": "Contiene neuronas autonómicas (columna intermediolateral).",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 4 y 14",
+"estado": "por revisar",
+"id": "e065"
+},
+{
+"mallas": [
+"White matter of spinal cord",
+"Anterior fasciculus proprius",
+"Lateral fasciculus proprius",
+"Posterior fasciculus proprius"
+],
+"nombre": "Sustancia blanca de la médula",
+"grupo": "Médula espinal",
+"areas": [],
+"brodmann": "",
+"funcion": "Cordones con los tractos ascendentes y descendentes.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 4",
+"estado": "por revisar",
+"id": "e066"
+},
+{
+"mallas": [
+"Retina"
+],
+"nombre": "Retina",
+"grupo": "Ojo",
+"areas": [
+"vision"
+],
+"brodmann": "",
+"funcion": "Capa sensitiva del ojo: inicia la vía visual. La mácula es el área de visión más perfecta.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 8 y 11",
+"estado": "por revisar",
+"id": "e067"
+},
+{
+"mallas": [
+"Cornea",
+"Lens",
+"Iris",
+"Sclera",
+"Vitreous body",
+"Anterior chamber of eyeball",
+"Anterior segment of eyeball",
+"Posterior segment of eyeball",
+"Zonular fibres",
+"Suspensory ligament of eyeball"
+],
+"nombre": "Globo ocular",
+"grupo": "Ojo",
+"areas": [
+"vision"
+],
+"brodmann": "",
+"funcion": "Estructuras ópticas y de sostén del ojo.",
+"lesion": "",
+"fuente": "Snell, Neuroanatomía clínica 7.ª ed., cap. 11",
+"estado": "por revisar",
+"id": "e068"
+},
+{
+"mallas": [
+"Lacrimal gland",
+"Lacrimal sac",
+"Lacrimal canaliculus",
+"Ampulla of lacrimal canaliculus",
+"Nasolacrimal duct"
+],
+"nombre": "Aparato lagrimal",
+"grupo": "Ojo",
+"areas": [],
+"brodmann": "",
+"funcion": "Produce y drena las lágrimas; la glándula lagrimal recibe fibras secretomotoras del facial.",
+"lesion": "",
+"fuente": "Snell, Anatomía clínica por regiones 10.ª ed., tabla 12-6",
+"estado": "por revisar",
+"id": "e069"
+},
+{
+"mallas": [
+"Olfactory nerve (I)"
+],
+"nombre": "I. Olfatorio",
+"grupo": "Pares craneales",
+"areas": [
+"olfato"
+],
+"brodmann": "",
+"componentes": "Sensitivo",
+"funcion": "Olfato.",
+"salida": "Forámenes de la lámina cribosa del etmoides",
+"lesion": "",
+"fuente": "Snell, Anatomía clínica por regiones 10.ª ed., tabla 12-6",
+"estado": "por revisar",
+"id": "e070"
+},
+{
+"mallas": [
+"Optic nerve (II)"
+],
+"nombre": "II. Óptico",
+"grupo": "Pares craneales",
+"areas": [
+"vision"
+],
+"brodmann": "",
+"componentes": "Sensitivo",
+"funcion": "Visión.",
+"salida": "Canal óptico",
+"lesion": "",
+"fuente": "Snell, Anatomía clínica por regiones 10.ª ed., tabla 12-6",
+"estado": "por revisar",
+"id": "e071"
+},
+{
+"mallas": [
+"Oculomotor nerve (III)"
+],
+"nombre": "III. Oculomotor",
+"grupo": "Pares craneales",
+"areas": [],
+"brodmann": "",
+"componentes": "Motor",
+"funcion": "Eleva el párpado superior; gira el globo ocular hacia abajo, arriba y medialmente; constricción pupilar; acomodación.",
+"salida": "Fisura orbitaria superior",
+"lesion": "",
+"fuente": "Snell, Anatomía clínica por regiones 10.ª ed., tabla 12-6",
+"estado": "por revisar",
+"id": "e072"
+},
+{
+"mallas": [
+"Trochlear nerve (IV)"
+],
+"nombre": "IV. Troclear",
+"grupo": "Pares craneales",
+"areas": [],
+"brodmann": "",
+"componentes": "Motor",
+"funcion": "Ayuda a rotar el globo ocular en sentido inferolateral.",
+"salida": "Fisura orbitaria superior",
+"lesion": "",
+"fuente": "Snell, Anatomía clínica por regiones 10.ª ed., tabla 12-6",
+"estado": "por revisar",
+"id": "e073"
+},
+{
+"mallas": [
+"Trigeminal nerve (V)"
+],
+"nombre": "V. Trigémino",
+"grupo": "Pares craneales",
+"areas": [
+"somatosensorial"
+],
+"brodmann": "",
+"componentes": "Sensitivo (V1, V2, V3) y motor (V3)",
+"funcion": "Sensibilidad de la cara, córnea, cuero cabelludo, dientes, mucosas nasal y oral y dos tercios anteriores de la lengua; motor de los músculos de la masticación, milohioideo, vientre anterior del digástrico, tensor del velo del paladar y tensor del tímpano.",
+"salida": "V1: fisura orbitaria superior; V2: foramen redondo; V3: foramen oval",
+"lesion": "",
+"fuente": "Snell, Anatomía clínica por regiones 10.ª ed., tabla 12-6",
+"estado": "por revisar",
+"id": "e074"
+},
+{
+"mallas": [
+"Abducens nerve (VI)"
+],
+"nombre": "VI. Abducens",
+"grupo": "Pares craneales",
+"areas": [],
+"brodmann": "",
+"componentes": "Motor",
+"funcion": "Músculo recto lateral: rota el globo ocular hacia lateral.",
+"salida": "Fisura orbitaria superior",
+"lesion": "",
+"fuente": "Snell, Anatomía clínica por regiones 10.ª ed., tabla 12-6",
+"estado": "por revisar",
+"id": "e075"
+},
+{
+"mallas": [
+"Facial nerve (VII)"
+],
+"nombre": "VII. Facial",
+"grupo": "Pares craneales",
+"areas": [
+"gusto"
+],
+"brodmann": "",
+"componentes": "Motor, sensorial y parasimpático",
+"funcion": "Músculos de la expresión facial, estapedio, estilohioideo y vientre posterior del digástrico; gusto de los dos tercios anteriores de la lengua; glándulas submandibular, sublingual y lagrimal.",
+"salida": "Meato acústico interno, canal facial, foramen estilomastoideo",
+"lesion": "",
+"fuente": "Snell, Anatomía clínica por regiones 10.ª ed., tabla 12-6",
+"estado": "por revisar",
+"id": "e076"
+},
+{
+"mallas": [
+"Vestibulocochlear nerve (VIII)"
+],
+"nombre": "VIII. Vestibulococlear",
+"grupo": "Pares craneales",
+"areas": [
+"audicion",
+"equilibrio"
+],
+"brodmann": "",
+"componentes": "Sensitivo",
+"funcion": "Vestibular: posición y movimiento de la cabeza. Coclear: audición.",
+"salida": "Meato acústico interno",
+"lesion": "",
+"fuente": "Snell, Anatomía clínica por regiones 10.ª ed., tabla 12-6",
+"estado": "por revisar",
+"id": "e077"
+},
+{
+"mallas": [
+"Glossopharyngeal nerve (IX)"
+],
+"nombre": "IX. Glosofaríngeo",
+"grupo": "Pares craneales",
+"areas": [
+"gusto"
+],
+"brodmann": "",
+"componentes": "Motor, parasimpático y sensitivo",
+"funcion": "Estilofaríngeo (deglución); glándula parótida; sensibilidad general y gusto del tercio posterior de la lengua y la faringe; seno y cuerpo carotídeos.",
+"salida": "Foramen yugular",
+"lesion": "",
+"fuente": "Snell, Anatomía clínica por regiones 10.ª ed., tabla 12-6",
+"estado": "por revisar",
+"id": "e078"
+},
+{
+"mallas": [
+"Vagus nerve (X)"
+],
+"nombre": "X. Vago",
+"grupo": "Pares craneales",
+"areas": [
+"gusto"
+],
+"brodmann": "",
+"componentes": "Motor y sensitivo",
+"funcion": "Constrictores de la faringe y músculos intrínsecos de la laringe; músculo liso de tráquea, bronquios y tubo digestivo hasta la flexura esplénica; corazón; gusto en epiglotis y valécula.",
+"salida": "Foramen yugular",
+"lesion": "",
+"fuente": "Snell, Anatomía clínica por regiones 10.ª ed., tabla 12-6",
+"estado": "por revisar",
+"id": "e079"
+},
+{
+"mallas": [
+"Accessory nerve (XI)"
+],
+"nombre": "XI. Accesorio",
+"grupo": "Pares craneales",
+"areas": [],
+"brodmann": "",
+"componentes": "Motor",
+"funcion": "Raíz craneal: paladar blando, faringe y laringe. Raíz espinal: esternocleidomastoideo y trapecio.",
+"salida": "Foramen yugular (la raíz espinal entra por el foramen magno)",
+"lesion": "",
+"fuente": "Snell, Anatomía clínica por regiones 10.ª ed., tabla 12-6",
+"estado": "por revisar",
+"id": "e080"
+},
+{
+"mallas": [
+"Hypoglossal nerve (XII)"
+],
+"nombre": "XII. Hipogloso",
+"grupo": "Pares craneales",
+"areas": [],
+"brodmann": "",
+"componentes": "Motor",
+"funcion": "Músculos de la lengua (excepto el palatogloso).",
+"salida": "Canal hipogloso",
+"lesion": "",
+"fuente": "Snell, Anatomía clínica por regiones 10.ª ed., tabla 12-6",
+"estado": "por revisar",
+"id": "e081"
+}
+],
+"mallas": {
+"Precentral gyrus": "e000",
+"Paracentral gyrus and sulcus*": "e001",
+"Paracentral sulcus": "e001",
+"Superior frontal gyrus": "e002",
+"Superior frontal sulcus": "e002",
+"Middle frontal gyrus": "e003",
+"Inferior frontal sulcus": "e003",
+"Opercular part of inferior frontal gyrus": "e004",
+"Triangular part of inferior frontal gyrus": "e004",
+"Lat_Fis-ant-Horizont": "e004",
+"Lat_Fis-ant-Vertical": "e004",
+"Orbital part of  inferior frontal gyrus": "e005",
+"Orbital gyri": "e005",
+"Orbital gyri (Frontomarginal gyrus and sulcus*)": "e005",
+"Orbital sulci (H-shaped orbital sulci*)": "e005",
+"Orbital sulci (Lateral Orbital sulcus*)": "e005",
+"Straight gyrus (Gyrus rectus)": "e005",
+"Transverse frontopolar gyrus and sulcus*": "e005",
+"Olfactory sulcus": "e005",
+"Precentral sulcus (Superior part)*": "e006",
+"Precentral sulcus (inferior part)*": "e006",
+"Central sulcus": "e007",
+"Postcentral gyrus": "e008",
+"Postcentral sulcus": "e008",
+"Superior parietal lobule": "e009",
+"Precuneus": "e009",
+"Intraparietal sulcus": "e009",
+"Subparietal sulcus": "e009",
+"Supramarginal gyrus": "e010",
+"Angular gyrus": "e010",
+"Sulcus interm_prim-Jensen": "e010",
+"Lat_Fis-post": "e010",
+"Calcarine sulcus": "e011",
+"Cuneus": "e011",
+"Lingual gyrus": "e011",
+"Occipital pole": "e011",
+"Lateral occipital gyrus (Middle occipital gyrus*)": "e012",
+"Superior occipital gyri": "e012",
+"Inferior occipital gyrus and sulcus*": "e012",
+"Transverse occipital sulcus": "e012",
+"Lunate sulcus": "e012",
+"Anterior occipital sulcus*": "e012",
+"Parieto-occipital sulcus": "e013",
+"Transverse temporal gyri": "e014",
+"Temporal plane": "e015",
+"Superior temporal gyrus (Lateral part)": "e016",
+"Superior temporal sulcus": "e016",
+"Middle temporal gyrus": "e017",
+"Inferior temporal gyrus": "e017",
+"Inferior temporal sulcus": "e017",
+"Temporal pole": "e017",
+"Lateral occipitotemporal gyrus": "e017",
+"Occipitotemporal sulcus (Lateral part*)": "e017",
+"Insula (Subcentral gyrus and ant. and post. sulci*)": "e018",
+"Circular sulcus of insula": "e018",
+"Cingulate gyrus and sulcus (Middle anterior part)": "e019",
+"Cingulate gyrus and sulcus (Middle posterior part)": "e019",
+"Cingulate gyrus and sulcus (Posterior dorsal part)": "e019",
+"Cingulate gyrus (Posteroventral part*)": "e019",
+"Cingulate sulcus (Marginal part*)": "e019",
+"Hippocampus": "e020",
+"Hippocampal commissure": "e020",
+"Medial occipitotemporal gyrus (Parahippocampal*)": "e021",
+"Collateral sulcus": "e021",
+" Posterior transverse collateral sulcus": "e021",
+"Amygdaloid body": "e022",
+"Fornix": "e023",
+"Mamillary body": "e023",
+"Septal nuclei": "e023",
+"Stria terminalis": "e023",
+"Habenula": "e023",
+"Stria medullaris thalami": "e023",
+"Corpus callosum": "e024",
+"Anterior commissure": "e024",
+"Posterior commissure": "e024",
+"White matter of telencephalon": "e025",
+"Lateral ventricle": "e026",
+"Third ventricle": "e026",
+"Fourth ventricle": "e026",
+"Aqueduct of midbrain": "e026",
+"Choroid plexus": "e026",
+"Septum pellucidum": "e026",
+"Central canal": "e026",
+"Central canal'": "e026",
+"Falx cerebri": "e027",
+"Tentorium cerebelli": "e027",
+"Spinal dura": "e027",
+"Caudate nucleus": "e028",
+"Putamen": "e028",
+"Globus pallidus": "e028",
+"Lentiform nucleus": "e028",
+"Thalamus": "e029",
+"Hypothalamus": "e030",
+"Lateral geniculate body": "e031",
+"Medial geniculate body": "e032",
+"Optic chiasm": "e033",
+"Optic tract": "e033",
+"Midbrain": "e034",
+"Base of peduncle": "e034",
+"Interpeduncular fossa": "e034",
+"Red nucleus": "e034",
+"Superior colliculus": "e035",
+"Inferior colliculus": "e036",
+"Pons": "e037",
+"Medulla oblongata": "e038",
+"Olive": "e038",
+"Pyramid of medulla oblongata": "e039",
+"Nucleus of oculomotor nerve": "e040",
+"Accessory nucleus of oculomotor nerve": "e041",
+"Nucleus of trochlear nerve": "e042",
+"Nucleus of abducens nerve": "e043",
+"Motor nucleus of facial nerve": "e044",
+"Superior salivatory nucleus": "e045",
+"Vestibular nuclei": "e046",
+"Anterior cochlear nucleus": "e047",
+"Posterior cochlear nucleus": "e048",
+"Inferior salivatory nucleus": "e049",
+"Nucleus ambiguus": "e050",
+"Posterior nucleus of vagus nerve": "e051",
+"Nucleus of hypoglossal nerve": "e052",
+"Nucleus of accessory nerve": "e053",
+"Anterior quadrangular lobule": "e054",
+"Posterior quadrangular lobule": "e054",
+"Superior semilunar lobule": "e054",
+"Inferior semilunar lobule": "e054",
+"Biventral lobule": "e054",
+"Gracile lobule": "e054",
+"Tonsil of cerebellum": "e054",
+"Central lobule": "e054",
+"Wing of central lobule": "e054",
+"Culmen": "e054",
+"Declive": "e054",
+"Folium of vermis": "e054",
+"Tuber of vermis": "e054",
+"Pyramis of vermis": "e054",
+"Uvula of vermis": "e054",
+"Lingula of cerebellum": "e054",
+"Superior cerebellar peduncle": "e054",
+"Flocculus": "e055",
+"Nodule of vermis": "e055",
+"Peduncle of flocculus": "e055",
+"Lateral corticospinal tract": "e056",
+"Anterior corticospinal tract": "e056",
+"Lateral spinothalamic tract": "e057",
+"Anterior spinothalamic tract": "e058",
+"Gracile fasciculus": "e059",
+"Cuneate fasciculus": "e059",
+"Anterior spinocerebellar tract": "e060",
+"Posterior spinocerebellar tract": "e060",
+"Rubrospinal tract": "e061",
+"Tectospinal tract": "e061",
+"Lateral vestibulospinal tract": "e061",
+"Medial vestibulospinal tract": "e061",
+"Lateral reticulospinal tract": "e061",
+"Medial reticulospinal tract": "e061",
+"Spinotectal tract": "e062",
+"Anterior horn of spinal cord": "e063",
+"Posterior horn of spinal cord": "e064",
+"Nucleus proprius": "e064",
+"Spinal reticular process": "e064",
+"Posterolateral tract": "e064",
+"Intermediolateral nucleus": "e065",
+"Intermediomedial nucleus": "e065",
+"Lateral intermediate substance": "e065",
+"White matter of spinal cord": "e066",
+"Anterior fasciculus proprius": "e066",
+"Lateral fasciculus proprius": "e066",
+"Posterior fasciculus proprius": "e066",
+"Retina": "e067",
+"Cornea": "e068",
+"Lens": "e068",
+"Iris": "e068",
+"Sclera": "e068",
+"Vitreous body": "e068",
+"Anterior chamber of eyeball": "e068",
+"Anterior segment of eyeball": "e068",
+"Posterior segment of eyeball": "e068",
+"Zonular fibres": "e068",
+"Suspensory ligament of eyeball": "e068",
+"Lacrimal gland": "e069",
+"Lacrimal sac": "e069",
+"Lacrimal canaliculus": "e069",
+"Ampulla of lacrimal canaliculus": "e069",
+"Nasolacrimal duct": "e069",
+"Olfactory nerve (I)": "e070",
+"Optic nerve (II)": "e071",
+"Oculomotor nerve (III)": "e072",
+"Trochlear nerve (IV)": "e073",
+"Trigeminal nerve (V)": "e074",
+"Abducens nerve (VI)": "e075",
+"Facial nerve (VII)": "e076",
+"Vestibulocochlear nerve (VIII)": "e077",
+"Glossopharyngeal nerve (IX)": "e078",
+"Vagus nerve (X)": "e079",
+"Accessory nerve (XI)": "e080",
+"Hypoglossal nerve (XII)": "e081",
+"Cochlear nerve": "e077",
+"Vestibular nerve": "e077",
+"Ophthalmic nerve": "e074",
+"Maxillary nerve": "e074",
+"Meningeal branch of maxillary nerve": "e074",
+"Anterior division of mandibular nerve": "e074",
+"Posterior division of mandibular nerve": "e074",
+"Motor root of trigeminal nerve": "e074",
+"Sensory root of trigeminal nerve": "e074",
+"Buccal nerve": "e074",
+"Lingual nerve": "e074",
+"Inferior alveolar nerve": "e074",
+"Mental nerve": "e074",
+"Nerve to mylohyoid muscle": "e074",
+"Chorda tympani": "e076"
+}
+}

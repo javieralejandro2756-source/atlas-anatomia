@@ -93,3 +93,9 @@ details { margin-top: 8px; font-size: 13px; }
 .f-lesion-cab strong { font-size: 14px; }
 .f-lesion-valor { font-size: 14px; margin-top: 3px; }
 .f-lesion-pob, .f-lesion-cita { font-size: 12px; color: var(--tenue); margin-top: 3px; overflow-wrap: anywhere; }
+.f-areas { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 2px; }
+.f-areas span { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; padding: 2px 8px; border: 1px solid; border-radius: 999px; }
+.f-areas i, .f-filtro-areas i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.f-filtro-areas { display: flex; flex-wrap: wrap; gap: 6px; }
+.f-filtro-areas button { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; padding: 5px 10px; border-radius: 999px; }
+.f-filtro-areas button[aria-pressed="true"] { background: #1f4a47; border-color: var(--acento); }
