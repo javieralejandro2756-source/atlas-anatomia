@@ -1,0 +1,230 @@
+[
+ {
+  "n": 1,
+  "fichas": [
+   "m174",
+   "m175",
+   "m178"
+  ],
+  "estructura": "Tendón calcáneo (tríceps sural)",
+  "diagnostico": "Tendinopatía aquílea de porción media",
+  "poblacion": "Población general: 57 725 pacientes de atención primaria, Países Bajos (2009)",
+  "medida": "Incidencia",
+  "valor": "1,85 por 1000 pacientes registrados; 2,35 por 1000 en adultos de 21 a 60 años. Relación con deporte en 35 % de los casos.",
+  "cita": "de Jonge S, et al. Br J Sports Med 2011;45(13):1026",
+  "pmid": "21926076",
+  "doi": "10.1136/bjsports-2011-090342",
+  "estado": "propuesta"
+ },
+ {
+  "n": 2,
+  "fichas": [
+   "m174",
+   "m175",
+   "m178"
+  ],
+  "estructura": "Tendón calcáneo (tríceps sural)",
+  "diagnostico": "Rotura aguda del tendón calcáneo",
+  "poblacion": "Población general adulta (≥18 años), registro nacional de Suecia 2001-2012; 27 702 pacientes",
+  "medida": "Incidencia",
+  "valor": "En 2012: 55,2 por 100 000 personas-año en hombres y 14,7 en mujeres (79 % de los casos en hombres).",
+  "cita": "Huttunen TT, et al. Am J Sports Med 2014",
+  "pmid": "25056989",
+  "doi": "10.1177/0363546514540599",
+  "estado": "propuesta"
+ },
+ {
+  "n": 3,
+  "fichas": [
+   "m174",
+   "m175",
+   "m178"
+  ],
+  "estructura": "Músculos de la pantorrilla",
+  "diagnostico": "Lesión muscular de la pantorrilla",
+  "poblacion": "Futbolistas profesionales hombres, 51 equipos europeos, 2001-2009; 2908 lesiones musculares",
+  "medida": "Proporción de lesiones musculares",
+  "valor": "13 % de todas las lesiones musculares. Es el único grupo cuya incidencia aumentó con la edad.",
+  "cita": "Ekstrand J, et al. Am J Sports Med 2011",
+  "pmid": "21335353",
+  "doi": "10.1177/0363546510395879",
+  "estado": "propuesta"
+ },
+ {
+  "n": 4,
+  "fichas": [
+   "m175"
+  ],
+  "estructura": "Cabeza medial del gastrocnemio",
+  "diagnostico": "Distensión del gastrocnemio",
+  "poblacion": "Futbolistas australianos de élite, hombres, 2014-2023; 82 lesiones confirmadas por resonancia",
+  "medida": "Proporción dentro del músculo",
+  "valor": "78 % de las lesiones del gastrocnemio afectaron la cabeza medial.",
+  "cita": "Gray et al. J Orthop Sports Phys Ther 2025",
+  "pmid": "40985375",
+  "doi": "10.2519/jospt.2025.13526",
+  "estado": "propuesta"
+ },
+ {
+  "n": 5,
+  "fichas": [
+   "m168",
+   "m173",
+   "m169",
+   "m170"
+  ],
+  "estructura": "Isquiotibiales",
+  "diagnostico": "Lesión muscular de isquiotibiales",
+  "poblacion": "Futbolistas profesionales hombres, 51 equipos europeos, 2001-2009",
+  "medida": "Proporción de lesiones musculares",
+  "valor": "37 % de todas las lesiones musculares: el grupo más afectado.",
+  "cita": "Ekstrand J, et al. Am J Sports Med 2011",
+  "pmid": "21335353",
+  "doi": "10.1177/0363546510395879",
+  "estado": "propuesta"
+ },
+ {
+  "n": 6,
+  "fichas": [
+   "m168",
+   "m173"
+  ],
+  "estructura": "Bíceps femoral",
+  "diagnostico": "Lesión de isquiotibiales: músculo afectado",
+  "poblacion": "Futbolistas profesionales hombres, 23 equipos europeos, 2007-2011; 516 lesiones de isquiotibiales",
+  "medida": "Proporción dentro del grupo",
+  "valor": "Bíceps femoral 83 %, semimembranoso 11 %, semitendinoso 5 %. Todas las relesiones fueron del bíceps femoral. El estudio no separa cabeza larga y corta.",
+  "cita": "Ekstrand J, et al. Br J Sports Med 2012;46(2):112-7",
+  "pmid": "22144005",
+  "doi": "10.1136/bjsports-2011-090155",
+  "estado": "propuesta"
+ },
+ {
+  "n": 7,
+  "fichas": [
+   "m170"
+  ],
+  "estructura": "Semimembranoso",
+  "diagnostico": "Lesión de isquiotibiales: músculo afectado",
+  "poblacion": "Futbolistas profesionales hombres, 23 equipos europeos, 2007-2011",
+  "medida": "Proporción dentro del grupo",
+  "valor": "11 % de las lesiones de isquiotibiales.",
+  "cita": "Ekstrand J, et al. Br J Sports Med 2012;46(2):112-7",
+  "pmid": "22144005",
+  "doi": "10.1136/bjsports-2011-090155",
+  "estado": "propuesta"
+ },
+ {
+  "n": 8,
+  "fichas": [
+   "m169"
+  ],
+  "estructura": "Semitendinoso",
+  "diagnostico": "Lesión de isquiotibiales: músculo afectado",
+  "poblacion": "Futbolistas profesionales hombres, 23 equipos europeos, 2007-2011",
+  "medida": "Proporción dentro del grupo",
+  "valor": "5 % de las lesiones de isquiotibiales.",
+  "cita": "Ekstrand J, et al. Br J Sports Med 2012;46(2):112-7",
+  "pmid": "22144005",
+  "doi": "10.1136/bjsports-2011-090155",
+  "estado": "propuesta"
+ },
+ {
+  "n": 9,
+  "fichas": [
+   "m161"
+  ],
+  "estructura": "Aductor largo",
+  "diagnostico": "Lesión aguda de ingle",
+  "poblacion": "110 atletas hombres con dolor agudo de ingle (sobre todo fútbol), 2012-2014",
+  "medida": "Proporción de lesiones",
+  "valor": "Los aductores fueron 66 % de las lesiones; en imagen, el aductor largo estuvo afectado en 91 % (ecografía) y 93 % (resonancia) de ellas.",
+  "cita": "Serner A, et al. Am J Sports Med 2015",
+  "pmid": "25977522",
+  "doi": "10.1177/0363546515585123",
+  "estado": "propuesta"
+ },
+ {
+  "n": 10,
+  "fichas": [
+   "m161",
+   "m159",
+   "m162",
+   "m160",
+   "m172"
+  ],
+  "estructura": "Aductores",
+  "diagnostico": "Lesión muscular de aductores",
+  "poblacion": "Futbolistas profesionales hombres, 51 equipos europeos, 2001-2009",
+  "medida": "Proporción de lesiones musculares",
+  "valor": "23 % de todas las lesiones musculares.",
+  "cita": "Ekstrand J, et al. Am J Sports Med 2011",
+  "pmid": "21335353",
+  "doi": "10.1177/0363546510395879",
+  "estado": "propuesta"
+ },
+ {
+  "n": 11,
+  "fichas": [
+   "m164"
+  ],
+  "estructura": "Recto femoral",
+  "diagnostico": "Lesión aguda de ingle",
+  "poblacion": "75 atletas hombres con lesión aguda de ingle, 85 lesiones en resonancia",
+  "medida": "Proporción de lesiones",
+  "valor": "Recto femoral 16,3 % de las lesiones agudas (segundo después del aductor largo, 42,7 %).",
+  "cita": "Serner A, et al. Eur Radiol 2017",
+  "pmid": "27380903",
+  "doi": "10.1007/s00330-016-4487-z",
+  "estado": "propuesta"
+ },
+ {
+  "n": 12,
+  "fichas": [
+   "m164",
+   "m165",
+   "m166",
+   "m167"
+  ],
+  "estructura": "Cuádriceps",
+  "diagnostico": "Lesión muscular del cuádriceps",
+  "poblacion": "Futbolistas profesionales hombres, 51 equipos europeos, 2001-2009",
+  "medida": "Proporción de lesiones musculares",
+  "valor": "19 % de todas las lesiones musculares.",
+  "cita": "Ekstrand J, et al. Am J Sports Med 2011",
+  "pmid": "21335353",
+  "doi": "10.1177/0363546510395879",
+  "estado": "propuesta"
+ },
+ {
+  "n": 13,
+  "fichas": [
+   "m137",
+   "m140"
+  ],
+  "estructura": "Glúteo medio y menor",
+  "diagnostico": "Síndrome de dolor del trocánter mayor",
+  "poblacion": "Población general: 3026 adultos de 50 a 79 años que viven en la comunidad (EE. UU.)",
+  "medida": "Prevalencia",
+  "valor": "Mujeres: 15,0 % unilateral y 8,5 % bilateral. Hombres: 6,6 % y 1,9 %. Es un diagnóstico clínico (dolor a la palpación del trocánter); no confirma por imagen qué tendón está afectado.",
+  "cita": "Segal NA, et al. Arch Phys Med Rehabil 2007",
+  "pmid": "17678660",
+  "doi": "10.1016/j.apmr.2007.04.014",
+  "estado": "propuesta"
+ },
+ {
+  "n": 14,
+  "fichas": [
+   "m179"
+  ],
+  "estructura": "Tibial posterior",
+  "diagnostico": "Disfunción del tendón tibial posterior (estadios I y II)",
+  "poblacion": "Mujeres mayores de 40 años, muestra aleatoria de atención primaria en Inglaterra (582 respuestas)",
+  "medida": "Prevalencia",
+  "valor": "3,3 %. Ninguna tenía diagnóstico previo.",
+  "cita": "Kohls-Gatzoulis J, et al. Foot Ankle Surg 2009",
+  "pmid": "19410173",
+  "doi": "10.1016/j.fas.2008.08.003",
+  "estado": "propuesta"
+ }
+]

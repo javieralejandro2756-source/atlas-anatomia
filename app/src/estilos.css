@@ -85,3 +85,11 @@ details { margin-top: 8px; font-size: 13px; }
 .f-raices b.principal { background: #1f4a47; border-color: var(--acento); color: #fff; }
 .f-leyenda { display: block; font-size: 12px; color: var(--tenue); margin-top: 4px; }
 .f-fuente { font-size: 12px; color: var(--tenue); margin: 4px 0 0; }
+.f-lesiones { margin-top: 12px; border-top: 1px solid var(--linea); padding-top: 8px; }
+.f-lesiones h4 { margin: 0 0 6px; font-size: 13px; color: var(--tenue); }
+.f-lesion { padding: 8px 0; border-bottom: 1px dashed var(--linea); }
+.f-lesion:last-child { border-bottom: 0; }
+.f-lesion-cab { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 8px; align-items: baseline; }
+.f-lesion-cab strong { font-size: 14px; }
+.f-lesion-valor { font-size: 14px; margin-top: 3px; }
+.f-lesion-pob, .f-lesion-cita { font-size: 12px; color: var(--tenue); margin-top: 3px; overflow-wrap: anywhere; }

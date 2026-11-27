@@ -62,7 +62,22 @@ export interface Ficha {
   tipo: string;
 }
 
+export interface Lesion {
+  n: number;
+  fichas: string[];
+  estructura: string;
+  diagnostico: string;
+  poblacion: string;
+  medida: string;
+  valor: string;
+  cita: string;
+  pmid: string;
+  doi: string;
+  estado: string; // "propuesta" hasta que el usuario la apruebe; "aprobada" después
+}
+
 export interface Datos {
+  lesiones: Lesion[];
   manifest: Manifest;
   nombres: Nombres;
   fichas: Record<string, Ficha>;
@@ -95,13 +110,14 @@ export function nombreVisible(nombre: string, nombres: Nombres) {
 
 /** carpeta: "./modelos/" (Mac) o "../modelos-iphone/" (iPhone); raiz: "./" o "../". */
 export async function cargarDatos(carpeta = "./modelos/", raiz = "./"): Promise<Datos> {
-  const [manifest, nombres, lista, mapeo] = await Promise.all([
+  const [manifest, nombres, lista, mapeo, lesiones] = await Promise.all([
     fetch(carpeta + "manifest.json").then((r) => r.json()),
     fetch(carpeta + "nombres.json").then((r) => r.json()),
     fetch(raiz + "datos/fichas.json").then((r) => r.json()),
     fetch(raiz + "datos/mapeo.json").then((r) => r.json()),
+    fetch(raiz + "datos/lesiones.json").then((r) => (r.ok ? r.json() : [])).catch(() => []),
   ]);
   const fichas: Record<string, Ficha> = {};
   for (const f of lista as Ficha[]) fichas[f.id] = f;
-  return { manifest, nombres, fichas, mapeo };
+  return { manifest, nombres, fichas, mapeo, lesiones };
 }

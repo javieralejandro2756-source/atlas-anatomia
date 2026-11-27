@@ -101,7 +101,7 @@ export default function AppIphone() {
                 <button onClick={() => setEstado((s) => ({ transparentes: alternar(s.transparentes, sel.name) }))}>{e.transparentes.has(sel.name) ? "Opaco" : "Transparente"}</button>
                 <button onClick={() => { setEstado((s) => ({ ocultas: alternar(s.ocultas, sel.name), seleccion: null })); setFichaAbierta(false); }}>Ocultar</button>
               </div>
-              {conFicha && <FichaVista fichas={fichas} />}
+              {conFicha && <FichaVista fichas={fichas} lesiones={datos.lesiones} />}
             </div>
           )}
         </div>

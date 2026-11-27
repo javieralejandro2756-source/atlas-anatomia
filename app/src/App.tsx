@@ -147,7 +147,7 @@ export default function App() {
             <button onClick={() => setEstado((s) => ({ transparentes: alternar(s.transparentes, sel.name) }))}>{e.transparentes.has(sel.name) ? "Opaco" : "Transparentar"}</button>
             <button onClick={() => window.dispatchEvent(new CustomEvent("atlas:enfocar", { detail: sel.name }))}>Enfocar</button>
           </div>
-          {conFicha && <FichaVista fichas={fichas} />}
+          {conFicha && <FichaVista fichas={fichas} lesiones={datos.lesiones} />}
         </aside>
       )}
       {e.mostrarCreditos && <Creditos onCerrar={() => setEstado({ mostrarCreditos: false })} />}
