@@ -2,12 +2,13 @@
 import { useEffect, useMemo, useState } from "react";
 import Visor, { type Perfil } from "../Visor";
 import Creditos from "../Creditos";
-import { REGIONES, SISTEMAS, cargarDatos, nombreVisible, tipoZona, type Manifest, type Nombres } from "../datos";
+import { REGIONES, SISTEMAS, cargarDatos, fichasDe, nombreVisible, tipoZona, type Datos } from "../datos";
+import FichaVista from "../FichaVista";
 import { alternar, setEstado, useEstado } from "../estado";
 import { mallas } from "../escena";
 import { devolverCapa, enfocar, medir, mostrarTodo, quitarCapa } from "../acciones";
 
-const PERFIL_IPHONE: Perfil = { carpeta: "../modelos-iphone/", draco: "../draco/", dpr: [1, 2.5], tactil: true };
+const PERFIL_IPHONE: Perfil = { carpeta: "../modelos-iphone/", draco: "../draco/", dpr: [1, 3], tactil: true };
 const NOMBRE_SISTEMA = Object.fromEntries(SISTEMAS.map((s) => [s.id, s.nombre]));
 const NOMBRE_REGION = Object.fromEntries(REGIONES.map((r) => [r.id, r.nombre]));
 const mb = (b: number) => (b / 1e6).toFixed(1) + " MB";
@@ -19,7 +20,8 @@ const instalada = () =>
   window.matchMedia?.("(display-mode: standalone)").matches || (navigator as any).standalone === true;
 
 export default function AppIphone() {
-  const [datos, setDatos] = useState<{ manifest: Manifest; nombres: Nombres } | null>(null);
+  const [datos, setDatos] = useState<Datos | null>(null);
+  const [fichaAbierta, setFichaAbierta] = useState(false);
   const [error, setError] = useState("");
   const [abierta, setAbierta] = useState(false);
   const [pestana, setPestana] = useState<Pestana>("capas");
@@ -29,7 +31,7 @@ export default function AppIphone() {
   const e = useEstado((x) => x);
 
   useEffect(() => {
-    cargarDatos(PERFIL_IPHONE.carpeta).then(setDatos).catch(() => setError("No se pudieron leer los modelos. Revisa la conexión."));
+    cargarDatos(PERFIL_IPHONE.carpeta, "../").then(setDatos).catch(() => setError("No se pudieron leer los modelos. Revisa la conexión."));
     let primero = true;
     const alCargar = () => { if (primero) { primero = false; setTimeout(() => enfocar(), 60); } };
     const alMedir = (ev: Event) => { setMedicion((ev as CustomEvent).detail); setMidiendo(false); };
@@ -51,6 +53,8 @@ export default function AppIphone() {
   const sel = e.seleccion ? mallas.get(e.seleccion) : null;
   const nom = e.seleccion ? nombreVisible(e.seleccion, datos.nombres) : null;
   const zona = e.seleccion ? tipoZona(e.seleccion) : null;
+  const fichas = e.seleccion ? fichasDe(e.seleccion, datos) : [];
+  const conFicha = sel && (sel.userData.sistema === "musculos" || sel.userData.sistema === "inserciones");
   const lado = sel && /\.([lr]|[oe]\d*[lr])$/.test(sel.name) ? (sel.name.endsWith("l") ? "izquierdo" : "derecho") : "";
 
   return (
@@ -75,25 +79,31 @@ export default function AppIphone() {
 
       {aviso && <div className="i-aviso" role="status">{aviso}</div>}
 
-      {/* Ficha de la selección */}
+      {/* Ficha de la selección: compacta (no tapa el modelo) o desplegada para leer */}
       {sel && nom && (
-        <div className="i-ficha" role="dialog" aria-label="Estructura seleccionada">
+        <div className={`i-ficha${fichaAbierta ? " abierta" : ""}`} role="dialog" aria-label="Estructura seleccionada">
           <div className="i-ficha-cab">
-            <div>
+            <button className="i-ficha-titulo" aria-expanded={fichaAbierta} onClick={() => setFichaAbierta(!fichaAbierta)}>
               <strong>{nom.es}</strong>
+              <span className="i-sub">{fichaAbierta ? "Ocultar ficha ▾" : conFicha ? "Ver ficha: origen, inserción, raíces ▴" : "Ver detalles ▴"}</span>
+            </button>
+            <button className="i-x" aria-label="Quitar selección" onClick={() => { setEstado({ seleccion: null }); setFichaAbierta(false); }}>×</button>
+          </div>
+          {fichaAbierta && (
+            <div className="i-ficha-cuerpo">
               <div className="i-sub">{nom.la}{nom.traducido && nom.la ? " · " : ""}{nom.traducido ? nom.en : ""}</div>
               <div className="i-sub">
                 {NOMBRE_SISTEMA[sel.userData.sistema]}{zona ? ` · ${zona === "origen" ? "zona de origen" : "zona de inserción"}` : ""} · {NOMBRE_REGION[sel.userData.region]}{lado ? ` · ${lado}` : ""}
               </div>
+              <div className="i-acciones">
+                <button onClick={() => { setFichaAbierta(false); enfocar(sel.name); }}>Enfocar</button>
+                <button onClick={() => setEstado((s) => ({ aisladas: s.aisladas ? null : new Set([sel.name]) }))}>{e.aisladas ? "Ver todo" : "Aislar"}</button>
+                <button onClick={() => setEstado((s) => ({ transparentes: alternar(s.transparentes, sel.name) }))}>{e.transparentes.has(sel.name) ? "Opaco" : "Transparente"}</button>
+                <button onClick={() => { setEstado((s) => ({ ocultas: alternar(s.ocultas, sel.name), seleccion: null })); setFichaAbierta(false); }}>Ocultar</button>
+              </div>
+              {conFicha && <FichaVista fichas={fichas} />}
             </div>
-            <button className="i-x" aria-label="Quitar selección" onClick={() => setEstado({ seleccion: null })}>×</button>
-          </div>
-          <div className="i-acciones">
-            <button onClick={() => enfocar(sel.name)}>Enfocar</button>
-            <button onClick={() => setEstado((s) => ({ aisladas: s.aisladas ? null : new Set([sel.name]) }))}>{e.aisladas ? "Ver todo" : "Aislar"}</button>
-            <button onClick={() => setEstado((s) => ({ transparentes: alternar(s.transparentes, sel.name) }))}>{e.transparentes.has(sel.name) ? "Opaco" : "Transparente"}</button>
-            <button onClick={() => setEstado((s) => ({ ocultas: alternar(s.ocultas, sel.name), seleccion: null }))}>Ocultar</button>
-          </div>
+          )}
         </div>
       )}
 

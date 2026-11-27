@@ -13,7 +13,7 @@ export const REGIONES: { id: Region; nombre: string }[] = [
 export const SISTEMAS: { id: Sistema; nombre: string; color: string }[] = [
   { id: "huesos", nombre: "Huesos", color: "#e9dfc9" },
   { id: "ligamentos", nombre: "Ligamentos y articulaciones", color: "#c9c08e" },
-  { id: "musculos", nombre: "Músculos y tendones", color: "#b8463c" },
+  { id: "musculos", nombre: "Músculos y tendones", color: "#a8342b" },
   { id: "fascias", nombre: "Fascias, bolsas y vainas", color: "#b9c6cc" },
   { id: "nervios", nombre: "Nervios periféricos", color: "#f0c419" },
   { id: "inserciones", nombre: "Orígenes e inserciones", color: "#7a5cc7" },
@@ -44,6 +44,36 @@ export interface Manifest {
 
 export type Nombres = Record<string, { es: string; la: string }>;
 
+export interface Ficha {
+  id: string;
+  nombre: string;
+  region: string;
+  origen: string;
+  insercion: string;
+  inervacion: string;
+  raices: string[];
+  raiz_principal: string[];
+  pares_craneales: string[];
+  inervacion_segmentaria: boolean;
+  irrigacion: string;
+  funcion: string;
+  estado: string;
+  fuente_cotejo: string;
+  tipo: string;
+}
+
+export interface Datos {
+  manifest: Manifest;
+  nombres: Nombres;
+  fichas: Record<string, Ficha>;
+  mapeo: Record<string, string[]>; // nombre base de malla -> ids de ficha
+}
+
+/** Fichas ligadas a una malla (también para sus zonas de origen e inserción). */
+export function fichasDe(nombreMalla: string, d: Datos): Ficha[] {
+  return (d.mapeo[base(nombreMalla)] ?? []).map((id) => d.fichas[id]).filter(Boolean);
+}
+
 /** Nombre sin el sufijo de lado (.l, .r, .j) ni el de origen/inserción (.ol, .e2r...). */
 export function base(nombre: string): string {
   return nombre.replace(/\.(l|r|j|[oe]\d*[lr])$/, "").trim();
@@ -63,11 +93,15 @@ export function nombreVisible(nombre: string, nombres: Nombres) {
   return { es: es || b, en: b, la: t?.la ?? "", traducido: Boolean(es) };
 }
 
-/** carpeta: "./modelos/" (Mac) o "../modelos-iphone/" (iPhone). */
-export async function cargarDatos(carpeta = "./modelos/"): Promise<{ manifest: Manifest; nombres: Nombres }> {
-  const [manifest, nombres] = await Promise.all([
+/** carpeta: "./modelos/" (Mac) o "../modelos-iphone/" (iPhone); raiz: "./" o "../". */
+export async function cargarDatos(carpeta = "./modelos/", raiz = "./"): Promise<Datos> {
+  const [manifest, nombres, lista, mapeo] = await Promise.all([
     fetch(carpeta + "manifest.json").then((r) => r.json()),
     fetch(carpeta + "nombres.json").then((r) => r.json()),
+    fetch(raiz + "datos/fichas.json").then((r) => r.json()),
+    fetch(raiz + "datos/mapeo.json").then((r) => r.json()),
   ]);
-  return { manifest, nombres };
+  const fichas: Record<string, Ficha> = {};
+  for (const f of lista as Ficha[]) fichas[f.id] = f;
+  return { manifest, nombres, fichas, mapeo };
 }

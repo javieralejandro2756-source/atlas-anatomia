@@ -1,0 +1,357 @@
+{
+"Temporalis muscle": [
+"m001"
+],
+"Orbicularis oris muscle": [
+"m010"
+],
+"Levator labii superioris": [
+"m013"
+],
+"Zygomaticus minor muscle": [
+"m015"
+],
+"Zygomaticus major muscle": [
+"m016"
+],
+"Risorius muscle": [
+"m017"
+],
+"Depressor labii inferioris": [
+"m018"
+],
+"Sternocleidomastoid muscle": [
+"m021"
+],
+"Scalenus anterior muscle": [
+"m022"
+],
+"Scalenus medius muscle": [
+"m023"
+],
+"Scalenus posterior muscle": [
+"m024"
+],
+"Stylohyoid muscle": [
+"m025"
+],
+"Mylohyoid muscle": [
+"m027"
+],
+"Genioglossus muscle": [
+"m029"
+],
+"Sternohyoid muscle": [
+"m030"
+],
+"Omohyoid muscle": [
+"m031"
+],
+"Sternothyroid muscle": [
+"m032"
+],
+"Thyrohyoid muscle": [
+"m033"
+],
+"Levator scapulae": [
+"m036"
+],
+"Splenius capitis muscle": [
+"m039"
+],
+"Rectus posterior major capitis muscle": [
+"m043"
+],
+"Rectus posterior minor capitis muscle": [
+"m044"
+],
+"Rotatores": [
+"m050"
+],
+"Pectoralis minor muscle": [
+"m055",
+"m084"
+],
+"Subclavius muscle": [
+"m056"
+],
+"External intercostal muscles": [
+"m058"
+],
+"Internal intercostal muscles": [
+"m059"
+],
+"Innermost intercostal muscles": [
+"m060"
+],
+"Transversus thoracis muscle": [
+"m062"
+],
+"Transversus abdominis muscle": [
+"m066"
+],
+"Rectus abdominis muscle": [
+"m067"
+],
+"Quadratus lumborum muscle": [
+"m069"
+],
+"Psoas major": [
+"m070"
+],
+"Iliacus muscle": [
+"m071"
+],
+"Diaphragm": [
+"m073"
+],
+"Supraspinatus muscle": [
+"m087"
+],
+"Infraspinatus muscle": [
+"m088"
+],
+"Teres minor muscle": [
+"m089"
+],
+"Teres major muscle": [
+"m090"
+],
+"Subscapularis muscle": [
+"m091"
+],
+"Coracobrachialis muscle": [
+"m093"
+],
+"Brachialis muscle": [
+"m094"
+],
+"Brachioradialis muscle": [
+"m096"
+],
+"Extensor carpi radialis longus": [
+"m097"
+],
+"Extensor carpi radialis brevis": [
+"m098"
+],
+"Supinator": [
+"m099"
+],
+"Flexor carpi radialis": [
+"m101"
+],
+"Flexor digitorum profundus": [
+"m103"
+],
+"Palmaris longus muscle": [
+"m104"
+],
+"Flexor pollicis longus": [
+"m105"
+],
+"Pronator quadratus": [
+"m106"
+],
+"Extensor digitorum": [
+"m108"
+],
+"Anconeus muscle": [
+"m109"
+],
+"Abductor pollicis longus": [
+"m112"
+],
+"Extensor pollicis longus": [
+"m113"
+],
+"Extensor pollicis brevis": [
+"m114"
+],
+"Extensor indicis": [
+"m115"
+],
+"Abductor pollicis brevis": [
+"m118"
+],
+"Opponens pollicis muscle": [
+"m120"
+],
+"Oblique head of adductor pollicis": [
+"m122"
+],
+"Transverse head of adductor pollicis": [
+"m123"
+],
+"Gluteus medius muscle": [
+"m137"
+],
+"Tensor fasciae latae": [
+"m138"
+],
+"Gluteus maximus muscle": [
+"m139"
+],
+"Gluteus minimus muscle": [
+"m140"
+],
+"Piriformis muscle": [
+"m141"
+],
+"Superior gemellus muscle": [
+"m142"
+],
+"Inferior gemellus muscle": [
+"m143"
+],
+"Quadratus femoris muscle": [
+"m144"
+],
+"Obturator externus": [
+"m145"
+],
+"Obturator internus": [
+"m146"
+],
+"Coccygeus muscle": [
+"m147"
+],
+"Iliococcygeus muscle": [
+"m148"
+],
+"Pubococcygeus muscle": [
+"m149"
+],
+"Pubo-analis muscle": [
+"m150"
+],
+"Adductor brevis": [
+"m159"
+],
+"Pectineus muscle": [
+"m160"
+],
+"Adductor longus": [
+"m161"
+],
+"Adductor magnus": [
+"m162"
+],
+"Sartorius muscle": [
+"m163"
+],
+"Rectus femoris muscle": [
+"m164"
+],
+"Vastus intermedius muscle": [
+"m165"
+],
+"Vastus lateralis muscle": [
+"m166"
+],
+"Vastus medialis muscle": [
+"m167"
+],
+"Long head of biceps femoris": [
+"m168"
+],
+"Semitendinosus muscle": [
+"m169"
+],
+"Semimembranosus muscle": [
+"m170"
+],
+"Gracilis muscle": [
+"m172"
+],
+"Short head of biceps femoris": [
+"m173"
+],
+"Lateral head of gastrocnemius": [
+"m174"
+],
+"Medial head of gastrocnemius": [
+"m175"
+],
+"Popliteus muscle": [
+"m176"
+],
+"Plantaris muscle": [
+"m177"
+],
+"Soleus muscle": [
+"m178"
+],
+"Tibialis posterior muscle": [
+"m179"
+],
+"Flexor digitorum longus": [
+"m180"
+],
+"Flexor hallucis longus": [
+"m182"
+],
+"Fibularis longus muscle": [
+"m183"
+],
+"Extensor digitorum longus": [
+"m184"
+],
+"Tibialis anterior muscle": [
+"m185"
+],
+"Extensor hallucis longus": [
+"m186"
+],
+"Fibularis brevis muscle": [
+"m187"
+],
+"Fibularis tertius muscle": [
+"m188"
+],
+"Extensor digitorum brevis": [
+"m189"
+],
+"Extensor hallucis brevis": [
+"m190"
+],
+"Flexor digitorum brevis": [
+"m191"
+],
+"Abductor digiti minimi of foot": [
+"m192"
+],
+"Quadratus plantae muscle": [
+"m193"
+],
+"Abductor hallucis": [
+"m194"
+],
+"Medial head of flexor hallucis brevis": [
+"m195"
+],
+"Lateral head of flexor hallucis brevis": [
+"m195"
+],
+"Lumbrical muscles of foot": [
+"m196"
+],
+"Oblique head of adductor hallucis": [
+"m197"
+],
+"Transverse head of adductor hallucis": [
+"m198"
+],
+"Plantar interossei muscles": [
+"m199"
+],
+"Flexor digiti minimi of foot": [
+"m200"
+],
+"Dorsal interossei muscles of foot": [
+"m201",
+"m202",
+"m203",
+"m204"
+]
+}

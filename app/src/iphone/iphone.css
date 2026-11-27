@@ -17,7 +17,7 @@ body { position: fixed; inset: 0; overflow: hidden; }
 
 .i-flotantes {
   position: absolute; right: calc(env(safe-area-inset-right, 0px) + 12px);
-  bottom: calc(env(safe-area-inset-bottom, 0px) + 76px);
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 136px);
   display: flex; flex-direction: column; gap: 10px;
 }
 .i-flotantes button {
@@ -33,12 +33,16 @@ body { position: fixed; inset: 0; overflow: hidden; }
 }
 
 .i-ficha {
-  position: absolute; left: calc(env(safe-area-inset-left, 0px) + 10px); right: calc(env(safe-area-inset-right, 0px) + 86px);
-  bottom: calc(env(safe-area-inset-bottom, 0px) + 76px);
-  background: rgba(27, 31, 38, 0.97); border: 1px solid var(--linea); border-radius: 16px; padding: 12px 12px 10px;
+  position: absolute; left: calc(env(safe-area-inset-left, 0px) + 10px); right: calc(env(safe-area-inset-right, 0px) + 10px);
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 62px);
+  background: rgba(27, 31, 38, 0.97); border: 1px solid var(--linea); border-radius: 16px; padding: 4px 6px 4px 12px;
+  display: flex; flex-direction: column; max-height: 66%;
 }
-.i-ficha-cab { display: flex; justify-content: space-between; gap: 8px; }
-.i-ficha strong { font-size: 18px; line-height: 1.25; display: block; }
+.i-ficha.abierta { padding-bottom: 10px; }
+.i-ficha-cab { display: flex; justify-content: space-between; align-items: center; gap: 6px; }
+.i-ficha-titulo { flex: 1; text-align: left; background: none !important; border: 0 !important; padding: 6px 0 !important; display: flex; flex-direction: column; align-items: flex-start; }
+.i-ficha strong { font-size: 17px; line-height: 1.25; display: block; }
+.i-ficha-cuerpo { overflow-y: auto; -webkit-overflow-scrolling: touch; padding-right: 6px; }
 .i-sub { font-size: 13px; color: var(--tenue); margin-top: 2px; }
 .i-x { background: none !important; border: 0 !important; font-size: 26px !important; width: 44px; padding: 0; line-height: 1; }
 .i-acciones { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 10px; }
@@ -69,6 +73,6 @@ body { position: fixed; inset: 0; overflow: hidden; }
 
 /* Horizontal: la ficha a la izquierda, sin tapar el modelo */
 @media (orientation: landscape) {
-  .i-ficha { right: auto; width: 340px; }
+  .i-ficha { right: auto; width: 380px; max-height: 80%; }
   .i-hoja.abierta { max-height: 85%; left: auto; width: 420px; right: env(safe-area-inset-right, 0px); }
 }

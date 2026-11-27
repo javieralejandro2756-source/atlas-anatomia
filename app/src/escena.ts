@@ -10,9 +10,11 @@ import { esVisible, type Estado } from "./estado";
 THREE.Mesh.prototype.raycast = acceleratedRaycast;
 
 export const mallas = new Map<string, THREE.Mesh>();
+// Acceso para pruebas automáticas (sin efecto en el uso normal).
+(window as any).__atlas = { mallas, THREE };
 
 function mat(color: string, extra: Partial<THREE.MeshStandardMaterialParameters> = {}) {
-  return new THREE.MeshStandardMaterial({ color, roughness: 0.62, metalness: 0, ...extra });
+  return new THREE.MeshStandardMaterial({ color, roughness: 0.55, metalness: 0, envMapIntensity: 0.55, ...extra });
 }
 
 const base: Record<string, THREE.MeshStandardMaterial> = {};

@@ -2,6 +2,7 @@ import { Suspense, useEffect, useMemo, useRef } from "react";
 import { Canvas, useThree, useFrame, type ThreeEvent } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 import * as THREE from "three";
+import { RoomEnvironment } from "three/examples/jsm/environments/RoomEnvironment.js";
 import type { Manifest } from "./datos";
 import { getEstado, setEstado, useEstado } from "./estado";
 import { aplicarEstado, mallas, quitarArchivo, registrar, triangulosVisibles } from "./escena";
@@ -39,6 +40,48 @@ function Contador({ archivo }: { archivo: string }) {
   return null;
 }
 
+/** Luz ambiental de estudio (generada, sin descargar nada): da relieve a fibras y bordes. */
+function Ambiente() {
+  const { gl, scene, invalidate } = useThree();
+  useEffect(() => {
+    const pmrem = new THREE.PMREMGenerator(gl);
+    const tex = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+    scene.environment = tex;
+    invalidate();
+    return () => { scene.environment = null; tex.dispose(); pmrem.dispose(); };
+  }, [gl, scene, invalidate]);
+  return null;
+}
+
+// Cámara y tamaño actuales, para la selección tolerante al dedo.
+const ctx3 = { camera: null as THREE.Camera | null, size: { width: 1, height: 1 } };
+function Contexto() {
+  const camera = useThree((s) => s.camera);
+  const size = useThree((s) => s.size);
+  ctx3.camera = camera;
+  ctx3.size = size;
+  return null;
+}
+
+/** Busca la estructura visible más cercana alrededor del punto tocado (radio en px). */
+function buscarCerca(cx: number, cy: number, radio: number): string | null {
+  const cam = ctx3.camera;
+  if (!cam) return null;
+  const visibles = [...mallas.values()].filter((m) => m.visible);
+  const ray = new THREE.Raycaster();
+  (ray as any).firstHitOnly = true;
+  for (const r of [radio / 3, (radio * 2) / 3, radio]) {
+    for (let k = 0; k < 12; k++) {
+      const a = (k / 12) * Math.PI * 2;
+      const x = cx + Math.cos(a) * r, y = cy + Math.sin(a) * r;
+      ray.setFromCamera(new THREE.Vector2((x / ctx3.size.width) * 2 - 1, -(y / ctx3.size.height) * 2 + 1), cam);
+      const h = ray.intersectObjects(visibles, false)[0];
+      if (h) return h.object.name;
+    }
+  }
+  return null;
+}
+
 /** Aplica el estado a la escena cada vez que cambia y pide un cuadro nuevo. */
 function Sincronizar() {
   const invalidate = useThree((s) => s.invalidate);
@@ -53,6 +96,7 @@ function Sincronizar() {
 /** Enfoca la cámara en la selección al hacer doble clic o al pedirlo desde el panel. */
 function Enfoque() {
   const { camera, controls, invalidate } = useThree() as any;
+  (window as any).__atlas = { ...(window as any).__atlas, camera };
   useEffect(() => {
     const f = (ev: Event) => {
       const nombre = (ev as CustomEvent).detail as string | undefined;
@@ -142,7 +186,9 @@ export default function Visor({ manifest, perfil = PERFIL_MAC }: { manifest: Man
     if (ev.delta > (perfil.tactil ? 10 : 4)) return; // fue un arrastre, no un toque
     const hit = ev.intersections.find((i) => i.object.visible && (i.object as THREE.Mesh).isMesh);
     ev.stopPropagation();
-    setEstado({ seleccion: hit ? hit.object.name : null });
+    // El rayo pudo tocar solo mallas ocultas (capas quitadas): se busca alrededor del dedo.
+    const cerca = hit ? null : buscarCerca(ev.nativeEvent.offsetX, ev.nativeEvent.offsetY, perfil.tactil ? 18 : 6);
+    setEstado({ seleccion: hit ? hit.object.name : cerca });
   };
   const alDobleClic = (ev: ThreeEvent<MouseEvent>) => {
     const hit = ev.intersections.find((i) => i.object.visible);
@@ -154,14 +200,20 @@ export default function Visor({ manifest, perfil = PERFIL_MAC }: { manifest: Man
     <Canvas
       frameloop="demand"
       dpr={perfil.dpr}
-      gl={{ antialias: true, powerPreference: "high-performance" }}
+      gl={{ antialias: true, powerPreference: "high-performance", toneMapping: THREE.NeutralToneMapping }}
       camera={{ position: [0.9, 0.8, 1.6], fov: 35, near: 0.01, far: 50 }}
-      onPointerMissed={() => setEstado({ seleccion: null })}
+      onPointerMissed={(ev) => {
+        // Toque fuera de todo: con el dedo se busca alrededor antes de quitar la selección.
+        const cerca = perfil.tactil ? buscarCerca(ev.offsetX, ev.offsetY, 18) : null;
+        setEstado({ seleccion: cerca });
+      }}
     >
       <color attach="background" args={["#14171c"]} />
-      <hemisphereLight args={["#ffffff", "#3a3f48", 1.1]} />
-      <directionalLight position={[2, 3, 2]} intensity={1.6} />
-      <directionalLight position={[-2, 1, -2]} intensity={0.6} />
+      <Ambiente />
+      <Contexto />
+      <hemisphereLight args={["#ffffff", "#3a3f48", 0.45]} />
+      <directionalLight position={[2, 3, 2]} intensity={1.4} />
+      <directionalLight position={[-2, 1, -2]} intensity={0.45} />
       <group onClick={alClic} onDoubleClick={perfil.tactil ? undefined : alDobleClic}>
         {archivos.map(([archivo, info]) => (
           <Suspense key={archivo} fallback={<Contador archivo={archivo} />}>

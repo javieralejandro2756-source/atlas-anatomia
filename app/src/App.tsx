@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import Visor from "./Visor";
 import Creditos from "./Creditos";
-import { REGIONES, SISTEMAS, cargarDatos, nombreVisible, tipoZona, type Manifest, type Nombres } from "./datos";
+import { REGIONES, SISTEMAS, cargarDatos, fichasDe, nombreVisible, tipoZona, type Datos } from "./datos";
+import FichaVista from "./FichaVista";
 import { alternar, getEstado, setEstado, useEstado } from "./estado";
 import { capaSuperficial, mallas } from "./escena";
 
@@ -12,7 +13,7 @@ const mb = (b: number) => (b / 1e6).toFixed(1) + " MB";
 interface Medicion { fps: number; peorMs: number; llamadas: number; triangulos: number; renderer: string }
 
 export default function App() {
-  const [datos, setDatos] = useState<{ manifest: Manifest; nombres: Nombres } | null>(null);
+  const [datos, setDatos] = useState<Datos | null>(null);
   const [error, setError] = useState("");
   const [medicion, setMedicion] = useState<Medicion | null>(null);
   const [midiendo, setMidiendo] = useState(false);
@@ -42,6 +43,8 @@ export default function App() {
   const sel = e.seleccion ? mallas.get(e.seleccion) : null;
   const nom = e.seleccion ? nombreVisible(e.seleccion, datos.nombres) : null;
   const zona = e.seleccion ? tipoZona(e.seleccion) : null;
+  const fichas = e.seleccion ? fichasDe(e.seleccion, datos) : [];
+  const conFicha = sel && (sel.userData.sistema === "musculos" || sel.userData.sistema === "inserciones");
 
   const quitarCapa = () => {
     const capa = capaSuperficial(getEstado());
@@ -57,7 +60,7 @@ export default function App() {
   });
 
   return (
-    <div className="app">
+    <div className={`app${sel ? " con-detalle" : ""}`}>
       <aside className="panel">
         <header>
           <h1>Atlas de anatomía</h1>
@@ -122,30 +125,31 @@ export default function App() {
 
       <main className="lienzo">
         <Visor manifest={datos.manifest} />
-        {sel && nom && (
-          <div className="tarjeta" role="dialog" aria-label="Estructura seleccionada">
-            <div className="titulo">
-              <strong>{nom.es}</strong>
-              <button className="cerrar" aria-label="Quitar selección" onClick={() => setEstado({ seleccion: null })}>×</button>
-            </div>
-            <div className="sub">
-              {nom.la && <em>{nom.la}</em>}
-              {nom.traducido && <span>{nom.en}</span>}
-            </div>
-            <div className="sub">
-              {NOMBRE_SISTEMA[sel.userData.sistema]}{zona ? ` · ${zona === "origen" ? "zona de origen" : "zona de inserción"}` : ""} · {NOMBRE_REGION[sel.userData.region]}
-              {/\.([lr]|[oe]\d*[lr])$/.test(sel.name) ? ` · lado ${/[l]$/.test(sel.name) ? "izquierdo" : "derecho"}` : ""}
-            </div>
-            <div className="botones">
-              <button onClick={() => setEstado((s) => ({ ocultas: alternar(s.ocultas, sel.name), seleccion: null }))}>Ocultar</button>
-              <button onClick={() => setEstado((s) => ({ aisladas: s.aisladas ? null : new Set([sel.name]) }))}>{e.aisladas ? "Quitar aislamiento" : "Aislar"}</button>
-              <button onClick={() => setEstado((s) => ({ transparentes: alternar(s.transparentes, sel.name) }))}>{e.transparentes.has(sel.name) ? "Opaco" : "Transparentar"}</button>
-              <button onClick={() => window.dispatchEvent(new CustomEvent("atlas:enfocar", { detail: sel.name }))}>Enfocar</button>
-            </div>
-          </div>
-        )}
         <p className="ayuda">Arrastra para rotar · rueda o pellizco para zoom · clic derecho o dos dedos para desplazar · clic selecciona · doble clic enfoca</p>
       </main>
+      {sel && nom && (
+        <aside className="detalle" aria-label="Estructura seleccionada">
+          <div className="titulo">
+            <strong>{nom.es}</strong>
+            <button className="cerrar" aria-label="Quitar selección" onClick={() => setEstado({ seleccion: null })}>×</button>
+          </div>
+          <div className="sub">
+            {nom.la && <em>{nom.la}</em>}
+            {nom.traducido && <span>{nom.en}</span>}
+          </div>
+          <div className="sub">
+            {NOMBRE_SISTEMA[sel.userData.sistema]}{zona ? ` · ${zona === "origen" ? "zona de origen" : "zona de inserción"}` : ""} · {NOMBRE_REGION[sel.userData.region]}
+            {/\.([lr]|[oe]\d*[lr])$/.test(sel.name) ? ` · lado ${/[l]$/.test(sel.name) ? "izquierdo" : "derecho"}` : ""}
+          </div>
+          <div className="botones">
+            <button onClick={() => setEstado((s) => ({ ocultas: alternar(s.ocultas, sel.name), seleccion: null }))}>Ocultar</button>
+            <button onClick={() => setEstado((s) => ({ aisladas: s.aisladas ? null : new Set([sel.name]) }))}>{e.aisladas ? "Quitar aislamiento" : "Aislar"}</button>
+            <button onClick={() => setEstado((s) => ({ transparentes: alternar(s.transparentes, sel.name) }))}>{e.transparentes.has(sel.name) ? "Opaco" : "Transparentar"}</button>
+            <button onClick={() => window.dispatchEvent(new CustomEvent("atlas:enfocar", { detail: sel.name }))}>Enfocar</button>
+          </div>
+          {conFicha && <FichaVista fichas={fichas} />}
+        </aside>
+      )}
       {e.mostrarCreditos && <Creditos onCerrar={() => setEstado({ mostrarCreditos: false })} />}
     </div>
   );

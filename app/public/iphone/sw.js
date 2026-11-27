@@ -1,5 +1,5 @@
 // Service worker de la versión iPhone: guarda la app y los modelos ya vistos para usarlos sin internet.
-const VERSION = "atlas-iphone-v1";
+const VERSION = "atlas-iphone-v2";
 const NUCLEO = ["./", "./index.html", "./manifest.webmanifest", "./icono-180.png"];
 
 self.addEventListener("install", (e) => {

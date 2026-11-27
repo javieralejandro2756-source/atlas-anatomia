@@ -25,8 +25,9 @@ PERFILES = {
     "mac": {"ratio": {"musculos": 0.2, "huesos": 0.3, "ligamentos": 0.4, "inserciones": 0.12, "fascias": 0.15, "nervios": 1.0},
             "min_tris": 250, "curva_res": 3, "curva_bevel": 1},
     # iPhone 16 Pro Max (A18 Pro): detalle alto, se carga por región.
-    "iphone": {"ratio": {"musculos": 0.6, "huesos": 0.75, "ligamentos": 0.85, "inserciones": 0.3, "fascias": 0.4, "nervios": 1.0},
-               "min_tris": 600, "curva_res": 8, "curva_bevel": 3},
+    # Músculos, huesos y ligamentos a resolución completa del atlas (sin simplificar).
+    "iphone": {"ratio": {"musculos": 1.0, "huesos": 1.0, "ligamentos": 1.0, "inserciones": 0.5, "fascias": 0.6, "nervios": 1.0},
+               "min_tris": 600, "curva_res": 8, "curva_bevel": 3, "normales_bits": 12},
 }
 RATIO = PERFILES[PERFIL]["ratio"]
 MIN_TRIS = PERFILES[PERFIL]["min_tris"]
@@ -164,7 +165,7 @@ for (reg, sis), objs in sorted(grupos.items()):
                               export_draco_mesh_compression_enable=True,
                               export_draco_mesh_compression_level=6,
                               export_draco_position_quantization=14,
-                              export_draco_normal_quantization=10)
+                              export_draco_normal_quantization=PERFILES[PERFIL].get("normales_bits", 10))
     # triángulos finales
     dg2 = bpy.context.evaluated_depsgraph_get()
     tris = 0
