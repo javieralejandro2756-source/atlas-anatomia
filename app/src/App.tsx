@@ -125,7 +125,7 @@ export default function App() {
 
       <main className="lienzo">
         <Visor manifest={datos.manifest} />
-        <p className="ayuda">Arrastra para rotar · rueda o pellizco para zoom · clic derecho o dos dedos para desplazar · clic selecciona · doble clic enfoca</p>
+        <p className="ayuda">Arrastrar: rotar · rueda o pellizco: zoom hacia el cursor · Mayús + arrastrar o flechas: desplazar · clic: seleccionar · doble clic: centrar ahí</p>
       </main>
       {sel && nom && (
         <aside className="detalle" aria-label="Estructura seleccionada">

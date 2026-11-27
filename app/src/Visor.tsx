@@ -82,6 +82,42 @@ function buscarCerca(cx: number, cy: number, radio: number): string | null {
   return null;
 }
 
+/** Al cambiar las regiones visibles, vuelve a encuadrar cuando termina la carga. */
+function Reencuadre({ regiones }: { regiones: Set<string> }) {
+  const pendiente = useRef(false);
+  const primera = useRef(true);
+  useEffect(() => {
+    if (primera.current) { primera.current = false; return; }
+    pendiente.current = true;
+    // Si solo se quitó una región no hay nada que cargar: se encuadra ya.
+    const t = setTimeout(() => { if (pendiente.current && getEstado().cargando === 0) { pendiente.current = false; window.dispatchEvent(new CustomEvent("atlas:enfocar")); } }, 250);
+    return () => clearTimeout(t);
+  }, [regiones]);
+  useEffect(() => {
+    let t: ReturnType<typeof setTimeout>;
+    const f = () => {
+      if (!pendiente.current) return;
+      clearTimeout(t);
+      t = setTimeout(() => { pendiente.current = false; window.dispatchEvent(new CustomEvent("atlas:enfocar")); }, 150);
+    };
+    window.addEventListener("atlas:cargado", f);
+    return () => { window.removeEventListener("atlas:cargado", f); clearTimeout(t); };
+  }, []);
+  return null;
+}
+
+/** Flechas del teclado para desplazar la vista (útil con trackpad). */
+function Teclado() {
+  const controls = useThree((s) => s.controls) as any;
+  useEffect(() => {
+    if (!controls?.listenToKeyEvents) return;
+    controls.keyPanSpeed = 14;
+    controls.listenToKeyEvents(window);
+    return () => controls.stopListenToKeyEvents?.();
+  }, [controls]);
+  return null;
+}
+
 /** Aplica el estado a la escena cada vez que cambia y pide un cuadro nuevo. */
 function Sincronizar() {
   const invalidate = useThree((s) => s.invalidate);
@@ -221,8 +257,10 @@ export default function Visor({ manifest, perfil = PERFIL_MAC }: { manifest: Man
           </Suspense>
         ))}
       </group>
-      <OrbitControls makeDefault target={[0, 0.5, 0]} enableDamping={false} />
+      <OrbitControls makeDefault target={[0, 0.5, 0]} enableDamping={false} zoomToCursor screenSpacePanning />
+      <Teclado />
       <Sincronizar />
+      <Reencuadre regiones={regiones} />
       <Enfoque />
       <Medidor />
     </Canvas>
