@@ -1,0 +1,59 @@
+:root {
+  --fondo: #14171c;
+  --panel: #1b1f26;
+  --linea: #2c323c;
+  --texto: #e8eaee;
+  --tenue: #9aa2b0;
+  --acento: #2ec4b6;
+  font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; min-width: 0; }
+html, body, #root { height: 100%; margin: 0; background: var(--fondo); color: var(--texto); }
+button {
+  font: inherit; font-size: 14px; color: var(--texto); background: #262b34; border: 1px solid var(--linea);
+  border-radius: 6px; padding: 7px 11px; cursor: pointer; min-height: 36px;
+}
+button:hover:not(:disabled) { border-color: var(--acento); }
+button:disabled { opacity: 0.45; cursor: default; }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+a { color: var(--acento); }
+
+.app { display: grid; grid-template-columns: 300px minmax(0, 1fr); height: 100%; }
+.panel { background: var(--panel); border-right: 1px solid var(--linea); overflow-y: auto; padding: 16px; }
+.panel header { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 8px; }
+h1 { font-size: 20px; margin: 0; letter-spacing: -0.01em; }
+h2 { font-size: 13px; color: var(--tenue); font-weight: 600; margin: 18px 0 6px; }
+h3 { font-size: 15px; margin: 16px 0 4px; }
+section { border-top: 1px solid var(--linea); }
+.fila { display: flex; align-items: center; gap: 8px; padding: 4px 0; cursor: pointer; }
+.fila input { width: 16px; height: 16px; accent-color: var(--acento); }
+.muestra { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.botones { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+.nota { font-size: 13px; color: var(--texto); margin: 6px 0; }
+.tenue { color: var(--tenue); font-size: 13px; }
+.enlace { background: none; border: 0; color: var(--acento); padding: 0; min-height: 0; }
+details { margin-top: 8px; font-size: 13px; }
+.archivos { list-style: none; padding: 0; margin: 6px 0; }
+.archivos li { display: flex; justify-content: space-between; gap: 8px; color: var(--tenue); }
+
+.lienzo { position: relative; }
+.tarjeta {
+  position: absolute; top: 14px; right: 14px; width: min(360px, calc(100% - 28px)); background: rgba(27, 31, 38, 0.96);
+  border: 1px solid var(--linea); border-radius: 10px; padding: 12px 14px;
+}
+.titulo { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+.titulo strong { font-size: 18px; line-height: 1.25; }
+.cerrar { background: none; border: 0; font-size: 22px; line-height: 1; padding: 0 4px; min-height: 0; }
+.sub { display: flex; flex-wrap: wrap; gap: 4px 10px; color: var(--tenue); font-size: 13px; margin-top: 2px; }
+.ayuda { position: absolute; left: 14px; bottom: 8px; margin: 0; font-size: 12px; color: var(--tenue); pointer-events: none; }
+.vacio { display: grid; place-items: center; height: 100%; color: var(--tenue); }
+
+.modal { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.55); display: grid; place-items: center; padding: 16px; z-index: 10; }
+.modal-caja { background: var(--panel); border: 1px solid var(--linea); border-radius: 10px; padding: 18px; max-width: 560px; max-height: 90vh; overflow-y: auto; }
+
+@media (max-width: 760px) {
+  .app { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) 42%; }
+  .panel { order: 2; border-right: 0; border-top: 1px solid var(--linea); }
+  .ayuda { display: none; }
+}

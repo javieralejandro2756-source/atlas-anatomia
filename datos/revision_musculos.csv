@@ -1,0 +1,285 @@
+﻿n,id,musculo,region,campo,tipo,texto_actual,alcance,propuesta,confianza,nota,decision
+1,m001,Temporal,Cabeza: cara y masticación,insercion,contenido,proceso coracoides de la mandíbula,fragmento,proceso coronoides de la mandíbula,alta,La coracoides es de la escápula.,
+2,m002,Masetero,Cabeza: cara y masticación,insercion,contenido,apófisis coracoides de la mandíbula,fragmento,apófisis coronoides de la mandíbula,alta,,
+3,m003,Pterigoideo interno o medial,Cabeza: cara y masticación,inervacion,contenido,Nervio maxilar y mandibular.,fragmento,"Nervio pterigoideo medial, ramo del nervio mandibular (NC V3).",media,El maxilar (V2) es sensitivo; no inerva músculos masticadores.,
+4,m004,Pterigoideo externo o lateral,Cabeza: cara y masticación,inervacion,contenido,Nervio mandibular VIII.,fragmento,"Nervio pterigoideo lateral, ramo del nervio mandibular (NC V3).",alta,VIII es el vestibulococlear.,
+5,m007,Corrugador superficiliar,Cabeza: cara y masticación,inervacion,contenido,Tronco anterior del nervio mandíbulas (NCV3).,fragmento,Ramo temporal del nervio facial (NC VII).,alta,Es músculo de la expresión facial; parece copiado del temporal.,
+6,m008,Transverso de la nariz,Cabeza: cara y masticación,insercion,contenido,Del dorso de la nariz.,campo completo,(vaciar el campo y capturarlo de nuevo),media,Origen e inserción son idénticos; falta capturar uno de los dos.,
+7,m013,Elevador del labio superior,Cabeza: cara y masticación,insercion,contenido,labio inferior,fragmento,labio superior,alta,,
+8,m015,Cigomático menor,Cabeza: cara y masticación,insercion,contenido,Ángulo de la boca.,fragmento,Labio superior.,media,"El cigomático menor termina en el labio superior; el mayor, en el ángulo.",
+9,m022,Escaleno anterior,Cuello,funcion,contenido,Flexión de la cabeza.,fragmento,Flexiona el cuello y eleva la primera costilla en la inspiración forzada.,media,,
+10,m026,Digástrico,Cuello,inervacion,contenido,"Ramos y gástrico del nervio milohioideo, del nervio mandibular y del nervio trigémino.",campo completo,Vientre anterior: nervio milohioideo (NC V3). Vientre posterior: ramo digástrico del nervio facial (NC VII).,alta,"El texto actual solo cubre el vientre anterior y tiene ""y gástrico"" por ""digástrico"".",
+11,m031,Omohioideo,Cuello,origen,contenido,Tendón intermedio del músculo omohioideo.,fragmento,"Borde superior de la escápula, cerca de la escotadura supraescapular.",alta,El tendón intermedio une los dos vientres; no es el origen.,
+12,m031,Omohioideo,Cuello,inervacion,contenido,(C1),fragmento,(C1-C3),media,"El asa cervical es C1-C3, como en esternohioideo y esternotiroideo.",
+13,m035,Romboides,Dorso superficial,inervacion,filas corridas,Arteria escapular inferior.,campo completo,Nervio dorsal de la escápula (C4-C5).,alta,En la tabla aquí está la arteria; el nervio no se capturó.,
+14,m035,Romboides,Dorso superficial,irrigacion,filas corridas,Retrae la escápula al rotarla desciende en la cavidad glenoidea y fija la escápula en la pared torácica.,campo completo,Arteria dorsal de la escápula.,media,"El texto original decía ""Arteria escapular inferior"" en la fila de inervación.",
+15,m035,Romboides,Dorso superficial,funcion,filas corridas,,campo completo,Retrae la escápula al rotarla desciende en la cavidad glenoidea y fija la escápula en la pared torácica.,alta,"Texto original, estaba en la fila de irrigación.",
+16,m038,Serrato posteroinferior,Dorso superficial,inervacion,contenido,Nervios intercostales 2-5.,fragmento,Nervios intercostales 9-11 y nervio subcostal (T9-T12).,alta,Copiado del serrato posterosuperior.,
+17,m041,Oblicuo inferior o menor de la cabeza,Nuca,origen,contenido,Tubérculo posterior del arco posterior de C2.,fragmento,Apófisis espinosa de C2 (axis).,media,C2 no tiene tubérculo posterior; ese es de C1.,
+18,m044,Recto posterior menor de la cabeza,Nuca,inervacion,contenido,subtropical,fragmento,suboccipital (C1),alta,,
+19,m051,Intertransversos,Dorso profundo,inervacion,contenido,Procesos posteriores,fragmento,Ramos posteriores y anteriores,media,,
+20,m051,Intertransversos,Dorso profundo,irrigacion,filas corridas,Ramos posteriores y anteriores de los nervios espinales.,campo completo,(vaciar el campo y capturarlo de nuevo),alta,"El campo contiene nervios, no arterias.",
+21,m052,Interespinosos,Dorso profundo,irrigacion,filas corridas,Ramos posterior y anterior de los nervios espinales.,campo completo,(vaciar el campo y capturarlo de nuevo),alta,"El campo contiene nervios, no arterias.",
+22,m053,Elevador de las costillas,Dorso profundo,irrigacion,filas corridas,Ramos posterior y anterior de los nervios espinales.,campo completo,(vaciar el campo y capturarlo de nuevo),alta,"El campo contiene nervios, no arterias.",
+23,m054,Pectoral mayor,Tórax,inervacion,contenido,(C5_C1),fragmento,(C5-T1),alta,Rango imposible; tu otra ficha del pectoral mayor dice C5-T1.,
+24,m055,Pectoral menor,Tórax,inervacion,contenido,(C5_C1),fragmento,(C8-T1),media,Rango imposible. El pectoral menor lo inerva sobre todo el pectoral medial.,
+25,m057,Serrato anterior o mayor,Tórax,irrigacion,contenido,Cara lateral superior del tórax.,fragmento,Arteria torácica lateral.,media,"El campo describe una zona, no una arteria.",
+26,m058,Intercostales externos,Tórax,irrigacion,filas corridas,"En la inspiración forzada, elevan las costillas.",campo completo,Arterias intercostales posteriores y anteriores.,media,El campo contiene una función.,
+27,m059,Intercostales internos,Tórax,funcion,contenido,Elevan las costillas,fragmento,Descienden las costillas (espiración forzada),media,Función copiada de los externos; revisa contra Snell.,
+28,m069,Cuadrado lumbar,Abdomen,irrigacion,contenido,Arterias epigástricas inferiores y superiores.,campo completo,"Arterias lumbares, iliolumbar y subcostal.",media,Repite la irrigación del piramidal (epigástricas).,
+29,m070,Psoas mayor,Abdomen posterior y cadera,insercion,contenido,Trocánter mayor del fémur.,fragmento,Trocánter menor del fémur.,alta,,aceptar
+30,m071,Iliaco,Abdomen posterior y cadera,origen,contenido,Cresta iliaca; dos tercios superiores de la cresta iliaca;,fragmento,Cresta ilíaca; dos tercios superiores de la fosa ilíaca;,alta,,aceptar
+31,m073,Diafragma,Tórax,insercion,contenido,Porción esternal: Formadas por bandas musculares que se insertan en la cara posterior. Del xifoides Porción costal: Compuestas por bandas musculares anchas que se insertan en las caras internas de los 6 cartílagos costales inferiores. Esta porción forma la cúpula der. E izq. Porción Lumbar: Se origina en dos arcos aponeuróticos y las tres vértebras lumbares sup. Esta porción forma los pilares musculares der. E izq.,campo completo,Centro tendinoso del diafragma (centro frénico).,alta,"El texto actual describe los tres orígenes, no la inserción. Considera moverlo a origen.",
+32,m074,Región perineal,Periné y suelo pélvico,nombre,contenido,Región perineal,campo completo,Transverso superficial del periné,media,"""Región perineal"" parece un encabezado puesto como nombre; los datos corresponden a este músculo.",
+33,m077,Bulbo esponjoso,Periné y suelo pélvico,funcion,contenido,ayuda a la reducción,fragmento,ayuda a la erección,media,,
+34,m084,Pectoral menor,Tórax,origen,contenido,tercera y quinta,fragmento,tercera a quinta,alta,,
+35,m086,"Deltoides clavicular, acromio, espinal",Hombro y brazo,origen,contenido,Tuberosidad deltoidea del hombro.,campo completo,"1/3 lateral de la clavícula, acromion y espina de la escápula.",alta,Origen e inserción están invertidos.,
+36,m086,"Deltoides clavicular, acromio, espinal",Hombro y brazo,insercion,contenido,"1/3 lateral de la clavícula, acromion y espina de la escápula.",campo completo,Tuberosidad deltoidea del húmero.,alta,Origen e inserción están invertidos.,
+37,m088,Infraespinoso,Hombro y brazo,inervacion,contenido,Nervio subescapular,fragmento,Nervio supraescapular,alta,Mismo nervio que el supraespinoso.,
+38,m095,Tríceps braquial,Hombro y brazo,origen,contenido,"Cabeza corta : Cara posterior del húmero, superior al surco del nervio braquial.",fragmento,"Cabeza lateral: cara posterior del húmero, superior al surco del nervio radial. Cabeza medial: cara posterior del húmero, inferior al surco del nervio radial.",alta,"El tríceps tiene cabezas larga, lateral y medial; falta la medial.",
+39,m121,Lubricante de la mano,Mano,nombre,contenido,Lubricante de la mano,campo completo,Lumbricales de la mano,alta,,
+40,m121,Lubricante de la mano,Mano,inervacion,contenido,Nervio mediano. (C8-T1),fragmento,1.º y 2.º: nervio mediano (C8-T1). 3.º y 4.º: ramo profundo del nervio cubital (C8-T1).,alta,,
+41,m122,Cabeza oblicua del músculo aductor del pulgar,Mano,origen,contenido,Cara palmar del cuerpo del tercer hueso proximal del tercer hueso metacarpiano.,campo completo,"Bases de los metacarpianos 2.º y 3.º, hueso grande y huesos adyacentes.",media,El texto actual está repetido y corresponde a la cabeza transversa.,
+42,m128,Interóseo dorsal,Mano,origen,contenido,"3ro.Cara medial del cuerpo del segundo hueso metacarpiano, cara lateral del tercer hueso metacarpiano. 4to.cara medial del cuerpo del hueso metacarpiano",fragmento,"3ro.Cara medial del cuerpo del tercer hueso metacarpiano, cara lateral del cuarto hueso metacarpiano. 4to.cara medial del cuerpo del cuarto hueso metacarpiano",media,El 3.º repite al 2.º y al 4.º le falta el número.,
+43,m128,Interóseo dorsal,Mano,insercion,contenido,2do.Cara medial de la base de la falange proximal del dedo medio,fragmento,2do.Cara lateral de la base de la falange proximal del dedo medio,media,2.º y 3.º están idénticos; el 2.º va al lado lateral del dedo medio. El 1.º también va al lado lateral del índice.,
+44,m129,Pectíneo,Muslo,inervacion,filas corridas,Arteria obturatriz.,campo completo,Nervio femoral L2-L3.,alta,Inervación e irrigación están intercambiadas.,aceptar
+45,m129,Pectíneo,Muslo,irrigacion,filas corridas,Nervio femoral L2-L3.,campo completo,Arteria obturatriz.,alta,,aceptar
+46,m129,Pectíneo,Muslo,funcion,contenido,Abduce,fragmento,Aduce,alta,,aceptar
+47,m131,Aductor mayor,Muslo,inervacion,filas corridas,Arteria circunfleja medial y ramas perforantes de la arteria femoral profunda.,campo completo,Nervio obturador L2-L4.,alta,Inervación e irrigación están intercambiadas. Falta la porción isquiotibial (n. tibial).,aceptar
+48,m131,Aductor mayor,Muslo,irrigacion,filas corridas,Nervio obturador L2-L4.,campo completo,Arteria circunfleja medial y ramas perforantes de la arteria femoral profunda.,alta,,aceptar
+49,m131,Aductor mayor,Muslo,funcion,contenido,Abduce,fragmento,Aduce,alta,,aceptar
+50,m132,Aductor largo,Muslo,inervacion,filas corridas,Arteria femoral profunda.,campo completo,Nervio obturador L2-L4.,alta,"Intercambiadas, y además dice femoral; tu otra ficha (m161) dice obturador.",aceptar
+51,m132,Aductor largo,Muslo,irrigacion,filas corridas,Nervio femoral L2-L4.,campo completo,Arteria femoral profunda.,alta,,aceptar
+52,m133,Aductor corto,Muslo,inervacion,filas corridas,Arteria femoral profunda.,campo completo,Nervio obturador L2-L4.,alta,"Intercambiadas, y además dice femoral; tu otra ficha (m159) dice obturador.",aceptar
+53,m133,Aductor corto,Muslo,irrigacion,filas corridas,Nervio femoral L2-L4.,campo completo,Arteria femoral profunda.,alta,,aceptar
+54,m134,Obturador externo,Muslo,inervacion,filas corridas,Arteria obturadora.,campo completo,Nervio obturador L3-L4.,alta,Inervación e irrigación están intercambiadas.,aceptar
+55,m134,Obturador externo,Muslo,irrigacion,filas corridas,Nervio obturador L3-L4.,campo completo,Arteria obturadora.,alta,,aceptar
+56,m135,Pata de ganso,Muslo,insercion,contenido,"semimembranoso, sartorio y recto interno",fragmento,"sartorio, grácil (recto interno) y semitendinoso",alta,"Es el semitendinoso, no el semimembranoso. El origen e inervación únicos tampoco aplican: son tres músculos con tres nervios.",aceptar
+57,m138,Tensor de la fascia lata,Cadera y región glútea,funcion,contenido,aducción,fragmento,abducción,alta,,aceptar
+58,m142,Gemelo superior,Cadera y región glútea,inervacion,contenido,(L5-S2),fragmento,(L5-S1),media,Tu ficha del obturador interno da L5-S1 para el mismo nervio.,aceptar
+59,m154,Transverso profundo del periné,Periné y suelo pélvico,inervacion,filas corridas,Estabiliza el cuerpo perineal; proporciona soporte estructural a las estructuras pélvicas y perineales adyacentes.,campo completo,Nervio perineal.,alta,Las tres últimas filas están recorridas una posición.,
+60,m154,Transverso profundo del periné,Periné y suelo pélvico,irrigacion,filas corridas,Nervio perineal.,campo completo,Arteria perineal.,alta,,
+61,m154,Transverso profundo del periné,Periné y suelo pélvico,funcion,filas corridas,Arteria perineal.,campo completo,Estabiliza el cuerpo perineal; proporciona soporte estructural a las estructuras pélvicas y perineales adyacentes.,alta,,
+62,m198,Cabeza transversa del músculo aductor del dedo gordo,Pie,origen,contenido,Caras plantares de las bases de los huesos metatarsianos segundo a cuarto; tendón del músculo peroneo largo.,campo completo,Ligamentos metatarsofalángicos plantares de los dedos 3.º a 5.º.,media,Repite el origen de la cabeza oblicua.,aceptar
+63,m202,Segundo músculo interóseo dorsal del pie,Pie,origen,contenido,Cara lateral del cuerpo del primer hueso metatarsiano; cara medial del cuerpo del segundo hueso metatarsiano.,campo completo,Cara lateral del cuerpo del segundo hueso metatarsiano; cara medial del cuerpo del tercer hueso metatarsiano.,alta,La ficha es copia exacta del primer interóseo dorsal.,aceptar
+64,m202,Segundo músculo interóseo dorsal del pie,Pie,insercion,contenido,Cara medial de la base de la falange proximal del segundo dedo del pie; expansión del extensor del segundo dedo del pie.,campo completo,Cara lateral de la base de la falange proximal del segundo dedo del pie; expansión del extensor del segundo dedo del pie.,alta,,aceptar
+65,m202,Segundo músculo interóseo dorsal del pie,Pie,funcion,contenido,Abduce medialmente,fragmento,Abduce lateralmente,alta,,aceptar
+66,m001,Temporal,Cabeza: cara y masticación,insercion,errata,interesarse,fragmento,insertarse,alta,,
+67,m001,Temporal,Cabeza: cara y masticación,inervacion,errata,nervio mandíbulas,fragmento,nervio mandibular,alta,,
+68,m001,Temporal,Cabeza: cara y masticación,funcion,errata,la sierra,fragmento,la cierra,alta,,
+69,m003,Pterigoideo interno o medial,Cabeza: cara y masticación,origen,errata,platino,fragmento,palatino,alta,,
+70,m003,Pterigoideo interno o medial,Cabeza: cara y masticación,funcion,errata,macetero,fragmento,masetero,alta,,
+71,m004,Pterigoideo externo o lateral,Cabeza: cara y masticación,insercion,errata,anteormedial,fragmento,anteromedial,alta,,
+72,m006,Orbicular de los ojos,Cabeza: cara y masticación,origen,errata,parperbal,fragmento,palpebral,alta,,
+73,m007,Corrugador superficiliar,Cabeza: cara y masticación,nombre,errata,superficiliar,fragmento,superciliar,alta,,
+74,m010,Orbicular de la boca,Cabeza: cara y masticación,inervacion,errata,Cama temporofacial,fragmento,Rama temporofacial,alta,,
+75,m013,Elevador del labio superior,Cabeza: cara y masticación,inervacion,errata,Ramos y gótico y bucal,fragmento,Ramos cigomático y bucal,alta,,
+76,m013,Elevador del labio superior,Cabeza: cara y masticación,funcion,errata,revierte,fragmento,evierte,alta,,
+77,m015,Cigomático menor,Cabeza: cara y masticación,inervacion,errata,vocal,fragmento,bucal,alta,,
+78,m016,Cigomático mayor,Cabeza: cara y masticación,inervacion,errata,cigomáticoy,fragmento,cigomático y,alta,,
+79,m017,Risorio,Cabeza: cara y masticación,inervacion,errata,vocales,fragmento,bucales,alta,,
+80,m027,Milohioideo,Cuello,irrigacion,errata,metionina,fragmento,mentoniana,alta,,
+81,m046,Longisimo torácico,Dorso profundo,nombre,errata,Longisimo,fragmento,Longísimo,alta,,
+82,m054,Pectoral mayor,Tórax,irrigacion,errata,coracroamial,fragmento,toracoacromial,alta,,
+83,m065,Oblicuo interno,Abdomen,insercion,errata,decimos costales,fragmento,cartílagos costales,media,,
+84,m070,Psoas mayor,Abdomen posterior y cadera,funcion,errata,troco,fragmento,tronco,alta,,aceptar
+85,m072,Psoas menor,Abdomen posterior y cadera,insercion,errata,pectina del pubis,fragmento,pecten del pubis,alta,,aceptar
+86,m075,Transverso profundo del periné,Periné y suelo pélvico,inervacion,errata,Rango muscular del nervio o perineal,fragmento,Ramo muscular del nervio perineal,alta,,
+87,m077,Bulbo esponjoso,Periné y suelo pélvico,origen,errata,rate medio,fragmento,rafe medio,alta,,
+88,m080,Elevación del ano ( puborrectal),Periné y suelo pélvico,nombre,errata,Elevación del ano,fragmento,Elevador del ano,alta,,
+89,m081,Elevación del ano ( pubococcigeo),Periné y suelo pélvico,nombre,errata,Elevación del ano,fragmento,Elevador del ano,alta,,
+90,m083,Isquiococcígeo,Periné y suelo pélvico,insercion,errata,Externo inferior,fragmento,Extremo inferior,alta,,
+91,m086,"Deltoides clavicular, acromio, espinal",Hombro y brazo,nombre,errata,"Deltoides clavicular, acromio, espinal",campo completo,"Deltoides (porciones clavicular, acromial y espinal)",alta,,
+92,m093,Coracobraquial,Hombro y brazo,inervacion,errata,muscolocutáneo,fragmento,musculocutáneo,alta,,
+93,m099,Supinador,Antebrazo,funcion,errata,Supira,fragmento,Supina,alta,,
+94,m114,Extensor corto del pulgar,Antebrazo,irrigacion,errata,posterior y posterior,fragmento,anterior y posterior,media,,
+95,m115,Extensor del índice,Antebrazo,inervacion,errata,)C7-C8),fragmento,(C7-C8),alta,,
+96,m127,Interóseo palmar,Mano,insercion,errata,extrusor,fragmento,extensor,alta,,
+97,m165,Vasto intermedio,Muslo,insercion,errata,tde,fragmento,de,alta,,aceptar
+98,m178,Soleo,Pierna,nombre,errata,Soleo,fragmento,Sóleo,alta,,aceptar
+99,m192,Abductor del quinto dedo del pie,Pie,funcion,errata,elquinto,fragmento,el quinto,alta,,aceptar
+100,m201,Primer músculo interóseo dorsal del pie,Pie,irrigacion,errata,arqueda,fragmento,arqueada,alta,,aceptar
+101,m202,Segundo músculo interóseo dorsal del pie,Pie,irrigacion,errata,arqueda,fragmento,arqueada,alta,,aceptar
+102,m084,Pectoral menor,Tórax,,duplicado,,ficha,Fusionar con m055 (Pectoral menor) y conservar una sola ficha,,,
+103,m085,Pectoral mayor,Tórax,,duplicado,,ficha,Fusionar con m054 (Pectoral mayor) y conservar una sola ficha,,,
+104,m124,Abductor del meñique,Mano,,duplicado,,ficha,Fusionar con m117 (Abductor del meñique) y conservar una sola ficha,,,
+105,m145,Obturador externo,Cadera y región glútea,,duplicado,,ficha,Fusionar con m134 (Obturador externo) y conservar una sola ficha,,Elige qué versión queda; la de esta ficha suele ser la más completa.,conservar m145
+106,m147,Coccígeo,Periné y suelo pélvico,,duplicado,,ficha,Fusionar con m083 (Isquiococcígeo) y conservar una sola ficha,,Elige qué versión queda; la de esta ficha suele ser la más completa.,
+107,m148,Iliococcígeo,Periné y suelo pélvico,,duplicado,,ficha,Fusionar con m082 (Elevador del ano iliococcígeo) y conservar una sola ficha,,Elige qué versión queda; la de esta ficha suele ser la más completa.,
+108,m149,Pubococcígeo,Periné y suelo pélvico,,duplicado,,ficha,Fusionar con m081 (Elevación del ano ( pubococcigeo)) y conservar una sola ficha,,Elige qué versión queda; la de esta ficha suele ser la más completa.,
+109,m154,Transverso profundo del periné,Periné y suelo pélvico,,duplicado,,ficha,Fusionar con m075 (Transverso profundo del periné) y conservar una sola ficha,,Elige qué versión queda; la de esta ficha suele ser la más completa.,
+110,m156,Esfínter externo de la uretra masculina,Periné y suelo pélvico,,duplicado,,ficha,Fusionar con m079 (Esfínter externo de la uretra) y conservar una sola ficha,,Elige qué versión queda; la de esta ficha suele ser la más completa.,
+111,m157,Isquiocavernoso,Periné y suelo pélvico,,duplicado,,ficha,Fusionar con m076 (Isquiocavernoso) y conservar una sola ficha,,Elige qué versión queda; la de esta ficha suele ser la más completa.,
+112,m158,Bulboesponjoso,Periné y suelo pélvico,,duplicado,,ficha,Fusionar con m077 (Bulbo esponjoso) y conservar una sola ficha,,Elige qué versión queda; la de esta ficha suele ser la más completa.,
+113,m159,Aductor corto,Muslo,,duplicado,,ficha,Fusionar con m133 (Aductor corto) y conservar una sola ficha,,Elige qué versión queda; la de esta ficha suele ser la más completa.,conservar m159
+114,m160,Pectíneo,Muslo,,duplicado,,ficha,Fusionar con m129 (Pectíneo) y conservar una sola ficha,,Elige qué versión queda; la de esta ficha suele ser la más completa.,conservar m160
+115,m161,Aductor largo,Muslo,,duplicado,,ficha,Fusionar con m132 (Aductor largo) y conservar una sola ficha,,Elige qué versión queda; la de esta ficha suele ser la más completa.,conservar m161
+116,m162,Aductor mayor,Muslo,,duplicado,,ficha,Fusionar con m131 (Aductor mayor) y conservar una sola ficha,,Elige qué versión queda; la de esta ficha suele ser la más completa.,conservar m162
+117,m181,Poplíteo,Pierna,,duplicado,,ficha,Fusionar con m176 (Poplíteo) y conservar una sola ficha,,Elige qué versión queda; la de esta ficha suele ser la más completa.,conservar m176
+118,m130,Cuádriceps femoral,Muslo,,duplicado,,ficha,Dejar como ficha de grupo o eliminar,,El origen descrito es solo el del recto femoral; ya existen fichas de recto femoral y los tres vastos (m164-m167).,grupo
+119,m151,Porción profunda del músculo esfínter externo del ano,Periné y suelo pélvico,,duplicado,,ficha,Decidir si se conservan las tres porciones o la ficha general m078,,,
+120,m152,Porción superficial del músculo esfínter externo del ano,Periné y suelo pélvico,,duplicado,,ficha,Decidir si se conservan las tres porciones o la ficha general m078,,,
+121,m153,Porción subcutánea del músculo esfínter externo del ano,Periné y suelo pélvico,,duplicado,,ficha,Decidir si se conservan las tres porciones o la ficha general m078,,,
+122,m080,Elevación del ano ( puborrectal),Periné y suelo pélvico,,duplicado,,ficha,Comparar con m150 (Puboanal): mismo músculo con otro nombre,,,
+123,m064,Fascia toracolumbar,Abdomen,,no es músculo,,ficha,"Mover a un archivo de estructuras (fascias, tendones) o eliminar",,,
+124,m135,Pata de ganso,Muslo,,no es músculo,,ficha,"Mover a un archivo de estructuras (fascias, tendones) o eliminar",,,estructura
+125,m136,Tracto iliotibial,Muslo,,no es músculo,,ficha,"Mover a un archivo de estructuras (fascias, tendones) o eliminar",,,estructura
+126,m022,Escaleno anterior,Cuello,inervacion,raíces faltantes,Nervios espinales cervical cuatro a la cervical 6.,campo completo,"C4, C5, C6",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+127,m023,Escaleno medio,Cuello,inervacion,raíces faltantes,Ramas anteriores de los nervios espinales cervicales.,campo completo,"C3, C4, C5, C6, C7, C8",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+128,m024,Escaleno posterior,Cuello,inervacion,raíces faltantes,Ramas anteriores de los nervios espinales cervical 7 y cervical 8.,campo completo,"C7, C8",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+129,m034,Dorsal ancho,Dorso superficial,inervacion,raíces faltantes,Nervio toracodorsal.,campo completo,"C6, C7, C8",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+130,m035,Romboides,Dorso superficial,inervacion,raíces faltantes,Arteria escapular inferior.,campo completo,"C4, C5",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+131,m036,Elevador de la escápula,Dorso superficial,inervacion,raíces faltantes,Nervio dorsal de la escápula.,campo completo,"C3, C4, C5",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+132,m037,Serrato posterosuperior,Dorso superficial,inervacion,raíces faltantes,Nervios intercostales 2- 5.,campo completo,"T2, T3, T4, T5",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+133,m038,Serrato posteroinferior,Dorso superficial,inervacion,raíces faltantes,Nervios intercostales 2-5.,campo completo,"T9, T10, T11, T12",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+134,m039,Esplenio de la cabeza,Nuca,inervacion,raíces faltantes,Ramos posteriores de los nervios espinales cervicales.,campo completo,Marcar como inervación segmentaria (ramos posteriores),alta,No tiene raíces fijas; el filtro por raíz debe tratarlo aparte.,
+135,m040,Esplenio cervical,Nuca,inervacion,raíces faltantes,Ramos posteriores de los nervios espinales cervicales.,campo completo,Marcar como inervación segmentaria (ramos posteriores),alta,No tiene raíces fijas; el filtro por raíz debe tratarlo aparte.,
+136,m041,Oblicuo inferior o menor de la cabeza,Nuca,inervacion,raíces faltantes,Ramo posterior del nervio cervical.,campo completo,C1,media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+137,m041,Oblicuo inferior o menor de la cabeza,Nuca,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+138,m042,Oblicuo superior o mayor de la cabeza,Nuca,inervacion,raíces faltantes,Ramo posterior de nervios cervicales.,campo completo,C1,media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+139,m042,Oblicuo superior o mayor de la cabeza,Nuca,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+140,m043,Recto posterior mayor de la cabeza,Nuca,inervacion,raíces faltantes,Ramo posterior del nervio cervical.,campo completo,C1,media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+141,m043,Recto posterior mayor de la cabeza,Nuca,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+142,m044,Recto posterior menor de la cabeza,Nuca,inervacion,raíces faltantes,Ramo posterior del nervio subtropical.,campo completo,C1,media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+143,m044,Recto posterior menor de la cabeza,Nuca,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+144,m045,Iliocostal,Dorso profundo,inervacion,raíces faltantes,"Ramos laterales de los ramos posteriores de los nervios cervicales inferiores, torácicos y lumbares.",campo completo,Marcar como inervación segmentaria (ramos posteriores),alta,No tiene raíces fijas; el filtro por raíz debe tratarlo aparte.,
+145,m045,Iliocostal,Dorso profundo,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+146,m046,Longisimo torácico,Dorso profundo,inervacion,raíces faltantes,,campo completo,Marcar como inervación segmentaria (ramos posteriores),alta,No tiene raíces fijas; el filtro por raíz debe tratarlo aparte.,
+147,m046,Longisimo torácico,Dorso profundo,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+148,m047,Espinoso,Dorso profundo,inervacion,raíces faltantes,Ramas posteriores de los nervios cervicales inferiores y torácico superiores.,campo completo,Marcar como inervación segmentaria (ramos posteriores),alta,No tiene raíces fijas; el filtro por raíz debe tratarlo aparte.,
+149,m047,Espinoso,Dorso profundo,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+150,m048,Semiespinoso o complexo mayor,Dorso profundo,inervacion,raíces faltantes,Ramos posteriores de los nervios espinales.,campo completo,Marcar como inervación segmentaria (ramos posteriores),alta,No tiene raíces fijas; el filtro por raíz debe tratarlo aparte.,
+151,m049,Multifidos,Dorso profundo,inervacion,raíces faltantes,Ramos posteriores de los nervios espinales.,campo completo,Marcar como inervación segmentaria (ramos posteriores),alta,No tiene raíces fijas; el filtro por raíz debe tratarlo aparte.,
+152,m050,Rotadores,Dorso profundo,inervacion,raíces faltantes,Ramos posteriores de los nervios espinales.,campo completo,Marcar como inervación segmentaria (ramos posteriores),alta,No tiene raíces fijas; el filtro por raíz debe tratarlo aparte.,
+153,m051,Intertransversos,Dorso profundo,inervacion,raíces faltantes,Procesos posteriores de los nervios espinales.,campo completo,Marcar como inervación segmentaria (ramos posteriores),alta,No tiene raíces fijas; el filtro por raíz debe tratarlo aparte.,
+154,m052,Interespinosos,Dorso profundo,inervacion,raíces faltantes,Ramos posteriores de los nervios espinales.,campo completo,Marcar como inervación segmentaria (ramos posteriores),alta,No tiene raíces fijas; el filtro por raíz debe tratarlo aparte.,
+155,m054,Pectoral mayor,Tórax,inervacion,raíces faltantes,Nervios pectorales medial y lateral (C5_C1),campo completo,"C5, C6, C7, C8, T1",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+156,m055,Pectoral menor,Tórax,inervacion,raíces faltantes,Nervios pectorales medial y lateral (C5_C1),campo completo,"C8, T1",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+157,m058,Intercostales externos,Tórax,inervacion,raíces faltantes,Ramos anteriores de los nervios torácicos (Nervios intercostales) adyacentes.,campo completo,"T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+158,m059,Intercostales internos,Tórax,inervacion,raíces faltantes,Ramos anteriores de los nervios torácicos (Nervios intercostales) adyacentes.,campo completo,"T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+159,m060,Intercostales Íntimos,Tórax,inervacion,raíces faltantes,Ramos anteriores de los nervios torácicos (Nervios intercostales) adyacentes.,campo completo,"T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+160,m061,Subcostales,Tórax,inervacion,raíces faltantes,Ramos anteriores de los nervios torácicos (Nervios intercostales) adyacentes.,campo completo,"T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+161,m061,Subcostales,Tórax,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+162,m062,Transverso del tórax,Tórax,inervacion,raíces faltantes,Ramos anteriores de los nervios torácicos (nervios intercostales) adyacentes,campo completo,"T2, T3, T4, T5, T6",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+163,m063,Oblicuo mayor o externo,Abdomen,inervacion,raíces faltantes,Ramos anteriores de los nervios torácicos séptimo a décimo segundo.,campo completo,"T7, T8, T9, T10, T11, T12",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+164,m065,Oblicuo interno,Abdomen,inervacion,raíces faltantes,Ramos anteriores de los nervios torácicos séptimo a décimo segundo; nervio iliohipogástrico; nervio ilioinguinal.,campo completo,"T7, T8, T9, T10, T11, T12, L1",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+165,m066,Transverso del abdomen,Abdomen,inervacion,raíces faltantes,Ramos anteriores de los nervios torácicos; séptimo a décimo segundo; nervio iliohipogástrico; nervio ilioinguinal.,campo completo,"T7, T8, T9, T10, T11, T12, L1",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+166,m067,Recto del abdomen,Abdomen,inervacion,raíces faltantes,Ramos anteriores de los nervios torácicos sexto a décimo segundo.,campo completo,"T7, T8, T9, T10, T11, T12",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+167,m068,Piramidal del abdomen,Abdomen,inervacion,raíces faltantes,Ramo anterior del decimosegundo nervio torácico; Nervio iliohipogástrico; nervio ilioinguinal.,campo completo,T12,media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+168,m069,Cuadrado lumbar,Abdomen,inervacion,raíces faltantes,Ramos anteriores de los nervios decimosegundo torácicas y lumbares primero a cuarto.,campo completo,"T12, L1, L2, L3, L4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+169,m070,Psoas mayor,Abdomen posterior y cadera,inervacion,raíces faltantes,"Ramos anteriores de los nervios lumbares primero, segundo y tercero.",campo completo,"L1, L2, L3",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",aceptar
+170,m072,Psoas menor,Abdomen posterior y cadera,inervacion,raíces faltantes,Ramo anterior del primer nervio lumbar.,campo completo,L1,media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",aceptar
+171,m072,Psoas menor,Abdomen posterior y cadera,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+172,m073,Diafragma,Tórax,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+173,m075,Transverso profundo del periné,Periné y suelo pélvico,inervacion,raíces faltantes,Rango muscular del nervio o perineal,campo completo,"S2, S3, S4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+174,m075,Transverso profundo del periné,Periné y suelo pélvico,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+175,m076,Isquiocavernoso,Periné y suelo pélvico,inervacion,raíces faltantes,Ramo muscular del nervio perineal,campo completo,"S2, S3, S4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+176,m076,Isquiocavernoso,Periné y suelo pélvico,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+177,m077,Bulbo esponjoso,Periné y suelo pélvico,inervacion,raíces faltantes,Ramo muscular del nervio perineal,campo completo,"S2, S3, S4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+178,m077,Bulbo esponjoso,Periné y suelo pélvico,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+179,m078,Esfínter externo del ano,Periné y suelo pélvico,inervacion,raíces faltantes,N.anal Inf.,campo completo,"S2, S3, S4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+180,m078,Esfínter externo del ano,Periné y suelo pélvico,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+181,m079,Esfínter externo de la uretra,Periné y suelo pélvico,inervacion,raíces faltantes,N. dorsal del pene o clítoris,campo completo,"S2, S3, S4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+182,m079,Esfínter externo de la uretra,Periné y suelo pélvico,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+183,m080,Elevación del ano ( puborrectal),Periné y suelo pélvico,inervacion,raíces faltantes,Nervio anal,campo completo,,,Sin raíces en la tabla y sin propuesta. Captúralas de las tablas de Snell.,
+184,m080,Elevación del ano ( puborrectal),Periné y suelo pélvico,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+185,m081,Elevación del ano ( pubococcigeo),Periné y suelo pélvico,inervacion,raíces faltantes,Nervio anal.,campo completo,,,Sin raíces en la tabla y sin propuesta. Captúralas de las tablas de Snell.,
+186,m081,Elevación del ano ( pubococcigeo),Periné y suelo pélvico,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+187,m082,Elevador del ano iliococcígeo,Periné y suelo pélvico,inervacion,raíces faltantes,Nervio anal.,campo completo,,,Sin raíces en la tabla y sin propuesta. Captúralas de las tablas de Snell.,
+188,m082,Elevador del ano iliococcígeo,Periné y suelo pélvico,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+189,m083,Isquiococcígeo,Periné y suelo pélvico,irrigacion,campo vacío,,campo completo,,,Falta capturar.,
+190,m086,"Deltoides clavicular, acromio, espinal",Hombro y brazo,inervacion,raíces faltantes,Nervio axilar.,campo completo,"C5, C6",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+191,m095,Tríceps braquial,Hombro y brazo,inervacion,raíces faltantes,Nervio radial.,campo completo,"C6, C7, C8",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+192,m129,Pectíneo,Muslo,inervacion,raíces faltantes,Arteria obturatriz.,campo completo,"L2, L3",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",aceptar
+193,m131,Aductor mayor,Muslo,inervacion,raíces faltantes,Arteria circunfleja medial y ramas perforantes de la arteria femoral profunda.,campo completo,"L2, L3, L4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",aceptar
+194,m132,Aductor largo,Muslo,inervacion,raíces faltantes,Arteria femoral profunda.,campo completo,"L2, L3, L4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",aceptar
+195,m133,Aductor corto,Muslo,inervacion,raíces faltantes,Arteria femoral profunda.,campo completo,"L2, L3, L4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",aceptar
+196,m134,Obturador externo,Muslo,inervacion,raíces faltantes,Arteria obturadora.,campo completo,"L3, L4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",aceptar
+197,m147,Coccígeo,Periné y suelo pélvico,inervacion,raíces faltantes,Ramos anteriores de los nervios sacros cuarto y quinto.,campo completo,"S4, S5",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+198,m151,Porción profunda del músculo esfínter externo del ano,Periné y suelo pélvico,inervacion,raíces faltantes,Nervio perineal; nervio anal inferior.,campo completo,"S2, S3, S4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+199,m152,Porción superficial del músculo esfínter externo del ano,Periné y suelo pélvico,inervacion,raíces faltantes,Nervio perineal; nervios anales inferiores.,campo completo,"S2, S3, S4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+200,m153,Porción subcutánea del músculo esfínter externo del ano,Periné y suelo pélvico,inervacion,raíces faltantes,Nervio perineal; nervio anal inferior.,campo completo,"S2, S3, S4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+201,m154,Transverso profundo del periné,Periné y suelo pélvico,inervacion,raíces faltantes,Estabiliza el cuerpo perineal; proporciona soporte estructural a las estructuras pélvicas y perineales adyacentes.,campo completo,"S2, S3, S4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+202,m155,Transverso superficial del periné,Periné y suelo pélvico,inervacion,raíces faltantes,Nervio perineal.,campo completo,"S2, S3, S4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+203,m156,Esfínter externo de la uretra masculina,Periné y suelo pélvico,inervacion,raíces faltantes,Nervio perineal.,campo completo,"S2, S3, S4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+204,m157,Isquiocavernoso,Periné y suelo pélvico,inervacion,raíces faltantes,Nervio perineal.,campo completo,"S2, S3, S4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+205,m158,Bulboesponjoso,Periné y suelo pélvico,inervacion,raíces faltantes,Nervio perineal.,campo completo,"S2, S3, S4",media,"Propuesta mía, no viene de tu tabla. Verifica contra las tablas de Snell antes de aceptar.",
+206,,Trapecio,,,músculo ausente,,ficha,Capturar ficha nueva,,No está en la tabla.,
+207,,Buccinador,,,músculo ausente,,ficha,Capturar ficha nueva,,No está en la tabla.,
+208,,Elevador del ángulo de la boca,,,músculo ausente,,ficha,Capturar ficha nueva,,No está en la tabla.,
+209,,Largo del cuello y largo de la cabeza,,,músculo ausente,,ficha,Capturar ficha nueva,,No está en la tabla.,
+210,,Rectos anterior y lateral de la cabeza,,,músculo ausente,,ficha,Capturar ficha nueva,,No está en la tabla.,
+211,,Cabeza medial del tríceps,,,músculo ausente,,ficha,Capturar ficha nueva,,Ver corrección de m095.,
+212,,"Músculos del ojo, lengua, faringe, laringe y paladar",,,músculo ausente,,ficha,Capturar ficha nueva,,Decide si entran en el alcance de la app.,
+213,m162,Aductor mayor,Muslo,inervacion,Snell: raíz difiere,ciático (L4),fragmento,ciático (L2-L4),alta,"Tu ficha: ciático (L4). Snell tabla 11-4: L2, L3, L4. Snell da L2, L3, L4 a la porción isquiotibial. Moore suele dar L4; decide tú.",aceptar
+214,m161,Aductor largo,Muslo,inervacion,Snell: raíz difiere,(L2-L3),fragmento,(L2-L4),alta,"Tu ficha: (L2-L3). Snell tabla 11-3: L2, L3, L4. Coincide con la fila 194 (m132).",aceptar
+215,m159,Aductor corto,Muslo,inervacion,Snell: raíz difiere,(L2-L3),fragmento,(L2-L4),alta,"Tu ficha: (L2-L3). Snell tabla 11-3: L2, L3, L4. Coincide con la fila 195 (m133).",aceptar
+216,m138,Tensor de la fascia lata,Cadera y región glútea,inervacion,Snell: raíz difiere,(L4-S1),fragmento,(L4-L5),alta,Tu ficha: (L4-S1). Snell tabla 11-1: (L4-L5).,aceptar
+217,m141,Piriforme,Cadera y región glútea,inervacion,Snell: raíz difiere,(S1-S2),fragmento,(L5-S2),alta,"Tu ficha: (S1-S2). Snell tabla 11-1: L5, S1, S2.",aceptar
+218,m180,Flexor largo de los dedos,Pierna,inervacion,Snell: raíz difiere,(L5-S2),fragmento,(S2-S3),alta,"Tu ficha: (L5-S2). Snell tabla 11-7: S2, S3.",aceptar
+219,m182,Flexor largo del dedo gordo,Pierna,inervacion,Snell: raíz difiere,(L5-S2),fragmento,(S2-S3),alta,"Tu ficha: (L5-S2). Snell tabla 11-7: S2, S3.",aceptar
+220,m186,Extensor largo del dedo gordo,Pierna,inervacion,Snell: raíz difiere,(L5),fragmento,(L5-S1),alta,Tu ficha: (L5). Snell tabla 11-5: (L5-S1).,aceptar
+221,m183,Peroneo largo,Pierna,inervacion,Snell: raíz difiere,(L5-S1),fragmento,(L5-S2),alta,"Tu ficha: (L5-S1). Snell tabla 11-6: L5, S1, S2.",aceptar
+222,m187,Peroneo corto,Pierna,inervacion,Snell: raíz difiere,(L5-S1),fragmento,(L5-S2),alta,"Tu ficha: (L5-S1). Snell tabla 11-6: L5, S1, S2.",aceptar
+223,m189,Extensor corto de los dedos,Pie,inervacion,Snell: raíz difiere,(L5-S1),fragmento,(S1-S2),alta,Tu ficha: (L5-S1). Snell tabla 11-9: (S1-S2).,aceptar
+224,m191,Flexor corto de los dedos,Pie,inervacion,Snell: raíz difiere,(S1-S3),fragmento,(S2-S3),alta,"Tu ficha: (S1-S3). Snell tabla 11-8: S2, S3.",aceptar
+225,m193,Cuadrado plantar,Pie,inervacion,Snell: raíz difiere,(S1-S3),fragmento,(S2-S3),alta,"Tu ficha: (S1-S3). Snell tabla 11-8: S2, S3.",aceptar
+226,m194,Abductor del dedo gordo,Pie,inervacion,Snell: raíz difiere,(S1-S3),fragmento,(S2-S3),alta,"Tu ficha: (S1-S3). Snell tabla 11-8: S2, S3.",aceptar
+227,m195,Flexor corto del dedo gordo,Pie,inervacion,Snell: raíz difiere,(S1-S3),fragmento,(S2-S3),alta,"Tu ficha: (S1-S3). Snell tabla 11-8: S2, S3.",aceptar
+228,m185,Tibial anterior,Pierna,inervacion,Snell: raíz difiere,(L4-L5),fragmento,,,Snell tabla 11-5 imprime «L4; S5». S5 no es plausible (parece errata por L5). Sin propuesta: escribe tu decisión.,rechazar
+229,m179,Tibial posterior,Pierna,inervacion,Snell: raíz difiere,(L4-L5),fragmento,,,Snell tabla 11-7 imprime «L4; S5». S5 no es plausible (parece errata por L5). Sin propuesta: escribe tu decisión.,rechazar
+230,m070,Psoas mayor,Abdomen posterior y cadera,raiz_principal,Snell: raíz principal,,campo completo,"L1, L2",alta,"Snell tabla 11-2, raíz en negrita.",aceptar
+231,m071,Iliaco,Abdomen posterior y cadera,raiz_principal,Snell: raíz principal,,campo completo,L2,alta,"Snell tabla 11-2, raíz en negrita.",aceptar
+232,m129,Pectíneo,Muslo,raiz_principal,Snell: raíz principal,,campo completo,L2,alta,"Snell tabla 11-2, raíz en negrita.",aceptar
+233,m160,Pectíneo,Muslo,raiz_principal,Snell: raíz principal,,campo completo,L2,alta,"Snell tabla 11-2, raíz en negrita.",aceptar
+234,m130,Cuádriceps femoral,Muslo,raiz_principal,Snell: raíz principal,,campo completo,"L3, L4",alta,"Snell tabla 11-2, raíz en negrita.",aceptar
+235,m164,Recto femoral,Muslo,raiz_principal,Snell: raíz principal,,campo completo,"L3, L4",alta,"Snell tabla 11-2, raíz en negrita.",aceptar
+236,m165,Vasto intermedio,Muslo,raiz_principal,Snell: raíz principal,,campo completo,"L3, L4",alta,"Snell tabla 11-2, raíz en negrita.",aceptar
+237,m166,Vasto lateral,Muslo,raiz_principal,Snell: raíz principal,,campo completo,"L3, L4",alta,"Snell tabla 11-2, raíz en negrita.",aceptar
+238,m167,Vasto medial,Muslo,raiz_principal,Snell: raíz principal,,campo completo,"L3, L4",alta,"Snell tabla 11-2, raíz en negrita.",aceptar
+239,m131,Aductor mayor,Muslo,raiz_principal,Snell: raíz principal,,campo completo,"L3, L4",alta,"Snell tabla 11-3, raíz en negrita.",aceptar
+240,m162,Aductor mayor,Muslo,raiz_principal,Snell: raíz principal,,campo completo,"L3, L4",alta,"Snell tabla 11-3, raíz en negrita.",aceptar
+241,m132,Aductor largo,Muslo,raiz_principal,Snell: raíz principal,,campo completo,"L3, L4",alta,"Snell tabla 11-3, raíz en negrita.",aceptar
+242,m161,Aductor largo,Muslo,raiz_principal,Snell: raíz principal,,campo completo,"L3, L4",alta,"Snell tabla 11-3, raíz en negrita.",aceptar
+243,m133,Aductor corto,Muslo,raiz_principal,Snell: raíz principal,,campo completo,"L3, L4",alta,"Snell tabla 11-3, raíz en negrita.",aceptar
+244,m159,Aductor corto,Muslo,raiz_principal,Snell: raíz principal,,campo completo,"L3, L4",alta,"Snell tabla 11-3, raíz en negrita.",aceptar
+245,m134,Obturador externo,Muslo,raiz_principal,Snell: raíz principal,,campo completo,L4,alta,"Snell tabla 11-3, raíz en negrita.",aceptar
+246,m145,Obturador externo,Cadera y región glútea,raiz_principal,Snell: raíz principal,,campo completo,L4,alta,"Snell tabla 11-3, raíz en negrita.",aceptar
+247,m172,Grácil,Muslo,raiz_principal,Snell: raíz principal,,campo completo,L3,alta,"Snell tabla 11-3, raíz en negrita.",aceptar
+248,m137,Glúteo medio,Cadera y región glútea,raiz_principal,Snell: raíz principal,,campo completo,L5,alta,"Snell tabla 11-1, raíz en negrita.",aceptar
+249,m140,Glúteo menor,Cadera y región glútea,raiz_principal,Snell: raíz principal,,campo completo,L5,alta,"Snell tabla 11-1, raíz en negrita.",aceptar
+250,m139,Glúteo mayor,Cadera y región glútea,raiz_principal,Snell: raíz principal,,campo completo,"S1, S2",alta,"Snell tabla 11-1, raíz en negrita.",aceptar
+251,m141,Piriforme,Cadera y región glútea,raiz_principal,Snell: raíz principal,,campo completo,S1,alta,"Snell tabla 11-1, raíz en negrita.",aceptar
+252,m146,Obturador interno,Cadera y región glútea,raiz_principal,Snell: raíz principal,,campo completo,S1,alta,"Snell tabla 11-1, raíz en negrita.",aceptar
+253,m168,Cabeza larga del músculo bíceps femoral,Muslo,raiz_principal,Snell: raíz principal,,campo completo,S1,alta,"Snell tabla 11-4, raíz en negrita.",aceptar
+254,m173,Cabeza corta del músculo bíceps femoral,Muslo,raiz_principal,Snell: raíz principal,,campo completo,S1,alta,"Snell tabla 11-4, raíz en negrita.",aceptar
+255,m169,Semitendinoso,Muslo,raiz_principal,Snell: raíz principal,,campo completo,"L5, S1",alta,"Snell tabla 11-4, raíz en negrita.",aceptar
+256,m170,Semimembranoso,Muslo,raiz_principal,Snell: raíz principal,,campo completo,"L5, S1",alta,"Snell tabla 11-4, raíz en negrita.",aceptar
+257,m185,Tibial anterior,Pierna,raiz_principal,Snell: raíz principal,,campo completo,L4,alta,"Snell tabla 11-5, raíz en negrita.",aceptar
+258,m179,Tibial posterior,Pierna,raiz_principal,Snell: raíz principal,,campo completo,L4,alta,"Snell tabla 11-7, raíz en negrita.",aceptar
+259,m183,Peroneo largo,Pierna,raiz_principal,Snell: raíz principal,,campo completo,S1,alta,"Snell tabla 11-6, raíz en negrita.",aceptar
+260,m187,Peroneo corto,Pierna,raiz_principal,Snell: raíz principal,,campo completo,S1,alta,"Snell tabla 11-6, raíz en negrita.",aceptar
+261,m174,Cabeza lateral del músculo gastrocnemio,Pierna,raiz_principal,Snell: raíz principal,,campo completo,S1,alta,"Snell tabla 11-7, raíz en negrita.",aceptar
+262,m175,Cabeza medial del músculo gastrocnemio,Pierna,raiz_principal,Snell: raíz principal,,campo completo,S1,alta,"Snell tabla 11-7, raíz en negrita.",aceptar
+263,m177,Plantar,Pierna,raiz_principal,Snell: raíz principal,,campo completo,S1,alta,"Snell tabla 11-7, raíz en negrita.",aceptar
+264,m178,Soleo,Pierna,raiz_principal,Snell: raíz principal,,campo completo,S2,alta,"Snell tabla 11-7, raíz en negrita. En la imagen S2 aparece en negrita cursiva.",aceptar
+265,m180,Flexor largo de los dedos,Pierna,raiz_principal,Snell: raíz principal,,campo completo,S2,alta,"Snell tabla 11-7, raíz en negrita.",aceptar
+266,m182,Flexor largo del dedo gordo,Pierna,raiz_principal,Snell: raíz principal,,campo completo,S2,alta,"Snell tabla 11-7, raíz en negrita.",aceptar
+267,m191,Flexor corto de los dedos,Pie,raiz_principal,Snell: raíz principal,,campo completo,S3,alta,"Snell tabla 11-8, raíz en negrita.",aceptar
+268,m192,Abductor del quinto dedo del pie,Pie,raiz_principal,Snell: raíz principal,,campo completo,S3,alta,"Snell tabla 11-8, raíz en negrita.",aceptar
+269,m193,Cuadrado plantar,Pie,raiz_principal,Snell: raíz principal,,campo completo,S3,alta,"Snell tabla 11-8, raíz en negrita.",aceptar
+270,m194,Abductor del dedo gordo,Pie,raiz_principal,Snell: raíz principal,,campo completo,S3,alta,"Snell tabla 11-8, raíz en negrita.",aceptar
+271,m195,Flexor corto del dedo gordo,Pie,raiz_principal,Snell: raíz principal,,campo completo,S3,alta,"Snell tabla 11-8, raíz en negrita.",aceptar
+272,m196,Lumbricales del pie (1.º a 4.º),Pie,raiz_principal,Snell: raíz principal,,campo completo,S3,alta,"Snell tabla 11-8, raíz en negrita.",aceptar
+273,m197,Cabeza oblicua del músculo aductor del dedo gordo,Pie,raiz_principal,Snell: raíz principal,,campo completo,S3,alta,"Snell tabla 11-8, raíz en negrita.",aceptar
+274,m198,Cabeza transversa del músculo aductor del dedo gordo,Pie,raiz_principal,Snell: raíz principal,,campo completo,S3,alta,"Snell tabla 11-8, raíz en negrita.",aceptar
+275,m199,Interóseos plantares (1.º a 3.º),Pie,raiz_principal,Snell: raíz principal,,campo completo,S3,alta,"Snell tabla 11-8, raíz en negrita.",aceptar
+276,m200,Flexor del quinto dedo del pie,Pie,raiz_principal,Snell: raíz principal,,campo completo,S3,alta,"Snell tabla 11-8, raíz en negrita.",aceptar
+277,m201,Primer músculo interóseo dorsal del pie,Pie,raiz_principal,Snell: raíz principal,,campo completo,S3,alta,"Snell tabla 11-8, raíz en negrita.",aceptar
+278,m202,Segundo músculo interóseo dorsal del pie,Pie,raiz_principal,Snell: raíz principal,,campo completo,S3,alta,"Snell tabla 11-8, raíz en negrita.",aceptar
+279,m203,Tercer músculo interóseo dorsal del pie,Pie,raiz_principal,Snell: raíz principal,,campo completo,S3,alta,"Snell tabla 11-8, raíz en negrita.",aceptar
+280,m204,Cuarto músculo interóseo dorsal del pie,Pie,raiz_principal,Snell: raíz principal,,campo completo,S3,alta,"Snell tabla 11-8, raíz en negrita.",aceptar
+281,m177,Plantar,Pierna,insercion,Snell: difiere,Cara posterior del calcáneo.,campo completo,Cara lateral del calcáneo.,media,Snell tabla 11-7 dice «cara lateral del calcáneo». Otros textos lo insertan en la cara posterior junto al tendón calcáneo.,Cara posterior del calcáneo (Snell tabla 11-7 dice «cara lateral del calcáneo»).
+282,m142,Gemelo superior,Cadera y región glútea,insercion,Snell: difiere,Cara medial del trocánter mayor del fémur.,campo completo,Borde superior del trocánter mayor del fémur.,media,Snell tabla 11-1 dice «borde superior del trocánter mayor». Otros textos dicen cara medial; ambas descripciones son de la misma zona.,aceptar
+283,m143,Gemelo inferior,Cadera y región glútea,insercion,Snell: difiere,Cara medial del trocánter mayor del fémur.,campo completo,Borde superior del trocánter mayor del fémur.,media,Snell tabla 11-1 dice «borde superior del trocánter mayor». Otros textos dicen cara medial; ambas descripciones son de la misma zona.,aceptar
+284,m146,Obturador interno,Cadera y región glútea,insercion,Snell: difiere,Cara medial del trocánter mayor del fémur.,campo completo,Borde superior del trocánter mayor del fémur.,media,Snell tabla 11-1 dice «borde superior del trocánter mayor». Otros textos dicen cara medial; ambas descripciones son de la misma zona.,aceptar

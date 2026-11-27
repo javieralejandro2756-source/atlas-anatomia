@@ -1,0 +1,466 @@
+{
+ "29": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "30": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "44": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "45": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "46": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "47": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "48": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "49": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "50": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "51": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "52": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "53": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "54": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "55": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "56": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "57": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "58": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "62": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "63": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "64": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "65": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "84": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "85": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "97": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "98": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "99": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "100": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "101": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "169": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "170": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "192": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "193": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "194": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "195": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "196": {
+  "decision": "aceptar",
+  "fuente": "Coincide con Snell o es errata evidente."
+ },
+ "213": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-4 da L2-L4. Ojo: el texto de Snell (tabla 8-2) da al ciático L4-S3; Moore suele dar L4."
+ },
+ "214": {
+  "decision": "aceptar",
+  "fuente": "Snell manda (indicación del usuario). Tu ficha: (L2-L3). Snell tabla 11-3: L2, L3, L4. Coincide con la fila 194 (m132)."
+ },
+ "215": {
+  "decision": "aceptar",
+  "fuente": "Snell manda (indicación del usuario). Tu ficha: (L2-L3). Snell tabla 11-3: L2, L3, L4. Coincide con la fila 195 (m133)."
+ },
+ "216": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-1 da L4, L5. Ojo: el texto de Snell da al glúteo superior L4, L5 y S1."
+ },
+ "217": {
+  "decision": "aceptar",
+  "fuente": "Snell manda (indicación del usuario). Tu ficha: (S1-S2). Snell tabla 11-1: L5, S1, S2."
+ },
+ "218": {
+  "decision": "aceptar",
+  "fuente": "Snell manda (indicación del usuario). Tu ficha: (L5-S2). Snell tabla 11-7: S2, S3."
+ },
+ "219": {
+  "decision": "aceptar",
+  "fuente": "Snell manda (indicación del usuario). Tu ficha: (L5-S2). Snell tabla 11-7: S2, S3."
+ },
+ "220": {
+  "decision": "aceptar",
+  "fuente": "Snell manda (indicación del usuario). Tu ficha: (L5). Snell tabla 11-5: (L5-S1)."
+ },
+ "221": {
+  "decision": "aceptar",
+  "fuente": "Snell manda (indicación del usuario). Tu ficha: (L5-S1). Snell tabla 11-6: L5, S1, S2."
+ },
+ "222": {
+  "decision": "aceptar",
+  "fuente": "Snell manda (indicación del usuario). Tu ficha: (L5-S1). Snell tabla 11-6: L5, S1, S2."
+ },
+ "223": {
+  "decision": "aceptar",
+  "fuente": "Snell manda (indicación del usuario). Tu ficha: (L5-S1). Snell tabla 11-9: (S1-S2)."
+ },
+ "224": {
+  "decision": "aceptar",
+  "fuente": "Snell manda (indicación del usuario). Tu ficha: (S1-S3). Snell tabla 11-8: S2, S3."
+ },
+ "225": {
+  "decision": "aceptar",
+  "fuente": "Snell manda (indicación del usuario). Tu ficha: (S1-S3). Snell tabla 11-8: S2, S3."
+ },
+ "226": {
+  "decision": "aceptar",
+  "fuente": "Snell manda (indicación del usuario). Tu ficha: (S1-S3). Snell tabla 11-8: S2, S3."
+ },
+ "227": {
+  "decision": "aceptar",
+  "fuente": "Snell manda (indicación del usuario). Tu ficha: (S1-S3). Snell tabla 11-8: S2, S3."
+ },
+ "230": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-2, raíz en negrita."
+ },
+ "231": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-2, raíz en negrita."
+ },
+ "232": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-2, raíz en negrita."
+ },
+ "233": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-2, raíz en negrita."
+ },
+ "234": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-2, raíz en negrita."
+ },
+ "235": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-2, raíz en negrita."
+ },
+ "236": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-2, raíz en negrita."
+ },
+ "237": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-2, raíz en negrita."
+ },
+ "238": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-2, raíz en negrita."
+ },
+ "239": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-3, raíz en negrita."
+ },
+ "240": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-3, raíz en negrita."
+ },
+ "241": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-3, raíz en negrita."
+ },
+ "242": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-3, raíz en negrita."
+ },
+ "243": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-3, raíz en negrita."
+ },
+ "244": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-3, raíz en negrita."
+ },
+ "245": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-3, raíz en negrita."
+ },
+ "246": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-3, raíz en negrita."
+ },
+ "247": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-3, raíz en negrita."
+ },
+ "248": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-1, raíz en negrita."
+ },
+ "249": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-1, raíz en negrita."
+ },
+ "250": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-1, raíz en negrita."
+ },
+ "251": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-1, raíz en negrita."
+ },
+ "252": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-1, raíz en negrita."
+ },
+ "253": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-4, raíz en negrita."
+ },
+ "254": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-4, raíz en negrita."
+ },
+ "255": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-4, raíz en negrita."
+ },
+ "256": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-4, raíz en negrita."
+ },
+ "257": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-5, raíz en negrita."
+ },
+ "258": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-7, raíz en negrita."
+ },
+ "259": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-6, raíz en negrita."
+ },
+ "260": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-6, raíz en negrita."
+ },
+ "261": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-7, raíz en negrita."
+ },
+ "262": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-7, raíz en negrita."
+ },
+ "263": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-7, raíz en negrita."
+ },
+ "264": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-7, raíz en negrita. En la imagen S2 aparece en negrita cursiva."
+ },
+ "265": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-7, raíz en negrita."
+ },
+ "266": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-7, raíz en negrita."
+ },
+ "267": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-8, raíz en negrita."
+ },
+ "268": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-8, raíz en negrita."
+ },
+ "269": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-8, raíz en negrita."
+ },
+ "270": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-8, raíz en negrita."
+ },
+ "271": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-8, raíz en negrita."
+ },
+ "272": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-8, raíz en negrita."
+ },
+ "273": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-8, raíz en negrita."
+ },
+ "274": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-8, raíz en negrita."
+ },
+ "275": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-8, raíz en negrita."
+ },
+ "276": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-8, raíz en negrita."
+ },
+ "277": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-8, raíz en negrita."
+ },
+ "278": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-8, raíz en negrita."
+ },
+ "279": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-8, raíz en negrita."
+ },
+ "280": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-8, raíz en negrita."
+ },
+ "228": {
+  "decision": "rechazar",
+  "fuente": "Se mantiene L4-L5: Snell tabla 11-5 imprime «L4; S5», errata. Confirmar con la web cuando haya acceso."
+ },
+ "229": {
+  "decision": "rechazar",
+  "fuente": "Se mantiene L4-L5: Snell tabla 11-7 imprime «L4; S5», errata. Confirmar con la web cuando haya acceso."
+ },
+ "281": {
+  "decision": "Cara posterior del calcáneo (Snell tabla 11-7 dice «cara lateral del calcáneo»).",
+  "fuente": "Se conservan ambas lecturas hasta confirmar con la web: la mayoría de los textos dicen cara posterior."
+ },
+ "282": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-1 (borde superior del trocánter mayor)."
+ },
+ "283": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-1 (borde superior del trocánter mayor)."
+ },
+ "284": {
+  "decision": "aceptar",
+  "fuente": "Snell tabla 11-1 (borde superior del trocánter mayor)."
+ },
+ "105": {
+  "decision": "conservar m145",
+  "fuente": "Se conserva la ficha con nervio e irrigación en su campo; los campos vacíos se llenan con la otra."
+ },
+ "113": {
+  "decision": "conservar m159",
+  "fuente": "Se conserva la ficha con nervio e irrigación en su campo; los campos vacíos se llenan con la otra."
+ },
+ "114": {
+  "decision": "conservar m160",
+  "fuente": "Se conserva la ficha con nervio e irrigación en su campo; los campos vacíos se llenan con la otra."
+ },
+ "115": {
+  "decision": "conservar m161",
+  "fuente": "Se conserva la ficha con nervio e irrigación en su campo; los campos vacíos se llenan con la otra."
+ },
+ "116": {
+  "decision": "conservar m162",
+  "fuente": "Se conserva la ficha con nervio e irrigación en su campo; los campos vacíos se llenan con la otra."
+ },
+ "117": {
+  "decision": "conservar m176",
+  "fuente": "Se conserva la ficha con nervio e irrigación en su campo; los campos vacíos se llenan con la otra."
+ },
+ "118": {
+  "decision": "grupo",
+  "fuente": "El cuádriceps queda como ficha de grupo; sus cuatro cabezas tienen ficha propia."
+ },
+ "124": {
+  "decision": "estructura",
+  "fuente": "No es músculo: pasa al archivo de estructuras."
+ },
+ "125": {
+  "decision": "estructura",
+  "fuente": "No es músculo: pasa al archivo de estructuras."
+ }
+}

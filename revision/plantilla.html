@@ -1,0 +1,163 @@
+<title>Revisión miembro inferior</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE work: a checking sheet a clinician fills in, quiet and exact
+   IDEA an anatomy plate's errata sheet: each line, what it says, what the source says, tick
+   PICTURE the progress strip of every row as a cell, coloured by decision, clickable
+   COLOUR white ground, ink, carmine for "cambiar", prussian for "mantener", grey for pending
+   TYPE Literata for titles + Hanken Grotesk for text
+   LAYOUT title + strip across top; filters; one column of muscle cards; sticky mini progress on phone */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#0f1217);--ink:light-dark(#10131a,#e8eaef);--soft:light-dark(#5a6070,#9aa1b0);--line:light-dark(#e3e5ea,#262b35);--panel:light-dark(#f7f8fa,#161a22);--acc:light-dark(#c1121f,#ff6b74);--keep:light-dark(#0b4f8a,#7ab8f0);--own:light-dark(#7a4b00,#f0b45a);--pend:light-dark(#d9dce2,#2c323d);--old:light-dark(#fdecee,#3a1d22);--new:light-dark(#e8f3ec,#16301f)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 "Hanken Grotesk",system-ui,sans-serif;margin:0;overflow-x:clip}
+.wrap{max-width:980px;margin:0 auto;padding-block:28px 64px;padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
+h1{font:600 clamp(30px,4.4vw,44px)/1.08 Literata,Georgia,serif;letter-spacing:-.02em;margin:0 0 8px}
+.lead{color:var(--soft);margin:0 0 20px;max-width:66ch}
+.top{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5;padding-block:10px;border-bottom:1px solid var(--line)}
+.count{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline;margin-bottom:8px}
+.count b{font:600 28px/1 Literata,serif;font-variant-numeric:tabular-nums}
+.count span{color:var(--soft);font-size:14px}
+.strip{display:grid;grid-template-columns:repeat(auto-fill,minmax(7px,1fr));gap:2px}
+.strip a{height:14px;background:var(--pend);border-radius:2px;display:block}
+.strip a.aceptar{background:var(--acc)}.strip a.rechazar{background:var(--keep)}.strip a.otro{background:var(--own)}
+.legend{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:13px;color:var(--soft);margin-top:6px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 6px}
+.filters button{font:500 14px "Hanken Grotesk",sans-serif;padding:8px 14px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;cursor:pointer;min-height:40px}
+.filters button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.status{font-size:14px;color:var(--soft);min-height:22px}
+.status.err{color:var(--acc)}
+.m{border-top:2px solid var(--ink);padding-top:12px;margin-top:30px}
+.m h2{font:600 22px/1.2 Literata,serif;margin:0;display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline}
+.m h2 small{font:400 14px "Hanken Grotesk",sans-serif;color:var(--soft)}
+.r{border-bottom:1px solid var(--line);padding:14px 0;display:grid;grid-template-columns:minmax(0,1fr);gap:8px}
+.r.done{opacity:.72}
+.meta{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px;color:var(--soft)}
+.meta strong{color:var(--ink);font-weight:600}
+.cmp{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}
+.cmp div{padding:10px 12px;border-radius:6px;font-size:15px;overflow-wrap:anywhere}
+.cmp .a{background:var(--old)}.cmp .b{background:var(--new)}
+.cmp em{display:block;font-style:normal;font-size:13px;color:var(--soft);margin-bottom:2px}
+.ctx{font-size:14px;color:var(--soft);overflow-wrap:anywhere}
+.ctx mark{background:var(--old);color:var(--ink);padding:0 2px}
+.nota{font-size:14px;border-left:3px solid var(--line);padding-left:10px}
+.acts{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.acts button{font:500 15px "Hanken Grotesk",sans-serif;min-height:44px;padding:8px 16px;border-radius:6px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+.acts button:hover{border-color:var(--ink)}
+.acts button:focus-visible,.filters button:focus-visible{outline:2px solid var(--keep);outline-offset:2px}
+.acts button.on.aceptar{background:var(--acc);border-color:var(--acc);color:#fff}
+.acts button.on.rechazar{background:var(--keep);border-color:var(--keep);color:#fff}
+.acts button.on.otro{background:var(--own);border-color:var(--own);color:#fff}
+.otro-box{display:grid;gap:6px;width:100%}
+.otro-box textarea{font:16px "Hanken Grotesk",sans-serif;padding:10px;border:1px solid var(--soft);border-radius:6px;background:var(--bg);color:var(--ink);min-height:70px;width:100%}
+.otro-box button{justify-self:start}
+.empty{padding:40px 0;color:var(--soft)}
+@media(max-width:600px){.cmp{grid-template-columns:minmax(0,1fr)}.count b{font-size:22px}}
+</style>
+<div class="wrap">
+  <h1>Revisión del miembro inferior</h1>
+  <p class="lead"><b>Claude ya decidió estas filas con Snell como prioridad</b> (lo indica la línea «Decidió Claude»). Revísalas con el filtro «Todas» y cambia la que no te convenza. Cada fila compara lo que dice tu ficha con la propuesta. <b>Cambiar</b> acepta la propuesta, <b>Mantener</b> deja tu texto y <b>Escribir otra</b> guarda tu propia versión. Se guarda al tocar; Claude lo lee desde aquí.</p>
+  <div class="top">
+    <div class="count"><b id="nDone">0</b><span id="nTotal">de 0 filas decididas</span><span id="nCambios"></span></div>
+    <div class="strip" id="strip" aria-label="Progreso por fila"></div>
+    <div class="legend"><span><i style="background:var(--acc)"></i>Cambiar</span><span><i style="background:var(--keep)"></i>Mantener</span><span><i style="background:var(--own)"></i>Tu versión</span><span><i style="background:var(--pend)"></i>Pendiente</span></div>
+  </div>
+  <div class="filters" role="group" aria-label="Filtro">
+    <button id="f-pend" aria-pressed="false">Pendientes</button>
+    <button id="f-all" aria-pressed="true">Todas</button>
+    <button id="f-raiz" aria-pressed="false">Solo raíces</button>
+  </div>
+  <div class="status" id="status" role="status">Conectando…</div>
+  <div id="list"></div>
+</div>
+<script>
+{
+const ROWS = __DATA__;
+const CAMPO = {origen:"Origen",insercion:"Inserción",inervacion:"Inervación",irrigacion:"Irrigación",funcion:"Función",nombre:"Nombre",raiz_principal:"Raíz principal","":"Ficha completa"};
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let dec = {};          // n -> {decision, texto}
+let filtro = "all";
+let db = null;
+const $ = id => document.getElementById(id);
+const status = (t, err) => { const s = $("status"); s.textContent = t; s.className = "status" + (err ? " err" : ""); };
+const tipoDe = n => { const d = dec[n]; if (!d) return ""; return d.decision === "aceptar" ? "aceptar" : d.decision === "rechazar" ? "rechazar" : "otro"; };
+
+function rowHTML(r){
+  const d = dec[r.n], t = tipoDe(r.n);
+  let ctx = "";
+  if (r.alcance === "fragmento" && r.campo_completo && r.texto_actual){
+    const i = r.campo_completo.indexOf(r.texto_actual);
+    if (i >= 0) ctx = `<div class="ctx">En tu ficha: ${esc(r.campo_completo.slice(0,i))}<mark>${esc(r.texto_actual)}</mark>${esc(r.campo_completo.slice(i + r.texto_actual.length))}</div>`;
+  }
+  const actual = r.texto_actual || (r.campo === "raiz_principal" ? "(vacío)" : r.alcance === "ficha" ? "Ficha " + r.id : "(vacío)");
+  const prop = r.propuesta || "Sin propuesta: escribe la tuya.";
+  return `<div class="r${t ? " done" : ""}" id="r${esc(r.n)}">
+    <div class="meta"><strong>${esc(CAMPO[r.campo] ?? r.campo)}</strong><span>${esc(r.tipo)}</span><span>fila ${esc(r.n)}</span>${r.confianza ? `<span>confianza ${esc(r.confianza)}</span>` : ""}</div>
+    <div class="cmp"><div class="a"><em>Tu ficha</em>${esc(actual)}</div><div class="b"><em>Propuesta</em>${esc(prop)}</div></div>
+    ${ctx}
+    ${r.nota ? `<div class="nota">${esc(r.nota)}</div>` : ""}
+    ${d && d.fuente ? `<div class="nota" style="border-color:var(--own)">Decidió Claude: ${esc(d.fuente)}</div>` : ""}
+    <div class="acts">
+      ${r.propuesta ? `<button class="aceptar${t === "aceptar" ? " on" : ""}" data-n="${esc(r.n)}" data-d="aceptar">Cambiar</button>` : ""}
+      <button class="rechazar${t === "rechazar" ? " on" : ""}" data-n="${esc(r.n)}" data-d="rechazar">Mantener</button>
+      <button class="otro${t === "otro" ? " on" : ""}" data-n="${esc(r.n)}" data-d="otro">Escribir otra</button>
+      ${t === "otro" ? `<div class="otro-box"><textarea id="t${esc(r.n)}" aria-label="Tu versión">${esc(d.decision)}</textarea><button data-n="${esc(r.n)}" data-d="guardar">Guardar mi versión</button></div>` : ""}
+    </div>
+  </div>`;
+}
+
+function render(){
+  const total = ROWS.length, done = ROWS.filter(r => dec[r.n]).length;
+  $("nDone").textContent = done;
+  $("nTotal").textContent = `de ${total} filas decididas`;
+  const cambios = ROWS.filter(r => tipoDe(r.n) === "aceptar" || tipoDe(r.n) === "otro").length;
+  $("nCambios").textContent = done ? `${cambios} cambian tu ficha` : "";
+  $("strip").innerHTML = ROWS.map(r => `<a href="#r${esc(r.n)}" class="${tipoDe(r.n)}" title="Fila ${esc(r.n)} · ${esc(r.musculo)}"></a>`).join("");
+  let vis = ROWS;
+  if (filtro === "pend") vis = ROWS.filter(r => !dec[r.n]);
+  if (filtro === "raiz") vis = ROWS.filter(r => /ra[ií]z|raíces/i.test(r.tipo) || r.campo === "raiz_principal");
+  const grupos = [];
+  for (const r of vis){ let g = grupos.find(x => x.id === r.id); if (!g) grupos.push(g = {id:r.id, musculo:r.musculo, region:r.region, rows:[]}); g.rows.push(r); }
+  $("list").innerHTML = grupos.length ? grupos.map(g => `<section class="m"><h2>${esc(g.musculo)}<small>${esc(g.id)} · ${esc(g.region)}</small></h2>${g.rows.map(rowHTML).join("")}</section>`).join("")
+    : `<p class="empty">${filtro === "pend" ? "No quedan filas pendientes. Avísale a Claude en el chat para que las aplique." : "Nada que mostrar con este filtro."}</p>`;
+}
+
+async function guardar(n, decision){
+  const prev = dec[n];
+  dec[n] = {decision};
+  render();
+  if (!db){ status("Sin conexión con el almacenamiento: esta decisión no se guardó.", true); dec[n] = prev; if (!prev) delete dec[n]; render(); return; }
+  try { await db.doc("decisiones/" + n).set({n:Number(n), decision, fuente:"", actualizado: new Date().toISOString()}); status("Guardado: fila " + n + "."); }
+  catch(e){ dec[n] = prev; if (!prev) delete dec[n]; render(); status("No se pudo guardar la fila " + n + " (" + (e?.code || "error") + ").", true); }
+}
+
+$("list").addEventListener("click", e => {
+  const b = e.target.closest("button[data-n]"); if (!b) return;
+  const n = b.dataset.n, d = b.dataset.d;
+  if (d === "aceptar" || d === "rechazar") return guardar(n, d);
+  if (d === "otro"){ const row = ROWS.find(r => r.n === n); dec[n] = {decision: dec[n] && tipoDe(n) === "otro" ? dec[n].decision : (row.propuesta || "")}; render(); const t = $("t" + n); if (t) t.focus(); return; }
+  if (d === "guardar"){ const v = ($("t" + n)?.value || "").trim(); if (!v || v === "aceptar" || v === "rechazar"){ status("Escribe tu versión antes de guardar.", true); return; } guardar(n, v); }
+});
+for (const [id, f] of [["f-pend","pend"],["f-all","all"],["f-raiz","raiz"]]){
+  $(id).addEventListener("click", () => { filtro = f; for (const x of ["f-pend","f-all","f-raiz"]) $(x).setAttribute("aria-pressed", x === id); render(); });
+}
+render();
+const timer = setTimeout(() => status("No se pudo conectar. Abre la página en claude.ai con tu sesión iniciada.", true), 10000);
+(async () => {
+  try { db = await window.claude?.use?.("db"); } catch(e){ db = null; }
+  if (!db){ clearTimeout(timer); status("Almacenamiento no disponible aquí: abre la página en claude.ai con tu sesión iniciada.", true); return; }
+  const ns = new Set(ROWS.map(r => r.n));
+  db.collection("decisiones").onSnapshot(snap => {
+    clearTimeout(timer);
+    const nuevo = {};
+    for (const doc of snap.docs){ const v = doc.data(); const n = String(v?.n ?? doc.id); if (ns.has(n) && typeof v?.decision === "string" && v.decision) nuevo[n] = {decision: v.decision, fuente: typeof v.fuente === "string" ? v.fuente : ""}; }
+    const abierto = Object.keys(dec).find(n => tipoDe(n) === "otro" && !nuevo[n]);
+    if (abierto) nuevo[abierto] = dec[abierto];
+    dec = nuevo; render(); status("Conectado. Tus decisiones se guardan solas.");
+  }, err => { clearTimeout(timer); status("Error al leer las decisiones (" + (err?.code || "error") + ").", true); });
+})();
+}
+</script>

@@ -1,0 +1,6 @@
+node_modules/
+app/dist/
+*.zip
+datos/revision_musculos.original.csv
+# Libros del usuario (derechos de autor): solo para consulta local, nunca en el repositorio público
+datos/fuentes/
